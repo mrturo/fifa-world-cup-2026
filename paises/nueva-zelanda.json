@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Nueva Zelanda",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 85,
+      "variacion_semestral": "0 puestos"
+    },
+    "elo_rating": {
+      "puntos": 1580,
+      "tendencia": "estable"
+    },
+    "rendimiento_ultimo_ciclo": "Domina bastantes contextos en OFC, pero cuando el nivel del rival sube debe simplificar mucho su plan con balon."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-3-3",
+    "estilo_juego": [
+      "repliegue intensivo en campo propio",
+      "juego directo hacia el punta o segunda jugada",
+      "fases de presion muy selectivas"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "13.5",
+      "field_tilt": "43%",
+      "xg_promedio": 0.96
+    },
+    "abp_eficacia": "media-alta; el balon parado representa una parte importante de su amenaza."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Max Crocombe",
+      "defensa": "Michael Boxall",
+      "mediocampo": "Sarpreet Singh",
+      "ataque": "Chris Wood"
+    },
+    "profundidad_banquillo": "rotacion corta y muy dependiente del once tipo, con margen reducido para ajustar escenarios de partido.",
+    "relevo_generacional_porcentaje_u23": "17%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "solidaridad sin balon y acumulacion de efectivos en zona de remate",
+      "capacidad para sobrevivir partidos largos y cerrados mediante ABP y centros laterales"
+    ],
+    "debilidades": [
+      "poca amenaza sostenida con posesion y dificultades para progresar por dentro",
+      "si encaja primero, el plan pierde mucha eficiencia por falta de volumen ofensivo"
+    ]
+  },
+  "calificacion_general": 50.9
+}

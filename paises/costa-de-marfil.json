@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Costa de Marfil",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 34,
+      "variacion_semestral": "+3 puestos"
+    },
+    "elo_rating": {
+      "puntos": 1710,
+      "tendencia": "ascendente"
+    },
+    "rendimiento_ultimo_ciclo": "El equipo ha ganado estabilidad competitiva y mezcla potencia fisica con mayor control de los tiempos sin balon."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-2-3-1",
+    "estilo_juego": [
+      "bloque medio organizado",
+      "progresion mixta por apoyos interiores y cambios de orientacion",
+      "ataques de posesion corta con transicion defensiva relativamente estable"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "9.8",
+      "field_tilt": "54%",
+      "xg_promedio": 1.55
+    },
+    "abp_eficacia": "media-alta; buena coordinacion de cargas al primer contacto."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Yahia Fofana",
+      "defensa": "Evan Ndicka",
+      "mediocampo": "Franck Kessie",
+      "ataque": "Sebastien Haller"
+    },
+    "profundidad_banquillo": "profundidad correcta para sostener el plan base, con caida moderada cuando faltan los titulares de la columna central.",
+    "relevo_generacional_porcentaje_u23": "22%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "equilibrio entre control y verticalidad, con buen uso de los half-spaces",
+      "estructura competitiva para alternar presion y repliegue sin romper distancias"
+    ],
+    "debilidades": [
+      "depende de la eficiencia en ambas areas para sostener ventajas cortas",
+      "cuando el doble pivote queda fijado, la salida pierde claridad y altura"
+    ]
+  },
+  "calificacion_general": 71.4
+}

@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Australia",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 27,
+      "variacion_semestral": "+3 puestos"
+    },
+    "elo_rating": {
+      "puntos": 1783,
+      "tendencia": "ascendente"
+    },
+    "rendimiento_ultimo_ciclo": "Ha consolidado un modelo fisico y competitivo en AFC, con buena respuesta en segundas jugadas y fases de transicion."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-4-2",
+    "estilo_juego": [
+      "salida mixta con apoyos interiores",
+      "transicion ofensiva por conduccion y ruptura exterior",
+      "presion intermitente en bloque medio-alto"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "10.7",
+      "field_tilt": "51%",
+      "xg_promedio": 1.34
+    },
+    "abp_eficacia": "media; suele competir mejor en saques laterales y corners cerrados que en faltas frontales."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Mathew Ryan",
+      "defensa": "Harry Souttar",
+      "mediocampo": "Jackson Irvine",
+      "ataque": "Craig Goodwin"
+    },
+    "profundidad_banquillo": "profundidad correcta para sostener el plan base, con caida moderada cuando faltan los titulares de la columna central.",
+    "relevo_generacional_porcentaje_u23": "22%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "capacidad para acelerar desde recuperacion y castigar desajustes de retorno",
+      "buena ocupacion de carriles exteriores para estirar bloques medios"
+    ],
+    "debilidades": [
+      "pierde continuidad si el rival niega la primera conduccion y fuerza juego de espaldas",
+      "la produccion ofensiva baja cuando no puede correr o cargar area con muchos efectivos"
+    ]
+  },
+  "calificacion_general": 72.4
+}

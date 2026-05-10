@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Inglaterra",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 4,
+      "variacion_semestral": "0 puestos"
+    },
+    "elo_rating": {
+      "puntos": 2020,
+      "tendencia": "muy estable"
+    },
+    "rendimiento_ultimo_ciclo": "La plantilla permite dominar distintos escenarios y sostener amenaza alta tanto en ataques posicionales como en transiciones."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-3-3",
+    "estilo_juego": [
+      "transiciones ofensivas de alta velocidad",
+      "presion en bloque medio-alto con saltos agresivos",
+      "ataque por intervalos con mucha amenaza al espacio"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "8.9",
+      "field_tilt": "58%",
+      "xg_promedio": 1.78
+    },
+    "abp_eficacia": "media-alta; buen golpeo y amenaza en segundas acciones."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Jordan Pickford",
+      "defensa": "John Stones",
+      "mediocampo": "Declan Rice",
+      "ataque": "Harry Kane"
+    },
+    "profundidad_banquillo": "banquillo profundo con alternativas de nivel titular en varias alturas y poca perdida estructural en la rotacion.",
+    "relevo_generacional_porcentaje_u23": "21%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "desequilibrio individual para atacar campo abierto y ganar metros con pocas conducciones",
+      "amenaza constante en transicion y en ataques de ritmo alto"
+    ],
+    "debilidades": [
+      "puede perder control del ritmo cuando el partido exige pausas largas con balon",
+      "la agresividad del bloque deja metros atacables a la espalda del mediocampo"
+    ]
+  },
+  "calificacion_general": 89.2
+}

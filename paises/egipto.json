@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Egipto",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 29,
+      "variacion_semestral": "+4 puestos"
+    },
+    "elo_rating": {
+      "puntos": 1740,
+      "tendencia": "ascendente"
+    },
+    "rendimiento_ultimo_ciclo": "Se apoya en una estructura prudente y en la jerarquia de sus mejores nombres para mantener competitividad continental."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-2-3-1",
+    "estilo_juego": [
+      "bloque medio-bajo compacto",
+      "progresion directa hacia referencias de apoyo",
+      "prioridad por transiciones y juego exterior temprano"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "11.9",
+      "field_tilt": "47%",
+      "xg_promedio": 1.18
+    },
+    "abp_eficacia": "media; varias ventajas provienen del balon parado y de la segunda jugada."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Mohamed El Shenawy",
+      "defensa": "Ahmed Hegazy",
+      "mediocampo": "Hamdy Fathy",
+      "ataque": "Mohamed Salah"
+    },
+    "profundidad_banquillo": "profundidad correcta para sostener el plan base, con caida moderada cuando faltan los titulares de la columna central.",
+    "relevo_generacional_porcentaje_u23": "16%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "densidad interior para cerrar recepciones entre lineas y lanzar la contra con pocos pases",
+      "competitividad en escenarios fisicos y en fases de area a area"
+    ],
+    "debilidades": [
+      "cede iniciativa territorial y le cuesta remontar cuando queda por detras en el marcador",
+      "volumen ofensivo limitado ante defensas asentadas y posesiones largas"
+    ]
+  },
+  "calificacion_general": 70.8
+}

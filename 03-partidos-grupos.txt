@@ -1,0 +1,73 @@
+Fecha/Hora (Chile Time),Pais 1,Pais 2,Grupo
+2026-06-11 15:00,México,Sudáfrica,A
+2026-06-11 22:00,Corea del Sur,República Checa,A
+2026-06-12 15:00,Canadá,Bosnia y Herzegovina,B
+2026-06-12 21:00,Estados Unidos,Paraguay,D
+2026-06-13 15:00,Catar,Suiza,B
+2026-06-13 18:00,Brasil,Marruecos,C
+2026-06-13 21:00,Haití,Escocia,C
+2026-06-14 00:00,Australia,Turquía,D
+2026-06-14 13:00,Alemania,Curazao,E
+2026-06-14 16:00,Países Bajos,Japón,F
+2026-06-14 19:00,Costa de Marfil,Ecuador,E
+2026-06-14 22:00,Suecia,Túnez,F
+2026-06-15 12:00,España,Cabo Verde,H
+2026-06-15 15:00,Bélgica,Egipto,G
+2026-06-15 18:00,Arabia Saudí,Uruguay,H
+2026-06-15 21:00,Irán,Nueva Zelanda,G
+2026-06-16 15:00,Francia,Senegal,I
+2026-06-16 18:00,Irak,Noruega,I
+2026-06-16 21:00,Argentina,Argelia,J
+2026-06-17 00:00,Austria,Jordania,J
+2026-06-17 13:00,Portugal,RD Congo,K
+2026-06-17 16:00,Inglaterra,Croacia,L
+2026-06-17 19:00,Ghana,Panamá,L
+2026-06-17 22:00,Uzbekistán,Colombia,K
+2026-06-18 12:00,República Checa,Sudáfrica,A
+2026-06-18 15:00,Suiza,Bosnia y Herzegovina,B
+2026-06-18 18:00,Canadá,Catar,B
+2026-06-18 21:00,México,Corea del Sur,A
+2026-06-19 15:00,Estados Unidos,Australia,D
+2026-06-19 18:00,Escocia,Marruecos,C
+2026-06-19 21:00,Brasil,Haití,C
+2026-06-20 00:00,Turquía,Paraguay,D
+2026-06-20 13:00,Países Bajos,Suecia,F
+2026-06-20 16:00,Alemania,Costa de Marfil,E
+2026-06-20 22:00,Ecuador,Curazao,E
+2026-06-21 00:00,Túnez,Japón,F
+2026-06-21 12:00,España,Arabia Saudí,H
+2026-06-21 15:00,Bélgica,Irán,G
+2026-06-21 18:00,Uruguay,Cabo Verde,H
+2026-06-21 21:00,Nueva Zelanda,Egipto,G
+2026-06-22 13:00,Argentina,Austria,J
+2026-06-22 17:00,Francia,Irak,I
+2026-06-22 20:00,Noruega,Senegal,I
+2026-06-22 23:00,Jordania,Argelia,J
+2026-06-23 13:00,Portugal,Uzbekistán,K
+2026-06-23 16:00,Inglaterra,Ghana,L
+2026-06-23 19:00,Panamá,Croacia,L
+2026-06-23 22:00,Colombia,RD Congo,K
+2026-06-24 18:00,Escocia,Brasil,C
+2026-06-24 18:00,Marruecos,Haití,C
+2026-06-24 21:00,Sudáfrica,Corea del Sur,A
+2026-06-24 21:00,República Checa,México,A
+2026-06-25 13:00,Bosnia y Herzegovina,Catar,B
+2026-06-25 13:00,Suiza,Canadá,B
+2026-06-25 16:00,Ecuador,Alemania,E
+2026-06-25 16:00,Curazao,Costa de Marfil,E
+2026-06-25 19:00,Japón,Suecia,F
+2026-06-25 19:00,Túnez,Países Bajos,F
+2026-06-25 22:00,Turquía,Estados Unidos,D
+2026-06-25 22:00,Paraguay,Australia,D
+2026-06-26 15:00,Senegal,Irak,I
+2026-06-26 15:00,Noruega,Francia,I
+2026-06-26 20:00,Uruguay,España,H
+2026-06-26 20:00,Cabo Verde,Arabia Saudí,H
+2026-06-26 23:00,Nueva Zelanda,Bélgica,G
+2026-06-26 23:00,Egipto,Irán,G
+2026-06-27 17:00,Croacia,Ghana,L
+2026-06-27 17:00,Panamá,Inglaterra,L
+2026-06-27 19:30,Colombia,Portugal,K
+2026-06-27 19:30,RD Congo,Uzbekistán,K
+2026-06-27 22:00,Jordania,Argentina,J
+2026-06-27 22:00,Argelia,Austria,J

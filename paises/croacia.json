@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Croacia",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 11,
+      "variacion_semestral": "-1 puesto"
+    },
+    "elo_rating": {
+      "puntos": 1930,
+      "tendencia": "estable"
+    },
+    "rendimiento_ultimo_ciclo": "Aunque el relevo generacional avanza, sigue manejando muy bien los tempos y compite con oficio en partidos de maxima tension."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-3-3",
+    "estilo_juego": [
+      "bloque medio organizado",
+      "progresion mixta por apoyos interiores y cambios de orientacion",
+      "ataques de posesion corta con transicion defensiva relativamente estable"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "9.8",
+      "field_tilt": "54%",
+      "xg_promedio": 1.55
+    },
+    "abp_eficacia": "media-alta; buena coordinacion de cargas al primer contacto."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Dominik Livakovic",
+      "defensa": "Josko Gvardiol",
+      "mediocampo": "Luka Modric",
+      "ataque": "Andrej Kramaric"
+    },
+    "profundidad_banquillo": "rotacion competitiva, especialmente en segunda linea y costados, aunque no todas las piezas mantienen el mismo impacto.",
+    "relevo_generacional_porcentaje_u23": "12%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "equilibrio entre control y verticalidad, con buen uso de los half-spaces",
+      "estructura competitiva para alternar presion y repliegue sin romper distancias"
+    ],
+    "debilidades": [
+      "depende de la eficiencia en ambas areas para sostener ventajas cortas",
+      "cuando el doble pivote queda fijado, la salida pierde claridad y altura"
+    ]
+  },
+  "calificacion_general": 81.7
+}

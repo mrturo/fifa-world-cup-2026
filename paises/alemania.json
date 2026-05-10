@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Alemania",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 10,
+      "variacion_semestral": "+1 puesto"
+    },
+    "elo_rating": {
+      "puntos": 1923,
+      "tendencia": "ascendente"
+    },
+    "rendimiento_ultimo_ciclo": "Ha recuperado agresividad en la presion y una fase ofensiva con mas automatismos, aunque aun busca continuidad competitiva total."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-2-3-1",
+    "estilo_juego": [
+      "ataque posicional con amplitud alta y ocupacion de cinco carriles",
+      "presion tras perdida agresiva",
+      "circulacion paciente para activar tercer hombre"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "8.2",
+      "field_tilt": "62%",
+      "xg_promedio": 1.92
+    },
+    "abp_eficacia": "alta; variedad de bloqueos, arrastres y control de segundas jugadas."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Marc-Andre ter Stegen",
+      "defensa": "Antonio Rudiger",
+      "mediocampo": "Joshua Kimmich",
+      "ataque": "Jamal Musiala"
+    },
+    "profundidad_banquillo": "rotacion competitiva, especialmente en segunda linea y costados, aunque no todas las piezas mantienen el mismo impacto.",
+    "relevo_generacional_porcentaje_u23": "24%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "capacidad para instalarse en campo rival con field tilt sostenido y rest-defence estable",
+      "volumen de ocasiones por secuencias largas y recuperacion inmediata tras perdida"
+    ],
+    "debilidades": [
+      "espacios a la espalda de los laterales cuando el rival supera la primera ola de presion",
+      "cierta rigidez si el oponente cierra pasillos interiores con bloque muy bajo"
+    ]
+  },
+  "calificacion_general": 84.2
+}

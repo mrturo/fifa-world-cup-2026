@@ -1,0 +1,1092 @@
+{
+  "metadatos": {
+    "archivo_fuente_pronosticos": "04-pronosticos-grupos.csv",
+    "archivo_fuente_grupos": "03-partidos-grupos.txt",
+    "grupos_procesados": 12,
+    "partidos_procesados": 72,
+    "simulaciones_por_grupo": 20000,
+    "criterio": "Puntos esperados y simulacion Monte Carlo con desempate determinista por puntos esperados y fuerza agregada"
+  },
+  "grupos": {
+    "A": {
+      "equipos": [
+        "Corea del Sur",
+        "México",
+        "República Checa",
+        "Sudáfrica"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "México",
+          "promedio_probabilidad": 70.94
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Corea del Sur",
+          "promedio_probabilidad": 24.93
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Sudáfrica",
+          "promedio_probabilidad": 71.2
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "México",
+          "probabilidad_avanzar": 96.16,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Corea del Sur",
+          "probabilidad_avanzar": 73.97,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "México",
+          "puntos_esperados": 7.08,
+          "probabilidad_avanzar": 96.16,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 79.97,
+            "2": 16.18,
+            "3": 3.52,
+            "4": 0.32
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Corea del Sur",
+          "puntos_esperados": 4.88,
+          "probabilidad_avanzar": 73.97,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 15.32,
+            "2": 58.65,
+            "3": 22.09,
+            "4": 3.93
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "República Checa",
+          "puntos_esperados": 3.4,
+          "probabilidad_avanzar": 26.32,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 4.38,
+            "2": 21.93,
+            "3": 59.18,
+            "4": 14.51
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Sudáfrica",
+          "puntos_esperados": 1.21,
+          "probabilidad_avanzar": 3.55,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.32,
+            "2": 3.23,
+            "3": 15.21,
+            "4": 81.25
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "B": {
+      "equipos": [
+        "Bosnia y Herzegovina",
+        "Canadá",
+        "Catar",
+        "Suiza"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Suiza",
+          "promedio_probabilidad": 73.19
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Canadá",
+          "promedio_probabilidad": 22.88
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Bosnia y Herzegovina",
+          "promedio_probabilidad": 70.09
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Suiza",
+          "probabilidad_avanzar": 98.14,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Canadá",
+          "probabilidad_avanzar": 92.63,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Suiza",
+          "puntos_esperados": 7.23,
+          "probabilidad_avanzar": 98.14,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 78.17,
+            "2": 19.98,
+            "3": 1.76,
+            "4": 0.09
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Canadá",
+          "puntos_esperados": 5.75,
+          "probabilidad_avanzar": 92.63,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 21.35,
+            "2": 71.28,
+            "3": 6.87,
+            "4": 0.51
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Catar",
+          "puntos_esperados": 2.32,
+          "probabilidad_avanzar": 6.67,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 0.37,
+            "2": 6.3,
+            "3": 65.18,
+            "4": 28.14
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Bosnia y Herzegovina",
+          "puntos_esperados": 1.38,
+          "probabilidad_avanzar": 2.55,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.11,
+            "2": 2.44,
+            "3": 26.19,
+            "4": 71.26
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "C": {
+      "equipos": [
+        "Brasil",
+        "Escocia",
+        "Haití",
+        "Marruecos"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Brasil",
+          "promedio_probabilidad": 75.97
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Marruecos",
+          "promedio_probabilidad": 21.38
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Haití",
+          "promedio_probabilidad": 82.09
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Brasil",
+          "probabilidad_avanzar": 98.3,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Marruecos",
+          "probabilidad_avanzar": 90.86,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Brasil",
+          "puntos_esperados": 7.45,
+          "probabilidad_avanzar": 98.3,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 83.23,
+            "2": 15.06,
+            "3": 1.7,
+            "4": 0.01
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Marruecos",
+          "puntos_esperados": 5.62,
+          "probabilidad_avanzar": 90.86,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 16.1,
+            "2": 74.76,
+            "3": 8.94,
+            "4": 0.2
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Escocia",
+          "puntos_esperados": 3.16,
+          "probabilidad_avanzar": 10.69,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 0.67,
+            "2": 10.03,
+            "3": 84.47,
+            "4": 4.83
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Haití",
+          "puntos_esperados": 0.56,
+          "probabilidad_avanzar": 0.15,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.0,
+            "2": 0.15,
+            "3": 4.89,
+            "4": 94.96
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "D": {
+      "equipos": [
+        "Australia",
+        "Estados Unidos",
+        "Paraguay",
+        "Turquía"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Turquía",
+          "promedio_probabilidad": 64.76
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Australia",
+          "promedio_probabilidad": 26.83
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Paraguay",
+          "promedio_probabilidad": 48.23
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Turquía",
+          "probabilidad_avanzar": 92.28,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Australia",
+          "probabilidad_avanzar": 46.98,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Turquía",
+          "puntos_esperados": 6.57,
+          "probabilidad_avanzar": 92.28,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 75.08,
+            "2": 17.2,
+            "3": 5.64,
+            "4": 2.08
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Australia",
+          "puntos_esperados": 3.49,
+          "probabilidad_avanzar": 46.98,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 10.32,
+            "2": 36.66,
+            "3": 29.96,
+            "4": 23.05
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Estados Unidos",
+          "puntos_esperados": 3.3,
+          "probabilidad_avanzar": 34.22,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 8.15,
+            "2": 26.07,
+            "3": 34.77,
+            "4": 31.01
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Paraguay",
+          "puntos_esperados": 3.06,
+          "probabilidad_avanzar": 26.52,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 6.45,
+            "2": 20.07,
+            "3": 29.62,
+            "4": 43.86
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "E": {
+      "equipos": [
+        "Alemania",
+        "Costa de Marfil",
+        "Curazao",
+        "Ecuador"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Alemania",
+          "promedio_probabilidad": 72.99
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Ecuador",
+          "promedio_probabilidad": 21.97
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Curazao",
+          "promedio_probabilidad": 82.6
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Alemania",
+          "probabilidad_avanzar": 97.03,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Ecuador",
+          "probabilidad_avanzar": 88.42,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Alemania",
+          "puntos_esperados": 7.2,
+          "probabilidad_avanzar": 97.03,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 77.31,
+            "2": 19.71,
+            "3": 2.95,
+            "4": 0.02
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Ecuador",
+          "puntos_esperados": 5.68,
+          "probabilidad_avanzar": 88.42,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 21.11,
+            "2": 67.31,
+            "3": 11.19,
+            "4": 0.39
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Costa de Marfil",
+          "puntos_esperados": 3.35,
+          "probabilidad_avanzar": 14.41,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 1.57,
+            "2": 12.84,
+            "3": 81.97,
+            "4": 3.62
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Curazao",
+          "puntos_esperados": 0.54,
+          "probabilidad_avanzar": 0.14,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.0,
+            "2": 0.14,
+            "3": 3.9,
+            "4": 95.97
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "F": {
+      "equipos": [
+        "Japón",
+        "Países Bajos",
+        "Suecia",
+        "Túnez"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Países Bajos",
+          "promedio_probabilidad": 73.73
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Japón",
+          "promedio_probabilidad": 22.77
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Túnez",
+          "promedio_probabilidad": 75.7
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Países Bajos",
+          "probabilidad_avanzar": 97.94,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Japón",
+          "probabilidad_avanzar": 91.5,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Países Bajos",
+          "puntos_esperados": 7.27,
+          "probabilidad_avanzar": 97.94,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 79.31,
+            "2": 18.64,
+            "3": 2.01,
+            "4": 0.04
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Japón",
+          "puntos_esperados": 5.69,
+          "probabilidad_avanzar": 91.5,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 20.02,
+            "2": 71.48,
+            "3": 8.01,
+            "4": 0.49
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Suecia",
+          "puntos_esperados": 2.79,
+          "probabilidad_avanzar": 9.3,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 0.64,
+            "2": 8.66,
+            "3": 75.89,
+            "4": 14.8
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Túnez",
+          "puntos_esperados": 0.95,
+          "probabilidad_avanzar": 1.25,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.04,
+            "2": 1.22,
+            "3": 14.09,
+            "4": 84.66
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "G": {
+      "equipos": [
+        "Bélgica",
+        "Egipto",
+        "Irán",
+        "Nueva Zelanda"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Bélgica",
+          "promedio_probabilidad": 75.62
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Egipto",
+          "promedio_probabilidad": 23.84
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Nueva Zelanda",
+          "promedio_probabilidad": 80.51
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Bélgica",
+          "probabilidad_avanzar": 97.5,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Egipto",
+          "probabilidad_avanzar": 59.75,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Bélgica",
+          "puntos_esperados": 7.43,
+          "probabilidad_avanzar": 97.5,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 86.24,
+            "2": 11.26,
+            "3": 2.48,
+            "4": 0.03
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Egipto",
+          "puntos_esperados": 4.4,
+          "probabilidad_avanzar": 59.75,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 7.57,
+            "2": 52.18,
+            "3": 37.95,
+            "4": 2.31
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Irán",
+          "puntos_esperados": 4.23,
+          "probabilidad_avanzar": 42.42,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 6.19,
+            "2": 36.23,
+            "3": 54.84,
+            "4": 2.75
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Nueva Zelanda",
+          "puntos_esperados": 0.62,
+          "probabilidad_avanzar": 0.34,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.0,
+            "2": 0.34,
+            "3": 4.75,
+            "4": 94.92
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "H": {
+      "equipos": [
+        "Arabia Saudí",
+        "Cabo Verde",
+        "España",
+        "Uruguay"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "España",
+          "promedio_probabilidad": 81.3
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Arabia Saudí",
+          "promedio_probabilidad": 20.49
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Cabo Verde",
+          "promedio_probabilidad": 72.97
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "España",
+          "probabilidad_avanzar": 99.57,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Uruguay",
+          "probabilidad_avanzar": 95.85,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "España",
+          "puntos_esperados": 7.86,
+          "probabilidad_avanzar": 99.57,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 92.17,
+            "2": 7.41,
+            "3": 0.42,
+            "4": 0.01
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Uruguay",
+          "puntos_esperados": 5.53,
+          "probabilidad_avanzar": 95.85,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 7.82,
+            "2": 88.03,
+            "3": 4.07,
+            "4": 0.08
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Arabia Saudí",
+          "puntos_esperados": 2.21,
+          "probabilidad_avanzar": 3.38,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 0.01,
+            "2": 3.37,
+            "3": 69.94,
+            "4": 26.68
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Cabo Verde",
+          "puntos_esperados": 1.23,
+          "probabilidad_avanzar": 1.2,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.01,
+            "2": 1.19,
+            "3": 25.57,
+            "4": 73.23
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "I": {
+      "equipos": [
+        "Francia",
+        "Irak",
+        "Noruega",
+        "Senegal"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Francia",
+          "promedio_probabilidad": 78.02
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Noruega",
+          "promedio_probabilidad": 23.18
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Irak",
+          "promedio_probabilidad": 80.15
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Francia",
+          "probabilidad_avanzar": 98.62,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Senegal",
+          "probabilidad_avanzar": 70.37,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Francia",
+          "puntos_esperados": 7.63,
+          "probabilidad_avanzar": 98.62,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 89.92,
+            "2": 8.7,
+            "3": 1.36,
+            "4": 0.01
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Senegal",
+          "puntos_esperados": 4.68,
+          "probabilidad_avanzar": 70.37,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 7.13,
+            "2": 63.23,
+            "3": 27.95,
+            "4": 1.68
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Noruega",
+          "puntos_esperados": 3.77,
+          "probabilidad_avanzar": 30.51,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 2.94,
+            "2": 27.57,
+            "3": 65.44,
+            "4": 4.05
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Irak",
+          "puntos_esperados": 0.64,
+          "probabilidad_avanzar": 0.5,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.01,
+            "2": 0.49,
+            "3": 5.25,
+            "4": 94.25
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "J": {
+      "equipos": [
+        "Argelia",
+        "Argentina",
+        "Austria",
+        "Jordania"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Argentina",
+          "promedio_probabilidad": 81.08
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Argelia",
+          "promedio_probabilidad": 22.49
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Jordania",
+          "promedio_probabilidad": 74.77
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Argentina",
+          "probabilidad_avanzar": 99.44,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Austria",
+          "probabilidad_avanzar": 84.12,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Argentina",
+          "puntos_esperados": 7.85,
+          "probabilidad_avanzar": 99.44,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 93.39,
+            "2": 6.05,
+            "3": 0.55,
+            "4": 0.01
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Austria",
+          "puntos_esperados": 4.99,
+          "probabilidad_avanzar": 84.12,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 5.82,
+            "2": 78.31,
+            "3": 14.38,
+            "4": 1.5
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Argelia",
+          "puntos_esperados": 2.88,
+          "probabilidad_avanzar": 14.39,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 0.76,
+            "2": 13.64,
+            "3": 70.33,
+            "4": 15.28
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Jordania",
+          "puntos_esperados": 1.02,
+          "probabilidad_avanzar": 2.04,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.04,
+            "2": 2.0,
+            "3": 14.74,
+            "4": 83.22
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "K": {
+      "equipos": [
+        "Colombia",
+        "Portugal",
+        "RD Congo",
+        "Uzbekistán"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Portugal",
+          "promedio_probabilidad": 72.51
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Uzbekistán",
+          "promedio_probabilidad": 21.99
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "RD Congo",
+          "promedio_probabilidad": 66.89
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Portugal",
+          "probabilidad_avanzar": 98.28,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Colombia",
+          "probabilidad_avanzar": 95.41,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Portugal",
+          "puntos_esperados": 7.15,
+          "probabilidad_avanzar": 98.28,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 74.33,
+            "2": 23.95,
+            "3": 1.68,
+            "4": 0.05
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Colombia",
+          "puntos_esperados": 6.01,
+          "probabilidad_avanzar": 95.41,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 25.52,
+            "2": 69.89,
+            "3": 4.37,
+            "4": 0.23
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Uzbekistán",
+          "puntos_esperados": 1.87,
+          "probabilidad_avanzar": 3.4,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 0.08,
+            "2": 3.31,
+            "3": 56.73,
+            "4": 39.88
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "RD Congo",
+          "puntos_esperados": 1.67,
+          "probabilidad_avanzar": 2.92,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.07,
+            "2": 2.85,
+            "3": 37.23,
+            "4": 59.84
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    },
+    "L": {
+      "equipos": [
+        "Croacia",
+        "Ghana",
+        "Inglaterra",
+        "Panamá"
+      ],
+      "resumen_probabilidades": {
+        "equipo_mas_probable_a_ganar": {
+          "equipo": "Inglaterra",
+          "promedio_probabilidad": 76.69
+        },
+        "equipo_mas_probable_a_empatar": {
+          "equipo": "Croacia",
+          "promedio_probabilidad": 21.47
+        },
+        "equipo_mas_probable_a_perder": {
+          "equipo": "Ghana",
+          "promedio_probabilidad": 77.74
+        }
+      },
+      "equipos_con_mayor_probabilidad_de_avanzar": [
+        {
+          "equipo": "Inglaterra",
+          "probabilidad_avanzar": 98.83,
+          "posicion_proyectada_tabla": 1,
+          "posicion_mas_probable": 1
+        },
+        {
+          "equipo": "Croacia",
+          "probabilidad_avanzar": 93.61,
+          "posicion_proyectada_tabla": 2,
+          "posicion_mas_probable": 2
+        }
+      ],
+      "tabla_proyectada": [
+        {
+          "equipo": "Inglaterra",
+          "puntos_esperados": 7.49,
+          "probabilidad_avanzar": 98.83,
+          "posicion_mas_probable": 1,
+          "probabilidades_posicion": {
+            "1": 83.77,
+            "2": 15.06,
+            "3": 1.15,
+            "4": 0.02
+          },
+          "posicion_proyectada_tabla": 1
+        },
+        {
+          "equipo": "Croacia",
+          "puntos_esperados": 5.7,
+          "probabilidad_avanzar": 93.61,
+          "posicion_mas_probable": 2,
+          "probabilidades_posicion": {
+            "1": 15.96,
+            "2": 77.65,
+            "3": 6.25,
+            "4": 0.14
+          },
+          "posicion_proyectada_tabla": 2
+        },
+        {
+          "equipo": "Panamá",
+          "puntos_esperados": 2.73,
+          "probabilidad_avanzar": 6.92,
+          "posicion_mas_probable": 3,
+          "probabilidades_posicion": {
+            "1": 0.26,
+            "2": 6.67,
+            "3": 79.92,
+            "4": 13.15
+          },
+          "posicion_proyectada_tabla": 3
+        },
+        {
+          "equipo": "Ghana",
+          "puntos_esperados": 0.84,
+          "probabilidad_avanzar": 0.64,
+          "posicion_mas_probable": 4,
+          "probabilidades_posicion": {
+            "1": 0.01,
+            "2": 0.62,
+            "3": 12.68,
+            "4": 86.69
+          },
+          "posicion_proyectada_tabla": 4
+        }
+      ]
+    }
+  }
+}

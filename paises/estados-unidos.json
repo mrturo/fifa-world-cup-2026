@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Estados Unidos",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 16,
+      "variacion_semestral": "-1 puesto"
+    },
+    "elo_rating": {
+      "puntos": 1721,
+      "tendencia": "estable"
+    },
+    "rendimiento_ultimo_ciclo": "Su techo depende de convertir la energia de presion y la velocidad exterior en un modelo con mas control de area rival."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-3-3",
+    "estilo_juego": [
+      "salida mixta con apoyos interiores",
+      "transicion ofensiva por conduccion y ruptura exterior",
+      "presion intermitente en bloque medio-alto"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "10.7",
+      "field_tilt": "51%",
+      "xg_promedio": 1.34
+    },
+    "abp_eficacia": "media; suele competir mejor en saques laterales y corners cerrados que en faltas frontales."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Matt Turner",
+      "defensa": "Chris Richards",
+      "mediocampo": "Tyler Adams",
+      "ataque": "Christian Pulisic"
+    },
+    "profundidad_banquillo": "rotacion competitiva, especialmente en segunda linea y costados, aunque no todas las piezas mantienen el mismo impacto.",
+    "relevo_generacional_porcentaje_u23": "21%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "capacidad para acelerar desde recuperacion y castigar desajustes de retorno",
+      "buena ocupacion de carriles exteriores para estirar bloques medios"
+    ],
+    "debilidades": [
+      "pierde continuidad si el rival niega la primera conduccion y fuerza juego de espaldas",
+      "la produccion ofensiva baja cuando no puede correr o cargar area con muchos efectivos"
+    ]
+  },
+  "calificacion_general": 76.2
+}

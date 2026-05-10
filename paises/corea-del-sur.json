@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Corea del Sur",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 25,
+      "variacion_semestral": "+1 puesto"
+    },
+    "elo_rating": {
+      "puntos": 1752,
+      "tendencia": "estable"
+    },
+    "rendimiento_ultimo_ciclo": "Dispone de velocidad exterior y una columna central competitiva, aunque alterna muy buenos tramos con desconexiones puntuales."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-2-3-1",
+    "estilo_juego": [
+      "salida mixta con apoyos interiores",
+      "transicion ofensiva por conduccion y ruptura exterior",
+      "presion intermitente en bloque medio-alto"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "10.7",
+      "field_tilt": "51%",
+      "xg_promedio": 1.34
+    },
+    "abp_eficacia": "media; suele competir mejor en saques laterales y corners cerrados que en faltas frontales."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Jo Hyeon-woo",
+      "defensa": "Kim Min-jae",
+      "mediocampo": "Hwang In-beom",
+      "ataque": "Son Heung-min"
+    },
+    "profundidad_banquillo": "profundidad correcta para sostener el plan base, con caida moderada cuando faltan los titulares de la columna central.",
+    "relevo_generacional_porcentaje_u23": "19%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "capacidad para acelerar desde recuperacion y castigar desajustes de retorno",
+      "buena ocupacion de carriles exteriores para estirar bloques medios"
+    ],
+    "debilidades": [
+      "pierde continuidad si el rival niega la primera conduccion y fuerza juego de espaldas",
+      "la produccion ofensiva baja cuando no puede correr o cargar area con muchos efectivos"
+    ]
+  },
+  "calificacion_general": 74.6
+}

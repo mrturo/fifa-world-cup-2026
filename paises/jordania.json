@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Jordania",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 63,
+      "variacion_semestral": "+4 puestos"
+    },
+    "elo_rating": {
+      "puntos": 1655,
+      "tendencia": "ascendente"
+    },
+    "rendimiento_ultimo_ciclo": "Ha dado un paso adelante en conviccion competitiva y castiga bien con pocos toques cuando recupera en bloque medio."
+  },
+  "analisis_tactico": {
+    "sistema_base": "3-4-2-1",
+    "estilo_juego": [
+      "bloque medio-bajo compacto",
+      "progresion directa hacia referencias de apoyo",
+      "prioridad por transiciones y juego exterior temprano"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "11.9",
+      "field_tilt": "47%",
+      "xg_promedio": 1.18
+    },
+    "abp_eficacia": "media; varias ventajas provienen del balon parado y de la segunda jugada."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Yazeed Abulaila",
+      "defensa": "Yazan Al-Arab",
+      "mediocampo": "Nizar Al-Rashdan",
+      "ataque": "Musa Al-Taamari"
+    },
+    "profundidad_banquillo": "banquillo util pero con escalon competitivo visible entre once inicial y recambios.",
+    "relevo_generacional_porcentaje_u23": "18%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "densidad interior para cerrar recepciones entre lineas y lanzar la contra con pocos pases",
+      "competitividad en escenarios fisicos y en fases de area a area"
+    ],
+    "debilidades": [
+      "cede iniciativa territorial y le cuesta remontar cuando queda por detras en el marcador",
+      "volumen ofensivo limitado ante defensas asentadas y posesiones largas"
+    ]
+  },
+  "calificacion_general": 59.7
+}

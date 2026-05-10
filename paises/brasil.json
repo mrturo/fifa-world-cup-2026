@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Brasil",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 6,
+      "variacion_semestral": "-2 puestos"
+    },
+    "elo_rating": {
+      "puntos": 1984,
+      "tendencia": "estable con margen de mejora"
+    },
+    "rendimiento_ultimo_ciclo": "La materia prima ofensiva sigue siendo diferencial, aunque el colectivo aun alterna tramos brillantes con otros menos controlados."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-3-3",
+    "estilo_juego": [
+      "transiciones ofensivas de alta velocidad",
+      "presion en bloque medio-alto con saltos agresivos",
+      "ataque por intervalos con mucha amenaza al espacio"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "8.9",
+      "field_tilt": "58%",
+      "xg_promedio": 1.78
+    },
+    "abp_eficacia": "media-alta; buen golpeo y amenaza en segundas acciones."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Alisson Becker",
+      "defensa": "Marquinhos",
+      "mediocampo": "Bruno Guimaraes",
+      "ataque": "Vinicius Junior"
+    },
+    "profundidad_banquillo": "banquillo profundo con alternativas de nivel titular en varias alturas y poca perdida estructural en la rotacion.",
+    "relevo_generacional_porcentaje_u23": "27%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "desequilibrio individual para atacar campo abierto y ganar metros con pocas conducciones",
+      "amenaza constante en transicion y en ataques de ritmo alto"
+    ],
+    "debilidades": [
+      "puede perder control del ritmo cuando el partido exige pausas largas con balon",
+      "la agresividad del bloque deja metros atacables a la espalda del mediocampo"
+    ]
+  },
+  "calificacion_general": 88.3
+}

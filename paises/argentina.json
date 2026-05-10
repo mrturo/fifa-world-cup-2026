@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Argentina",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 3,
+      "variacion_semestral": "+1 puesto"
+    },
+    "elo_rating": {
+      "puntos": 2113,
+      "tendencia": "ascendente y muy estable"
+    },
+    "rendimiento_ultimo_ciclo": "Sigue compitiendo a ritmo de elite: concede poco, maneja distintos registros y sostiene eficacia alta en partidos grandes."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-3-3",
+    "estilo_juego": [
+      "transiciones ofensivas de alta velocidad",
+      "presion en bloque medio-alto con saltos agresivos",
+      "ataque por intervalos con mucha amenaza al espacio"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "8.9",
+      "field_tilt": "58%",
+      "xg_promedio": 1.78
+    },
+    "abp_eficacia": "media-alta; buen golpeo y amenaza en segundas acciones."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Emiliano Martinez",
+      "defensa": "Cristian Romero",
+      "mediocampo": "Alexis Mac Allister",
+      "ataque": "Julian Alvarez"
+    },
+    "profundidad_banquillo": "banquillo profundo con alternativas de nivel titular en varias alturas y poca perdida estructural en la rotacion.",
+    "relevo_generacional_porcentaje_u23": "16%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "desequilibrio individual para atacar campo abierto y ganar metros con pocas conducciones",
+      "amenaza constante en transicion y en ataques de ritmo alto"
+    ],
+    "debilidades": [
+      "puede perder control del ritmo cuando el partido exige pausas largas con balon",
+      "la agresividad del bloque deja metros atacables a la espalda del mediocampo"
+    ]
+  },
+  "calificacion_general": 90.6
+}

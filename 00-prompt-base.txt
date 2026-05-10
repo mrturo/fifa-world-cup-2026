@@ -1,0 +1,42 @@
+Actúa como un Analista de Rendimiento Deportivo Senior. Proporciona un informe técnico de la selección masculina de fútbol de <NOMBRE_PAIS> basado en el ciclo competitivo actual (2024-2026). 
+
+La salida debe ser exclusivamente un objeto JSON con la siguiente estructura y requisitos técnicos:
+
+{
+  "nombre_seleccion": "string",
+  "meticas_posicionamiento": {
+    "ranking_fifa": { "posicion": "int", "variacion_semestral": "string" },
+    "elo_rating": { "puntos": "int", "tendencia": "string" },
+    "rendimiento_ultimo_ciclo": "string"
+  },
+  "analisis_tactico": {
+    "sistema_base": "string",
+    "estilo_juego": ["string"],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "string",
+      "field_tilt": "string",
+      "xg_promedio": "float"
+    },
+    "abp_eficacia": "string"
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "string",
+      "defensa": "string",
+      "mediocampo": "string",
+      "ataque": "string"
+    },
+    "profundidad_banquillo": "string",
+    "relevo_generacional_porcentaje_u23": "string"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": ["string"],
+    "debilidades": ["string"]
+  },
+  "calificacion_general": "float"
+}
+
+Requisitos adicionales:
+1. El campo "calificacion_general" debe ser un valor del 0.00 al 100.00 (flotante con dos decimales) que pondere talento actual, cohesión táctica y resultados recientes.
+2. Utiliza terminología técnica avanzada (transiciones, amplitud, xG, bloques).
+3. No incluyas texto introductorio ni explicaciones fuera del bloque JSON.

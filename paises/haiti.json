@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Haiti",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 83,
+      "variacion_semestral": "-1 puesto"
+    },
+    "elo_rating": {
+      "puntos": 1585,
+      "tendencia": "estable"
+    },
+    "rendimiento_ultimo_ciclo": "Puede competir en partidos de baja posesion, pero le cuesta sostener ritmo de ocasiones cuando debe asumir iniciativa."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-4-2",
+    "estilo_juego": [
+      "repliegue intensivo en campo propio",
+      "juego directo hacia el punta o segunda jugada",
+      "fases de presion muy selectivas"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "13.5",
+      "field_tilt": "43%",
+      "xg_promedio": 0.96
+    },
+    "abp_eficacia": "media-alta; el balon parado representa una parte importante de su amenaza."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Johny Placide",
+      "defensa": "Ricardo Ade",
+      "mediocampo": "Danley Jean Jacques",
+      "ataque": "Duckens Nazon"
+    },
+    "profundidad_banquillo": "rotacion corta y muy dependiente del once tipo, con margen reducido para ajustar escenarios de partido.",
+    "relevo_generacional_porcentaje_u23": "19%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "solidaridad sin balon y acumulacion de efectivos en zona de remate",
+      "capacidad para sobrevivir partidos largos y cerrados mediante ABP y centros laterales"
+    ],
+    "debilidades": [
+      "poca amenaza sostenida con posesion y dificultades para progresar por dentro",
+      "si encaja primero, el plan pierde mucha eficiencia por falta de volumen ofensivo"
+    ]
+  },
+  "calificacion_general": 49.8
+}

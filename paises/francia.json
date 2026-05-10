@@ -1,0 +1,49 @@
+{
+  "nombre_seleccion": "Seleccion masculina de Francia",
+  "meticas_posicionamiento": {
+    "ranking_fifa": {
+      "posicion": 1,
+      "variacion_semestral": "+1 puesto"
+    },
+    "elo_rating": {
+      "puntos": 2082,
+      "tendencia": "ascendente"
+    },
+    "rendimiento_ultimo_ciclo": "Sigue siendo una seleccion de maximo rango por profundidad, velocidad diferencial y capacidad para ganar partidos sin dominar todos los tramos."
+  },
+  "analisis_tactico": {
+    "sistema_base": "4-3-3",
+    "estilo_juego": [
+      "transiciones ofensivas de alta velocidad",
+      "presion en bloque medio-alto con saltos agresivos",
+      "ataque por intervalos con mucha amenaza al espacio"
+    ],
+    "metricas_avanzadas_estimadas": {
+      "ppda": "8.9",
+      "field_tilt": "58%",
+      "xg_promedio": 1.78
+    },
+    "abp_eficacia": "media-alta; buen golpeo y amenaza en segundas acciones."
+  },
+  "scouting_plantilla": {
+    "columna_vertebral": {
+      "porteria": "Mike Maignan",
+      "defensa": "William Saliba",
+      "mediocampo": "Aurelien Tchouameni",
+      "ataque": "Kylian Mbappe"
+    },
+    "profundidad_banquillo": "banquillo profundo con alternativas de nivel titular en varias alturas y poca perdida estructural en la rotacion.",
+    "relevo_generacional_porcentaje_u23": "25%"
+  },
+  "analisis_dafo_tecnico": {
+    "fortalezas": [
+      "desequilibrio individual para atacar campo abierto y ganar metros con pocas conducciones",
+      "amenaza constante en transicion y en ataques de ritmo alto"
+    ],
+    "debilidades": [
+      "puede perder control del ritmo cuando el partido exige pausas largas con balon",
+      "la agresividad del bloque deja metros atacables a la espalda del mediocampo"
+    ]
+  },
+  "calificacion_general": 91.1
+}
