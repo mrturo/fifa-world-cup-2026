@@ -1,0 +1,377 @@
+{
+  "knockout_stage": {
+    "round_of_32": {
+      "description": "First round of the knockout stage with 16 matches",
+      "period": "2026-06-28 to 2026-07-03",
+      "total_matches": 16,
+      "host_cities": 14,
+      "format": "Single-elimination, first time with 32 teams instead of 16",
+      "matches": [
+        {
+          "match_number": "M1",
+          "round_of_32_id": 1,
+          "date": "2026-06-28",
+          "time": "12:00 p.m.",
+          "timezone": "UTC-7",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood",
+          "home": {
+            "team": "South Africa",
+            "code": "RSA",
+            "seed": "A2"
+          },
+          "away": {
+            "team": "Canada",
+            "code": "CAN",
+            "seed": "B2"
+          },
+          "historical_note": "The teams only meeting took place in a 2007 friendly, which ended in a 2–0 win for South Africa. After facing co-hosts Mexico in their opening group stage match, South Africa became the first team in tournament history to face two different host nations in a single edition since Turkey played Japan and South Korea in 2002."
+        },
+        {
+          "match_number": "M8",
+          "round_of_32_id": 8,
+          "date": "2026-07-01",
+          "time": "12:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "home": {
+            "team": "England",
+            "code": "ENG",
+            "seed": "J3"
+          },
+          "away": {
+            "team": "DR Congo",
+            "code": "COD",
+            "seed": "L2"
+          },
+          "historical_note": "First meeting between teams"
+        },
+        {
+          "match_number": "M2",
+          "round_of_32_id": 2,
+          "date": "2026-06-29",
+          "time": "12:00 p.m.",
+          "timezone": "UTC-5",
+          "venue": "NRG Stadium",
+          "city": "Houston",
+          "home": {
+            "team": "Brazil",
+            "code": "BRA",
+            "seed": "C1"
+          },
+          "away": {
+            "team": "Japan",
+            "code": "JPN",
+            "seed": "F2"
+          },
+          "referee": {
+            "name": "Maurizio Mariani",
+            "country": "Italy"
+          },
+          "historical_note": "Brazil won 4-1 vs Japan in 2006 WC; Japan won first-ever vs Brazil in 2025 Kirin Cup (3-2)"
+        },
+        {
+          "match_number": "M3",
+          "round_of_32_id": 3,
+          "date": "2026-06-29",
+          "time": "4:30 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Gillette Stadium",
+          "city": "Foxborough",
+          "home": {
+            "team": "Germany",
+            "code": "GER",
+            "seed": "E1"
+          },
+          "away": {
+            "team": "Paraguay",
+            "code": "PAR",
+            "seed": "D3"
+          },
+          "referee": {
+            "name": "Jalal Jayed",
+            "country": "Morocco"
+          },
+          "historical_note": "Germany won 1-0 vs Paraguay in 2002 WC R16; 3-3 friendly in 2013"
+        },
+        {
+          "match_number": "M4",
+          "round_of_32_id": 4,
+          "date": "2026-06-29",
+          "time": "7:00 p.m.",
+          "timezone": "UTC-6",
+          "venue": "Estadio BBVA",
+          "city": "Guadalupe",
+          "home": {
+            "team": "Netherlands",
+            "code": "NED",
+            "seed": "F1"
+          },
+          "away": {
+            "team": "Morocco",
+            "code": "MAR",
+            "seed": "C2"
+          },
+          "referee": {
+            "name": "Wilton Sampaio",
+            "country": "Brazil"
+          },
+          "historical_note": "Netherlands won 2-1 vs Morocco in 1994 WC group stage and 2017 friendly (2-1)"
+        },
+        {
+          "match_number": "M5",
+          "round_of_32_id": 5,
+          "date": "2026-06-30",
+          "time": "12:00 p.m.",
+          "timezone": "UTC-5",
+          "venue": "AT&T Stadium",
+          "city": "Arlington",
+          "home": {
+            "team": "Ivory Coast",
+            "code": "CIV",
+            "seed": "E2"
+          },
+          "away": {
+            "team": "Norway",
+            "code": "NOR",
+            "seed": "I2"
+          },
+          "referee": {
+            "name": "Jesús Valenzuela",
+            "country": "Venezuela"
+          },
+          "historical_note": "First meeting between teams"
+        },
+        {
+          "match_number": "M6",
+          "round_of_32_id": 6,
+          "date": "2026-06-30",
+          "time": "5:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford",
+          "home": {
+            "team": "France",
+            "code": "FRA",
+            "seed": "I1"
+          },
+          "away": {
+            "team": "Sweden",
+            "code": "SWE",
+            "seed": "F3"
+          },
+          "referee": {
+            "name": "Danny Makkelie",
+            "country": "Netherlands"
+          },
+          "historical_note": "France won 4-2 vs Sweden in 2020-21 UEFA Nations League A"
+        },
+        {
+          "match_number": "M7",
+          "round_of_32_id": 7,
+          "date": "2026-06-30",
+          "time": "7:00 p.m.",
+          "timezone": "UTC-6",
+          "venue": "Estadio Azteca",
+          "city": "Mexico City",
+          "home": {
+            "team": "Mexico",
+            "code": "MEX",
+            "seed": "A1"
+          },
+          "away": {
+            "team": "Ecuador",
+            "code": "ECU",
+            "seed": "E3"
+          },
+          "referee": {
+            "name": "Slavko Vinčić",
+            "country": "Slovenia"
+          },
+          "historical_note": "Mexico won 2-1 vs Ecuador in 2002 WC group stage; 1-1 friendly Oct 2025; Mexico won 3-1 at Azteca Feb 1997"
+        },
+        {
+          "match_number": "M8",
+          "round_of_32_id": 8,
+          "date": "2026-07-01",
+          "time": "12:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "home": {
+            "team": "England",
+            "code": "ENG",
+            "seed": "J3"
+          },
+          "away": {
+            "team": "DR Congo",
+            "code": "COD",
+            "seed": "L2"
+          },
+          "historical_note": "First meeting between teams"
+        },
+        {
+          "match_number": "M9",
+          "round_of_32_id": 9,
+          "date": "2026-07-01",
+          "time": "1:00 p.m.",
+          "timezone": "UTC-7",
+          "venue": "Lumen Field",
+          "city": "Seattle",
+          "home": {
+            "team": "Belgium",
+            "code": "BEL",
+            "seed": "G1"
+          },
+          "away": {
+            "team": "Senegal",
+            "code": "SEN",
+            "seed": "I3"
+          },
+          "historical_note": "First meeting between teams"
+        },
+        {
+          "match_number": "M10",
+          "round_of_32_id": 10,
+          "date": "2026-07-01",
+          "time": "5:00 p.m.",
+          "timezone": "UTC-7",
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara",
+          "home": {
+            "team": "United States",
+            "code": "USA",
+            "seed": "D1"
+          },
+          "away": {
+            "team": "Bosnia and Herzegovina",
+            "code": "BIH",
+            "seed": "B3"
+          },
+          "historical_note": "USA never lost to BiH; won twice (last 1-0 friendly 2021); BiH second team to face two hosts in one edition"
+        },
+        {
+          "match_number": "M11",
+          "round_of_32_id": 11,
+          "date": "2026-07-02",
+          "time": "12:00 p.m.",
+          "timezone": "UTC-7",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood",
+          "home": {
+            "team": "Spain",
+            "code": "ESP",
+            "seed": "H1"
+          },
+          "away": {
+            "team": "Austria",
+            "code": "AUT",
+            "seed": "J2"
+          },
+          "historical_note": "Austria won 2-1 vs Spain in 1978 WC; Spain won 5-1 vs Austria in 2009 friendly"
+        },
+        {
+          "match_number": "M12",
+          "round_of_32_id": 12,
+          "date": "2026-07-02",
+          "time": "7:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "BMO Field",
+          "city": "Toronto",
+          "home": {
+            "team": "Portugal",
+            "code": "POR",
+            "seed": "L3"
+          },
+          "away": {
+            "team": "Croatia",
+            "code": "CRO",
+            "seed": "K2"
+          },
+          "historical_note": "Portugal won 7 of 10 previous meetings; 1-1 draw in 2024-25 UEFA Nations League A"
+        },
+        {
+          "match_number": "M13",
+          "round_of_32_id": 13,
+          "date": "2026-07-02",
+          "time": "8:00 p.m.",
+          "timezone": "UTC-7",
+          "venue": "BC Place",
+          "city": "Vancouver",
+          "home": {
+            "team": "Switzerland",
+            "code": "SUI",
+            "seed": "B1"
+          },
+          "away": {
+            "team": "Algeria",
+            "code": "ALG",
+            "seed": "J3"
+          },
+          "historical_note": "Switzerland won both friendlies; last meeting 1986 (2-0)"
+        },
+        {
+          "match_number": "M14",
+          "round_of_32_id": 14,
+          "date": "2026-07-03",
+          "time": "1:00 p.m.",
+          "timezone": "UTC-5",
+          "venue": "AT&T Stadium",
+          "city": "Arlington",
+          "home": {
+            "team": "Australia",
+            "code": "AUS",
+            "seed": "D2"
+          },
+          "away": {
+            "team": "Egypt",
+            "code": "EGY",
+            "seed": "G2"
+          },
+          "historical_note": "Only met twice; Egypt won 3-0 friendly in 2010"
+        },
+        {
+          "match_number": "M15",
+          "round_of_32_id": 15,
+          "date": "2026-07-03",
+          "time": "6:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens",
+          "home": {
+            "team": "Argentina",
+            "code": "ARG",
+            "seed": "J1"
+          },
+          "away": {
+            "team": "Cape Verde",
+            "code": "CPV",
+            "seed": "H2"
+          },
+          "historical_note": "First meeting between teams"
+        },
+        {
+          "match_number": "M16",
+          "round_of_32_id": 16,
+          "date": "2026-07-03",
+          "time": "8:30 p.m.",
+          "timezone": "UTC-5",
+          "venue": "Arrowhead Stadium",
+          "city": "Kansas City",
+          "home": {
+            "team": "Colombia",
+            "code": "COL",
+            "seed": "K1"
+          },
+          "away": {
+            "team": "Ghana",
+            "code": "GHA",
+            "seed": "L1"
+          },
+          "historical_note": "First meeting between teams"
+        }
+      ]
+    }
+  }
+}

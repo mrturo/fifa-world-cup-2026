@@ -1,1092 +1,2290 @@
 {
-  "metadatos": {
-    "archivo_fuente_pronosticos": "04-pronosticos-grupos.csv",
-    "archivo_fuente_grupos": "03-partidos-grupos.txt",
-    "grupos_procesados": 12,
-    "partidos_procesados": 72,
-    "simulaciones_por_grupo": 20000,
-    "criterio": "Puntos esperados y simulacion Monte Carlo con desempate determinista por puntos esperados y fuerza agregada"
-  },
-  "grupos": {
-    "A": {
-      "equipos": [
-        "Corea del Sur",
-        "México",
-        "República Checa",
-        "Sudáfrica"
+  "groups": [
+    {
+      "id": "A",
+      "name": "Group A",
+      "period": "2026-06-11 to 2026-06-24",
+      "teams": [
+        {
+          "position": "A1",
+          "name": "Mexico",
+          "code": "MEX",
+          "confederation": "CONCACAF",
+          "type": "co-host",
+          "finals_appearance": 17,
+          "last_appearance": 2022,
+          "best_performance": "Winner (1930, 1950)"
+        },
+        {
+          "position": "A2",
+          "name": "South Africa",
+          "code": "RSA",
+          "confederation": "CAF",
+          "finals_appearance": 4,
+          "last_appearance": 2022,
+          "best_performance": "Group stage (1998, 2002)"
+        },
+        {
+          "position": "A3",
+          "name": "South Korea",
+          "code": "KOR",
+          "confederation": "AFC",
+          "finals_appearance": 11,
+          "last_appearance": 2022,
+          "best_performance": "Round of 16 (2002)"
+        },
+        {
+          "position": "A4",
+          "name": "Czech Republic",
+          "code": "CZE",
+          "confederation": "UEFA",
+          "finals_appearance": 5,
+          "last_appearance": 2022,
+          "best_performance": "Group stage (2006)"
+        }
       ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "México",
-          "promedio_probabilidad": 70.94
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Mexico",
+          "code": "MEX",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 6,
+          "goals_against": 0,
+          "goal_difference": 6,
+          "points": 9,
+          "qualified": true,
+          "qualification_type": "Winner"
         },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Corea del Sur",
-          "promedio_probabilidad": 24.93
+        {
+          "rank": 2,
+          "team": "South Africa",
+          "code": "RSA",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 2,
+          "goals_against": 3,
+          "goal_difference": -1,
+          "points": 4,
+          "qualified": true,
+          "qualification_type": "Runner-up"
         },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Sudáfrica",
-          "promedio_probabilidad": 71.2
+        {
+          "rank": 3,
+          "team": "South Korea",
+          "code": "KOR",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 2,
+          "goals_against": 3,
+          "goal_difference": -1,
+          "points": 3,
+          "qualified": false
+        },
+        {
+          "rank": 4,
+          "team": "Czech Republic",
+          "code": "CZE",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goals_for": 2,
+          "goals_against": 6,
+          "goal_difference": -4,
+          "points": 1,
+          "qualified": false
+        }
+      ],
+      "knockout_pairings": {
+        "winner": {
+          "team": "Mexico",
+          "opponent_group": "E",
+          "opponent_position": 3,
+          "opponent_team": "Ecuador"
+        },
+        "runner_up": {
+          "team": "South Africa",
+          "opponent_group": "B",
+          "opponent_position": 2,
+          "opponent_team": "Canada"
         }
       },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
+      "matches": [
         {
-          "equipo": "México",
-          "probabilidad_avanzar": 96.16,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
+          "match_number": "M1",
+          "date": "2026-06-11",
+          "time": "20:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "Estadio Azteca",
+          "city": "Mexico City",
+          "attendance": 80824,
+          "home": {
+            "team": "Mexico",
+            "code": "MEX",
+            "goals": 2
+          },
+          "away": {
+            "team": "South Africa",
+            "code": "RSA",
+            "goals": 0
+          },
+          "scorers": [
+            {"player": "Quiñones", "team": "MEX", "minute": 9, "penalty": false},
+            {"player": "Jiménez", "team": "MEX", "minute": 67, "penalty": false}
+          ],
+          "red_cards": [
+            {"player": "Sithole", "team": "RSA", "minute": 49},
+            {"player": "Zwane", "team": "RSA", "minute": 73},
+            {"player": "Montes", "team": "MEX", "minute": "90+2"}
+          ],
+          "referee": "Referee Name",
+          "notes": "3 red cards in single match"
         },
         {
-          "equipo": "Corea del Sur",
-          "probabilidad_avanzar": 73.97,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
+          "match_number": "M2",
+          "date": "2026-06-11",
+          "time": "16:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "Estadio Akron",
+          "city": "Guadalajara",
+          "attendance": 44985,
+          "home": {
+            "team": "South Korea",
+            "code": "KOR",
+            "goals": 2
+          },
+          "away": {
+            "team": "Czech Republic",
+            "code": "CZE",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Hwang In-beom", "team": "KOR", "minute": 67, "penalty": false},
+            {"player": "Oh Hyeon-gyu", "team": "KOR", "minute": 80, "penalty": false},
+            {"player": "Krejčí", "team": "CZE", "minute": 59, "penalty": false}
+          ],
+          "red_cards": []
+        },
+        {
+          "match_number": "M3",
+          "date": "2026-06-18",
+          "time": "19:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "attendance": 67442,
+          "home": {
+            "team": "Czech Republic",
+            "code": "CZE",
+            "goals": 1
+          },
+          "away": {
+            "team": "South Africa",
+            "code": "RSA",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Sadílek", "team": "CZE", "minute": 6, "penalty": false},
+            {"player": "Mokoena", "team": "RSA", "minute": 83, "penalty": true}
+          ]
+        },
+        {
+          "match_number": "M4",
+          "date": "2026-06-18",
+          "time": "16:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "Estadio Akron",
+          "city": "Guadalajara",
+          "attendance": 45522,
+          "home": {
+            "team": "Mexico",
+            "code": "MEX",
+            "goals": 1
+          },
+          "away": {
+            "team": "South Korea",
+            "code": "KOR",
+            "goals": 0
+          },
+          "scorers": [
+            {"player": "Romo", "team": "MEX", "minute": 50, "penalty": false}
+          ],
+          "notes": "Mexico first to qualify for Round of 32"
+        },
+        {
+          "match_number": "M5",
+          "date": "2026-06-24",
+          "time": "20:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "Estadio Azteca",
+          "city": "Mexico City",
+          "attendance": 80824,
+          "home": {
+            "team": "Czech Republic",
+            "code": "CZE",
+            "goals": 0
+          },
+          "away": {
+            "team": "Mexico",
+            "code": "MEX",
+            "goals": 3
+          },
+          "scorers": [
+            {"player": "M. Chávez", "team": "MEX", "minute": 55, "penalty": false},
+            {"player": "Quiñones", "team": "MEX", "minute": 61, "penalty": false},
+            {"player": "Fidalgo", "team": "MEX", "minute": "90+4", "penalty": false}
+          ],
+          "notes": "Mexico wins all 3 matches - first time in history"
+        },
+        {
+          "match_number": "M6",
+          "date": "2026-06-24",
+          "time": "16:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "Estadio BBVA",
+          "city": "Guadalupe",
+          "attendance": 51243,
+          "home": {
+            "team": "South Africa",
+            "code": "RSA",
+            "goals": 1
+          },
+          "away": {
+            "team": "South Korea",
+            "code": "KOR",
+            "goals": 0
+          },
+          "scorers": [
+            {"player": "Maseko", "team": "RSA", "minute": 63, "penalty": false}
+          ],
+          "notes": "South Africa qualifies for knockout stage for first time ever"
         }
       ],
-      "tabla_proyectada": [
-        {
-          "equipo": "México",
-          "puntos_esperados": 7.08,
-          "probabilidad_avanzar": 96.16,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 79.97,
-            "2": 16.18,
-            "3": 3.52,
-            "4": 0.32
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Corea del Sur",
-          "puntos_esperados": 4.88,
-          "probabilidad_avanzar": 73.97,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 15.32,
-            "2": 58.65,
-            "3": 22.09,
-            "4": 3.93
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "República Checa",
-          "puntos_esperados": 3.4,
-          "probabilidad_avanzar": 26.32,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 4.38,
-            "2": 21.93,
-            "3": 59.18,
-            "4": 14.51
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Sudáfrica",
-          "puntos_esperados": 1.21,
-          "probabilidad_avanzar": 3.55,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.32,
-            "2": 3.23,
-            "3": 15.21,
-            "4": 81.25
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+      "group_statistics": {
+        "total_goals": 13,
+        "total_matches": 6,
+        "average_goals_per_match": 2.17,
+        "highest_scoring_match": {"teams": "Mexico vs South Africa", "score": "2-0"},
+        "red_cards_total": 3,
+        "notable": "Mexico undefeated; South Africa first knockout qualification"
+      }
     },
-    "B": {
-      "equipos": [
-        "Bosnia y Herzegovina",
-        "Canadá",
-        "Catar",
-        "Suiza"
+    {
+      "id": "B",
+      "name": "Group B",
+      "period": "2026-06-12 to 2026-06-24",
+      "teams": [
+        {
+          "position": "B1",
+          "name": "Switzerland",
+          "code": "SUI",
+          "confederation": "UEFA",
+          "finals_appearance": 12,
+          "last_appearance": 2022,
+          "best_performance": "Runner-up (1954, 1938)"
+        },
+        {
+          "position": "B2",
+          "name": "Canada",
+          "code": "CAN",
+          "confederation": "CONCACAF",
+          "type": "co-host",
+          "finals_appearance": 3,
+          "last_appearance": 2022,
+          "best_performance": "Group stage (1986)"
+        },
+        {
+          "position": "B3",
+          "name": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "confederation": "UEFA",
+          "finals_appearance": 2,
+          "last_appearance": 2014,
+          "best_performance": "Group stage (2014)"
+        },
+        {
+          "position": "B4",
+          "name": "Qatar",
+          "code": "QAT",
+          "confederation": "AFC",
+          "finals_appearance": 2,
+          "last_appearance": 2022,
+          "best_performance": "Group stage (2022)"
+        }
       ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Suiza",
-          "promedio_probabilidad": 73.19
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Switzerland",
+          "code": "SUI",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 9,
+          "goals_against": 1,
+          "goal_difference": 8,
+          "points": 7,
+          "qualified": true,
+          "qualification_type": "Winner"
         },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Canadá",
-          "promedio_probabilidad": 22.88
+        {
+          "rank": 2,
+          "team": "Canada",
+          "code": "CAN",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 7,
+          "goals_against": 6,
+          "goal_difference": 1,
+          "points": 4,
+          "qualified": true,
+          "qualification_type": "Runner-up"
         },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Bosnia y Herzegovina",
-          "promedio_probabilidad": 70.09
+        {
+          "rank": 3,
+          "team": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 4,
+          "goals_against": 7,
+          "goal_difference": -3,
+          "points": 4,
+          "qualified": true,
+          "qualification_type": "Best 3rd-place",
+          "note": "Goal difference over Canada (advanced as best 3rd-place team)"
+        },
+        {
+          "rank": 4,
+          "team": "Qatar",
+          "code": "QAT",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goals_for": 1,
+          "goals_against": 7,
+          "goal_difference": -6,
+          "points": 1,
+          "qualified": false
+        }
+      ],
+      "knockout_pairings": {
+        "winner": {
+          "team": "Switzerland",
+          "opponent_group": "J",
+          "opponent_position": 3
+        },
+        "runner_up": {
+          "team": "Canada",
+          "opponent_group": "A",
+          "opponent_position": 2,
+          "opponent_team": "South Africa"
+        },
+        "best_third": {
+          "team": "Bosnia and Herzegovina",
+          "opponent_group": "D",
+          "opponent_position": 1,
+          "opponent_team": "United States"
         }
       },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
+      "matches": [
         {
-          "equipo": "Suiza",
-          "probabilidad_avanzar": 98.14,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
+          "match_number": "M7",
+          "date": "2026-06-12",
+          "time": "19:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "BMO Field",
+          "city": "Toronto",
+          "attendance": 43002,
+          "home": {
+            "team": "Canada",
+            "code": "CAN",
+            "goals": 1
+          },
+          "away": {
+            "team": "Bosnia and Herzegovina",
+            "code": "BIH",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Larin", "team": "CAN", "minute": 78, "penalty": false},
+            {"player": "Lukić", "team": "BIH", "minute": 21, "penalty": false}
+          ],
+          "notes": "Canada's first World Cup point"
         },
         {
-          "equipo": "Canadá",
-          "probabilidad_avanzar": 92.63,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
+          "match_number": "M8",
+          "date": "2026-06-13",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara",
+          "attendance": 67966,
+          "home": {
+            "team": "Qatar",
+            "code": "QAT",
+            "goals": 1
+          },
+          "away": {
+            "team": "Switzerland",
+            "code": "SUI",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Muheim", "team": "SUI", "minute": "90+4", "penalty": false, "own_goal": true},
+            {"player": "Embolo", "team": "SUI", "minute": 17, "penalty": true}
+          ],
+          "notes": "Qatar's first World Cup point"
+        },
+        {
+          "match_number": "M9",
+          "date": "2026-06-18",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood",
+          "attendance": 70026,
+          "home": {
+            "team": "Switzerland",
+            "code": "SUI",
+            "goals": 4
+          },
+          "away": {
+            "team": "Bosnia and Herzegovina",
+            "code": "BIH",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Manzambi", "team": "SUI", "minute": 74, "penalty": false},
+            {"player": "Manzambi", "team": "SUI", "minute": 90, "penalty": false},
+            {"player": "Vargas", "team": "SUI", "minute": 84, "penalty": false},
+            {"player": "Xhaka", "team": "SUI", "minute": "90+7", "penalty": true},
+            {"player": "Mahmić", "team": "BIH", "minute": "90+3", "penalty": false}
+          ]
+        },
+        {
+          "match_number": "M10",
+          "date": "2026-06-18",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "BC Place",
+          "city": "Vancouver",
+          "attendance": 52497,
+          "home": {
+            "team": "Canada",
+            "code": "CAN",
+            "goals": 6
+          },
+          "away": {
+            "team": "Qatar",
+            "code": "QAT",
+            "goals": 0
+          },
+          "scorers": [
+            {"player": "Larin", "team": "CAN", "minute": 16, "penalty": false},
+            {"player": "J. David", "team": "CAN", "minute": 29, "penalty": false},
+            {"player": "J. David", "team": "CAN", "minute": "45+3", "penalty": false},
+            {"player": "J. David", "team": "CAN", "minute": "90+2", "penalty": false},
+            {"player": "Saliba", "team": "CAN", "minute": 64, "penalty": false},
+            {"player": "Manai", "team": "CAN", "minute": 75, "penalty": false, "own_goal": true}
+          ],
+          "notes": "Canada's first WC win; Jonathan David hat-trick (first North American since 1930)"
+        },
+        {
+          "match_number": "M11",
+          "date": "2026-06-24",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "BC Place",
+          "city": "Vancouver",
+          "attendance": 52497,
+          "home": {
+            "team": "Switzerland",
+            "code": "SUI",
+            "goals": 2
+          },
+          "away": {
+            "team": "Canada",
+            "code": "CAN",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Vargas", "team": "SUI", "minute": 46, "penalty": false},
+            {"player": "Manzambi", "team": "SUI", "minute": 57, "penalty": false},
+            {"player": "P. David", "team": "CAN", "minute": 76, "penalty": false}
+          ]
+        },
+        {
+          "match_number": "M12",
+          "date": "2026-06-24",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "Lumen Field",
+          "city": "Seattle",
+          "attendance": 66925,
+          "home": {
+            "team": "Bosnia and Herzegovina",
+            "code": "BIH",
+            "goals": 3
+          },
+          "away": {
+            "team": "Qatar",
+            "code": "QAT",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Alajbegović", "team": "BIH", "minute": 29, "penalty": false},
+            {"player": "Abunada", "team": "BIH", "minute": 34, "penalty": false, "own_goal": true},
+            {"player": "Mahmić", "team": "BIH", "minute": 80, "penalty": false},
+            {"player": "Al-Haydos", "team": "QAT", "minute": 42, "penalty": false}
+          ],
+          "notes": "BiH's first-ever Round of 32 qualification"
         }
       ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Suiza",
-          "puntos_esperados": 7.23,
-          "probabilidad_avanzar": 98.14,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 78.17,
-            "2": 19.98,
-            "3": 1.76,
-            "4": 0.09
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Canadá",
-          "puntos_esperados": 5.75,
-          "probabilidad_avanzar": 92.63,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 21.35,
-            "2": 71.28,
-            "3": 6.87,
-            "4": 0.51
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Catar",
-          "puntos_esperados": 2.32,
-          "probabilidad_avanzar": 6.67,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 0.37,
-            "2": 6.3,
-            "3": 65.18,
-            "4": 28.14
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Bosnia y Herzegovina",
-          "puntos_esperados": 1.38,
-          "probabilidad_avanzar": 2.55,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.11,
-            "2": 2.44,
-            "3": 26.19,
-            "4": 71.26
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+      "group_statistics": {
+        "total_goals": 24,
+        "total_matches": 6,
+        "average_goals_per_match": 4.0,
+        "highest_scoring_match": {"teams": "Canada vs Qatar", "score": "6-0"},
+        "notable": "Canada first WC win; BiH first knockout qualification; David hat-trick"
+      }
     },
-    "C": {
-      "equipos": [
-        "Brasil",
-        "Escocia",
-        "Haití",
-        "Marruecos"
+    {
+      "id": "C",
+      "name": "Group C",
+      "period": "2026-06-13 to 2026-06-24",
+      "teams": [
+        {
+          "position": "C1",
+          "name": "Brazil",
+          "code": "BRA",
+          "confederation": "CONMEBOL",
+          "finals_appearance": 22,
+          "last_appearance": 2022,
+          "best_performance": "Winner (1958, 1962, 1970, 1994, 2002)"
+        },
+        {
+          "position": "C2",
+          "name": "Morocco",
+          "code": "MAR",
+          "confederation": "CAF",
+          "finals_appearance": 6,
+          "last_appearance": 2022,
+          "best_performance": "Fourth place (2022)"
+        },
+        {
+          "position": "C3",
+          "name": "Scotland",
+          "code": "SCO",
+          "confederation": "UEFA",
+          "finals_appearance": 3,
+          "last_appearance": 2022,
+          "best_performance": "Group stage (1974, 1982, 1990, 1998)"
+        },
+        {
+          "position": "C4",
+          "name": "Haiti",
+          "code": "HAI",
+          "confederation": "CONCACAF",
+          "finals_appearance": 3,
+          "last_appearance": 1974,
+          "best_performance": "Group stage (1930, 1934, 1974)"
+        }
       ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Brasil",
-          "promedio_probabilidad": 75.97
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Brazil",
+          "code": "BRA",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals_for": 7,
+          "goals_against": 2,
+          "goal_difference": 5,
+          "points": 6,
+          "qualified": true,
+          "qualification_type": "Winner"
         },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Marruecos",
-          "promedio_probabilidad": 21.38
+        {
+          "rank": 2,
+          "team": "Morocco",
+          "code": "MAR",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 6,
+          "goals_against": 2,
+          "goal_difference": 4,
+          "points": 5,
+          "qualified": true,
+          "qualification_type": "Runner-up"
         },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Haití",
-          "promedio_probabilidad": 82.09
+        {
+          "rank": 3,
+          "team": "Scotland",
+          "code": "SCO",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 3,
+          "goals_against": 5,
+          "goal_difference": -2,
+          "points": 3,
+          "qualified": false
+        },
+        {
+          "rank": 4,
+          "team": "Haiti",
+          "code": "HAI",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goals_for": 0,
+          "goals_against": 6,
+          "goal_difference": -6,
+          "points": 0,
+          "qualified": false,
+          "note": "First team eliminated after 2 losses"
+        }
+      ],
+      "knockout_pairings": {
+        "winner": {
+          "team": "Brazil",
+          "opponent_group": "F",
+          "opponent_position": 2,
+          "opponent_team": "Japan"
+        },
+        "runner_up": {
+          "team": "Morocco",
+          "opponent_group": "F",
+          "opponent_position": 1,
+          "opponent_team": "Netherlands"
         }
       },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
+      "matches": [
         {
-          "equipo": "Brasil",
-          "probabilidad_avanzar": 98.3,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
+          "match_number": "M13",
+          "date": "2026-06-13",
+          "time": "19:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford",
+          "attendance": 80663,
+          "home": {
+            "team": "Brazil",
+            "code": "BRA",
+            "goals": 1
+          },
+          "away": {
+            "team": "Morocco",
+            "code": "MAR",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Vinícius", "team": "BRA", "minute": 32, "penalty": false},
+            {"player": "Saibari", "team": "MAR", "minute": 21, "penalty": false}
+          ]
         },
         {
-          "equipo": "Marruecos",
-          "probabilidad_avanzar": 90.86,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
+          "match_number": "M14",
+          "date": "2026-06-13",
+          "time": "16:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Gillette Stadium",
+          "city": "Foxborough",
+          "attendance": 64146,
+          "home": {
+            "team": "Haiti",
+            "code": "HAI",
+            "goals": 0
+          },
+          "away": {
+            "team": "Scotland",
+            "code": "SCO",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "McGinn", "team": "SCO", "minute": 28, "penalty": false}
+          ],
+          "notes": "Scotland's first WC win since 1990"
+        },
+        {
+          "match_number": "M15",
+          "date": "2026-06-19",
+          "time": "16:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Gillette Stadium",
+          "city": "Foxborough",
+          "attendance": 64146,
+          "home": {
+            "team": "Scotland",
+            "code": "SCO",
+            "goals": 0
+          },
+          "away": {
+            "team": "Morocco",
+            "code": "MAR",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Saibari", "team": "MAR", "minute": 2, "penalty": false}
+          ]
+        },
+        {
+          "match_number": "M16",
+          "date": "2026-06-19",
+          "time": "19:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "attendance": 68324,
+          "home": {
+            "team": "Brazil",
+            "code": "BRA",
+            "goals": 3
+          },
+          "away": {
+            "team": "Haiti",
+            "code": "HAI",
+            "goals": 0
+          },
+          "scorers": [
+            {"player": "Cunha", "team": "BRA", "minute": 23, "penalty": false},
+            {"player": "Cunha", "team": "BRA", "minute": 36, "penalty": false},
+            {"player": "Vinícius", "team": "BRA", "minute": "45+3", "penalty": false}
+          ],
+          "notes": "Haiti eliminated after 2 consecutive losses"
+        },
+        {
+          "match_number": "M17",
+          "date": "2026-06-24",
+          "time": "16:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens",
+          "attendance": 64478,
+          "home": {
+            "team": "Scotland",
+            "code": "SCO",
+            "goals": 0
+          },
+          "away": {
+            "team": "Brazil",
+            "code": "BRA",
+            "goals": 3
+          },
+          "scorers": [
+            {"player": "Vinícius", "team": "BRA", "minute": 7, "penalty": false},
+            {"player": "Vinícius", "team": "BRA", "minute": "45+3", "penalty": false},
+            {"player": "Cunha", "team": "BRA", "minute": 60, "penalty": false}
+          ]
+        },
+        {
+          "match_number": "M18",
+          "date": "2026-06-24",
+          "time": "19:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "attendance": 68239,
+          "home": {
+            "team": "Morocco",
+            "code": "MAR",
+            "goals": 4
+          },
+          "away": {
+            "team": "Haiti",
+            "code": "HAI",
+            "goals": 2
+          },
+          "scorers": [
+            {"player": "Hakimi", "team": "MAR", "minute": 39, "penalty": false},
+            {"player": "Saibari", "team": "MAR", "minute": "45+1", "penalty": false},
+            {"player": "Rahimi", "team": "MAR", "minute": 78, "penalty": false},
+            {"player": "Yassine", "team": "MAR", "minute": 89, "penalty": false},
+            {"player": "Bounou", "team": "MAR", "minute": 10, "penalty": false, "own_goal": true},
+            {"player": "Isidor", "team": "HAI", "minute": 43, "penalty": false}
+          ]
         }
       ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Brasil",
-          "puntos_esperados": 7.45,
-          "probabilidad_avanzar": 98.3,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 83.23,
-            "2": 15.06,
-            "3": 1.7,
-            "4": 0.01
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Marruecos",
-          "puntos_esperados": 5.62,
-          "probabilidad_avanzar": 90.86,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 16.1,
-            "2": 74.76,
-            "3": 8.94,
-            "4": 0.2
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Escocia",
-          "puntos_esperados": 3.16,
-          "probabilidad_avanzar": 10.69,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 0.67,
-            "2": 10.03,
-            "3": 84.47,
-            "4": 4.83
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Haití",
-          "puntos_esperados": 0.56,
-          "probabilidad_avanzar": 0.15,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.0,
-            "2": 0.15,
-            "3": 4.89,
-            "4": 94.96
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+      "group_statistics": {
+        "total_goals": 19,
+        "total_matches": 6,
+        "average_goals_per_match": 3.17,
+        "highest_scoring_match": {"teams": "Morocco vs Haiti", "score": "4-2"},
+        "notable": "Haiti first team eliminated; Morocco advances for first time"
+      }
     },
-    "D": {
-      "equipos": [
-        "Australia",
-        "Estados Unidos",
-        "Paraguay",
-        "Turquía"
+    {
+      "id": "D",
+      "name": "Group D",
+      "period": "2026-06-12 to 2026-06-25",
+      "teams": [
+        {
+          "position": "D1",
+          "name": "United States",
+          "code": "USA",
+          "confederation": "CONCACAF",
+          "type": "co-host",
+          "finals_appearance": 12,
+          "last_appearance": 2022,
+          "best_performance": "Semi-finals (1930)"
+        },
+        {
+          "position": "D2",
+          "name": "Australia",
+          "code": "AUS",
+          "confederation": "AFC",
+          "finals_appearance": 6,
+          "last_appearance": 2022,
+          "best_performance": "Round of 16 (2006)"
+        },
+        {
+          "position": "D3",
+          "name": "Paraguay",
+          "code": "PAR",
+          "confederation": "CONMEBOL",
+          "finals_appearance": 9,
+          "last_appearance": 2022,
+          "best_performance": "Semi-finals (1930)"
+        },
+        {
+          "position": "D4",
+          "name": "Turkey",
+          "code": "TUR",
+          "confederation": "UEFA",
+          "finals_appearance": 6,
+          "last_appearance": 2022,
+          "best_performance": "Semi-finals (2002)"
+        }
       ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Turquía",
-          "promedio_probabilidad": 64.76
+      "standings": [
+        {
+          "rank": 1,
+          "team": "United States",
+          "code": "USA",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals_for": 7,
+          "goals_against": 5,
+          "goal_difference": 2,
+          "points": 6,
+          "qualified": true,
+          "qualification_type": "Winner"
         },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Australia",
-          "promedio_probabilidad": 26.83
+        {
+          "rank": 2,
+          "team": "Australia",
+          "code": "AUS",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 2,
+          "goals_against": 2,
+          "goal_difference": 0,
+          "points": 4,
+          "qualified": true,
+          "qualification_type": "Runner-up"
         },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Paraguay",
-          "promedio_probabilidad": 48.23
+        {
+          "rank": 3,
+          "team": "Paraguay",
+          "code": "PAR",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 2,
+          "goals_against": 3,
+          "goal_difference": -1,
+          "points": 3,
+          "qualified": true,
+          "qualification_type": "Best 3rd-place"
+        },
+        {
+          "rank": 4,
+          "team": "Turkey",
+          "code": "TUR",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goals_for": 3,
+          "goals_against": 4,
+          "goal_difference": -1,
+          "points": 3,
+          "qualified": false,
+          "note": "Goal difference tiebreaker vs Paraguay"
+        }
+      ],
+      "knockout_pairings": {
+        "winner": {
+          "team": "United States",
+          "opponent_group": "B",
+          "opponent_position": 3,
+          "opponent_team": "Bosnia and Herzegovina"
+        },
+        "runner_up": {
+          "team": "Australia",
+          "opponent_group": "G",
+          "opponent_position": 2,
+          "opponent_team": "Egypt"
+        },
+        "best_third": {
+          "team": "Paraguay",
+          "opponent_group": "E",
+          "opponent_position": 1,
+          "opponent_team": "Germany"
         }
       },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
+      "matches": [
         {
-          "equipo": "Turquía",
-          "probabilidad_avanzar": 92.28,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
+          "match_number": "M19",
+          "date": "2026-06-12",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood",
+          "attendance": 70492,
+          "home": {
+            "team": "United States",
+            "code": "USA",
+            "goals": 4
+          },
+          "away": {
+            "team": "Paraguay",
+            "code": "PAR",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Bobadilla", "team": "USA", "minute": 7, "penalty": false, "own_goal": true},
+            {"player": "Balogun", "team": "USA", "minute": 31, "penalty": false},
+            {"player": "Balogun", "team": "USA", "minute": "45+5", "penalty": false},
+            {"player": "Reyna", "team": "USA", "minute": "90+8", "penalty": false},
+            {"player": "Maurício", "team": "PAR", "minute": 73, "penalty": false}
+          ],
+          "notes": "Balogun first American to score 2+ in WC since 1930; USA first 4-goal WC game"
         },
         {
-          "equipo": "Australia",
-          "probabilidad_avanzar": 46.98,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
+          "match_number": "M20",
+          "date": "2026-06-13",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "BC Place",
+          "city": "Vancouver",
+          "attendance": 52497,
+          "home": {
+            "team": "Australia",
+            "code": "AUS",
+            "goals": 2
+          },
+          "away": {
+            "team": "Turkey",
+            "code": "TUR",
+            "goals": 0
+          },
+          "scorers": [
+            {"player": "Irankunda", "team": "AUS", "minute": 27, "penalty": false},
+            {"player": "Metcalfe", "team": "AUS", "minute": 75, "penalty": false}
+          ],
+          "notes": "Australia's first opening WC win since 2006"
+        },
+        {
+          "match_number": "M21",
+          "date": "2026-06-19",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "Lumen Field",
+          "city": "Seattle",
+          "attendance": 66925,
+          "home": {
+            "team": "United States",
+            "code": "USA",
+            "goals": 2
+          },
+          "away": {
+            "team": "Australia",
+            "code": "AUS",
+            "goals": 0
+          },
+          "scorers": [
+            {"player": "Burgess", "team": "USA", "minute": 11, "penalty": false, "own_goal": true},
+            {"player": "Freeman", "team": "USA", "minute": 43, "penalty": false}
+          ]
+        },
+        {
+          "match_number": "M22",
+          "date": "2026-06-19",
+          "time": "16:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara",
+          "attendance": 68827,
+          "home": {
+            "team": "Turkey",
+            "code": "TUR",
+            "goals": 0
+          },
+          "away": {
+            "team": "Paraguay",
+            "code": "PAR",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Galarza", "team": "PAR", "minute": 2, "penalty": false}
+          ],
+          "notes": "Fastest goal of tournament at time (64 seconds); Almirón first sent off under new mouth-covering rule"
+        },
+        {
+          "match_number": "M23",
+          "date": "2026-06-25",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood",
+          "attendance": 70492,
+          "home": {
+            "team": "Turkey",
+            "code": "TUR",
+            "goals": 3
+          },
+          "away": {
+            "team": "United States",
+            "code": "USA",
+            "goals": 2
+          },
+          "scorers": [
+            {"player": "Güler", "team": "TUR", "minute": 10, "penalty": false},
+            {"player": "Yılmaz", "team": "TUR", "minute": 31, "penalty": false},
+            {"player": "Ayhan", "team": "TUR", "minute": "90+8", "penalty": false},
+            {"player": "Trusty", "team": "USA", "minute": 3, "penalty": false},
+            {"player": "Berhalter", "team": "USA", "minute": 49, "penalty": false}
+          ],
+          "notes": "Turkey's first WC win since 2002; second co-host defeat after Canada"
+        },
+        {
+          "match_number": "M24",
+          "date": "2026-06-25",
+          "time": "16:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "Levi's Stadium",
+          "city": "Santa Clara",
+          "attendance": 68827,
+          "home": {
+            "team": "Paraguay",
+            "code": "PAR",
+            "goals": 0
+          },
+          "away": {
+            "team": "Australia",
+            "code": "AUS",
+            "goals": 0
+          },
+          "scorers": []
         }
       ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Turquía",
-          "puntos_esperados": 6.57,
-          "probabilidad_avanzar": 92.28,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 75.08,
-            "2": 17.2,
-            "3": 5.64,
-            "4": 2.08
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Australia",
-          "puntos_esperados": 3.49,
-          "probabilidad_avanzar": 46.98,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 10.32,
-            "2": 36.66,
-            "3": 29.96,
-            "4": 23.05
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Estados Unidos",
-          "puntos_esperados": 3.3,
-          "probabilidad_avanzar": 34.22,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 8.15,
-            "2": 26.07,
-            "3": 34.77,
-            "4": 31.01
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Paraguay",
-          "puntos_esperados": 3.06,
-          "probabilidad_avanzar": 26.52,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 6.45,
-            "2": 20.07,
-            "3": 29.62,
-            "4": 43.86
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+      "group_statistics": {
+        "total_goals": 17,
+        "total_matches": 6,
+        "average_goals_per_match": 2.83,
+        "fastest_goal": {"player": "Galarza", "team": "Paraguay", "seconds": 64},
+        "notable": "USA second co-host loss; Turkey claims first WC win; Turkey 62 shot attempts in 2 matches with 0 goals before this"
+      }
     },
-    "E": {
-      "equipos": [
-        "Alemania",
-        "Costa de Marfil",
-        "Curazao",
-        "Ecuador"
+    {
+      "id": "E",
+      "name": "Group E",
+      "period": "2026-06-14 to 2026-06-25",
+      "teams": [
+        {
+          "position": "E1",
+          "name": "Germany",
+          "code": "GER",
+          "confederation": "UEFA",
+          "finals_appearance": 21,
+          "last_appearance": 2022,
+          "best_performance": "Winner (1954, 1974, 1990, 2014)"
+        },
+        {
+          "position": "E2",
+          "name": "Curaçao",
+          "code": "CUW",
+          "confederation": "CONCACAF",
+          "finals_appearance": 1,
+          "best_performance": "Group stage (2026)",
+          "note": "Smallest country by population to qualify"
+        },
+        {
+          "position": "E3",
+          "name": "Ivory Coast",
+          "code": "CIV",
+          "confederation": "CAF",
+          "finals_appearance": 4,
+          "last_appearance": 2014,
+          "best_performance": "Group stage (2006, 2010, 2014)"
+        },
+        {
+          "position": "E4",
+          "name": "Ecuador",
+          "code": "ECU",
+          "confederation": "CONMEBOL",
+          "finals_appearance": 5,
+          "last_appearance": 2022,
+          "best_performance": "Round of 16 (2006)"
+        }
       ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Alemania",
-          "promedio_probabilidad": 72.99
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Germany",
+          "code": "GER",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals_for": 10,
+          "goals_against": 4,
+          "goal_difference": 6,
+          "points": 6,
+          "qualified": true,
+          "qualification_type": "Winner"
         },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Ecuador",
-          "promedio_probabilidad": 21.97
+        {
+          "rank": 2,
+          "team": "Ivory Coast",
+          "code": "CIV",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals_for": 4,
+          "goals_against": 2,
+          "goal_difference": 2,
+          "points": 6,
+          "qualified": true,
+          "qualification_type": "Runner-up",
+          "note": "Head-to-head: Germany 2-1"
         },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Curazao",
-          "promedio_probabilidad": 82.6
+        {
+          "rank": 3,
+          "team": "Ecuador",
+          "code": "ECU",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 2,
+          "goals_against": 2,
+          "goal_difference": 0,
+          "points": 4,
+          "qualified": true,
+          "qualification_type": "Best 3rd-place"
+        },
+        {
+          "rank": 4,
+          "team": "Curaçao",
+          "code": "CUW",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goals_for": 1,
+          "goals_against": 9,
+          "goal_difference": -8,
+          "points": 1,
+          "qualified": false
+        }
+      ],
+      "knockout_pairings": {
+        "winner": {
+          "team": "Germany",
+          "opponent_group": "D",
+          "opponent_position": 3,
+          "opponent_team": "Paraguay"
+        },
+        "runner_up": {
+          "team": "Ivory Coast",
+          "opponent_group": "I",
+          "opponent_position": 2,
+          "opponent_team": "Norway"
+        },
+        "best_third": {
+          "team": "Ecuador",
+          "opponent_group": "A",
+          "opponent_position": 1,
+          "opponent_team": "Mexico"
         }
       },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
+      "matches": [
         {
-          "equipo": "Alemania",
-          "probabilidad_avanzar": 97.03,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
+          "match_number": "M25",
+          "date": "2026-06-14",
+          "time": "12:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "NRG Stadium",
+          "city": "Houston",
+          "attendance": 68021,
+          "home": {
+            "team": "Germany",
+            "code": "GER",
+            "goals": 7
+          },
+          "away": {
+            "team": "Curaçao",
+            "code": "CUW",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Nmecha", "team": "GER", "minute": 6, "penalty": false},
+            {"player": "Schlotterbeck", "team": "GER", "minute": 38, "penalty": false},
+            {"player": "Havertz", "team": "GER", "minute": "45+5", "penalty": true},
+            {"player": "Havertz", "team": "GER", "minute": 88, "penalty": false},
+            {"player": "Musiala", "team": "GER", "minute": 47, "penalty": false},
+            {"player": "Brown", "team": "GER", "minute": 68, "penalty": false},
+            {"player": "Undav", "team": "GER", "minute": 78, "penalty": false},
+            {"player": "Comenencia", "team": "CUW", "minute": 21, "penalty": false}
+          ],
+          "notes": "Germany 7 goals = most since 2014 (7-1 Brazil semi)"
         },
         {
-          "equipo": "Ecuador",
-          "probabilidad_avanzar": 88.42,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
+          "match_number": "M26",
+          "date": "2026-06-14",
+          "time": "19:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "attendance": 68274,
+          "home": {
+            "team": "Ivory Coast",
+            "code": "CIV",
+            "goals": 1
+          },
+          "away": {
+            "team": "Ecuador",
+            "code": "ECU",
+            "goals": 0
+          },
+          "scorers": [
+            {"player": "Diallo", "team": "CIV", "minute": 90, "penalty": false}
+          ]
+        },
+        {
+          "match_number": "M27",
+          "date": "2026-06-20",
+          "time": "16:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "BMO Field",
+          "city": "Toronto",
+          "attendance": 43036,
+          "home": {
+            "team": "Germany",
+            "code": "GER",
+            "goals": 2
+          },
+          "away": {
+            "team": "Ivory Coast",
+            "code": "CIV",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Undav", "team": "GER", "minute": 68, "penalty": false},
+            {"player": "Undav", "team": "GER", "minute": "90+4", "penalty": false},
+            {"player": "Kessié", "team": "CIV", "minute": 30, "penalty": false}
+          ]
+        },
+        {
+          "match_number": "M28",
+          "date": "2026-06-20",
+          "time": "19:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "Arrowhead Stadium",
+          "city": "Kansas City",
+          "attendance": 68598,
+          "home": {
+            "team": "Ecuador",
+            "code": "ECU",
+            "goals": 0
+          },
+          "away": {
+            "team": "Curaçao",
+            "code": "CUW",
+            "goals": 0
+          },
+          "scorers": []
+        },
+        {
+          "match_number": "M29",
+          "date": "2026-06-25",
+          "time": "16:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "attendance": 68324,
+          "home": {
+            "team": "Curaçao",
+            "code": "CUW",
+            "goals": 0
+          },
+          "away": {
+            "team": "Ivory Coast",
+            "code": "CIV",
+            "goals": 2
+          },
+          "scorers": [
+            {"player": "Pépé", "team": "CIV", "minute": 7, "penalty": false},
+            {"player": "Pépé", "team": "CIV", "minute": 64, "penalty": false}
+          ]
+        },
+        {
+          "match_number": "M30",
+          "date": "2026-06-25",
+          "time": "16:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford",
+          "attendance": 80663,
+          "home": {
+            "team": "Ecuador",
+            "code": "ECU",
+            "goals": 2
+          },
+          "away": {
+            "team": "Germany",
+            "code": "GER",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Angulo", "team": "ECU", "minute": 9, "penalty": false},
+            {"player": "Plata", "team": "ECU", "minute": 77, "penalty": false},
+            {"player": "Sané", "team": "GER", "minute": 2, "penalty": false}
+          ],
+          "notes": "Upset victory; Germany's first major tournament loss since Japan 2-1 in 2022; attendance record broken (3.6M total)"
         }
       ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Alemania",
-          "puntos_esperados": 7.2,
-          "probabilidad_avanzar": 97.03,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 77.31,
-            "2": 19.71,
-            "3": 2.95,
-            "4": 0.02
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Ecuador",
-          "puntos_esperados": 5.68,
-          "probabilidad_avanzar": 88.42,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 21.11,
-            "2": 67.31,
-            "3": 11.19,
-            "4": 0.39
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Costa de Marfil",
-          "puntos_esperados": 3.35,
-          "probabilidad_avanzar": 14.41,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 1.57,
-            "2": 12.84,
-            "3": 81.97,
-            "4": 3.62
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Curazao",
-          "puntos_esperados": 0.54,
-          "probabilidad_avanzar": 0.14,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.0,
-            "2": 0.14,
-            "3": 3.9,
-            "4": 95.97
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+      "group_statistics": {
+        "total_goals": 20,
+        "total_matches": 6,
+        "average_goals_per_match": 3.33,
+        "highest_scoring_match": {"teams": "Germany vs Curaçao", "score": "7-1"},
+        "notable": "Ivory Coast first knockout qualification; Curaçao WC debut (smallest nation)"
+      }
     },
-    "F": {
-      "equipos": [
-        "Japón",
-        "Países Bajos",
-        "Suecia",
-        "Túnez"
+    {
+      "id": "F",
+      "name": "Group F",
+      "period": "2026-06-14 to 2026-06-25",
+      "teams": [
+        {
+          "position": "F1",
+          "name": "Netherlands",
+          "code": "NED",
+          "confederation": "UEFA",
+          "finals_appearance": 12,
+          "last_appearance": 2022,
+          "best_performance": "Runner-up (1974, 1978, 2010)"
+        },
+        {
+          "position": "F2",
+          "name": "Japan",
+          "code": "JPN",
+          "confederation": "AFC",
+          "finals_appearance": 8,
+          "last_appearance": 2022,
+          "best_performance": "Round of 16 (2002, 2010, 2018, 2022)"
+        },
+        {
+          "position": "F3",
+          "name": "Sweden",
+          "code": "SWE",
+          "confederation": "UEFA",
+          "finals_appearance": 13,
+          "last_appearance": 2018,
+          "best_performance": "Runner-up (1958)"
+        },
+        {
+          "position": "F4",
+          "name": "Tunisia",
+          "code": "TUN",
+          "confederation": "CAF",
+          "finals_appearance": 7,
+          "last_appearance": 2022,
+          "best_performance": "Group stage (1978, 1998, 2002, 2006, 2018, 2022)"
+        }
       ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Países Bajos",
-          "promedio_probabilidad": 73.73
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Netherlands",
+          "code": "NED",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 10,
+          "goals_against": 4,
+          "goal_difference": 6,
+          "points": 7,
+          "qualified": true,
+          "qualification_type": "Winner"
         },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Japón",
-          "promedio_probabilidad": 22.77
+        {
+          "rank": 2,
+          "team": "Japan",
+          "code": "JPN",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 7,
+          "goals_against": 3,
+          "goal_difference": 4,
+          "points": 5,
+          "qualified": true,
+          "qualification_type": "Runner-up"
         },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Túnez",
-          "promedio_probabilidad": 75.7
+        {
+          "rank": 3,
+          "team": "Sweden",
+          "code": "SWE",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 7,
+          "goals_against": 7,
+          "goal_difference": 0,
+          "points": 4,
+          "qualified": true,
+          "qualification_type": "Best 3rd-place"
+        },
+        {
+          "rank": 4,
+          "team": "Tunisia",
+          "code": "TUN",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goals_for": 2,
+          "goals_against": 12,
+          "goal_difference": -10,
+          "points": 0,
+          "qualified": false,
+          "note": "Sole African team eliminated at group stage"
+        }
+      ],
+      "knockout_pairings": {
+        "winner": {
+          "team": "Netherlands",
+          "opponent_group": "C",
+          "opponent_position": 2,
+          "opponent_team": "Morocco"
+        },
+        "runner_up": {
+          "team": "Japan",
+          "opponent_group": "C",
+          "opponent_position": 1,
+          "opponent_team": "Brazil"
+        },
+        "best_third": {
+          "team": "Sweden",
+          "opponent_group": "I",
+          "opponent_position": 1,
+          "opponent_team": "France"
         }
       },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
+      "matches": [
         {
-          "equipo": "Países Bajos",
-          "probabilidad_avanzar": 97.94,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
+          "match_number": "M31",
+          "date": "2026-06-14",
+          "time": "15:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "AT&T Stadium",
+          "city": "Arlington",
+          "attendance": 69285,
+          "home": {
+            "team": "Netherlands",
+            "code": "NED",
+            "goals": 2
+          },
+          "away": {
+            "team": "Japan",
+            "code": "JPN",
+            "goals": 2
+          },
+          "scorers": [
+            {"player": "Van Dijk", "team": "NED", "minute": 51, "penalty": false},
+            {"player": "Summerville", "team": "NED", "minute": 64, "penalty": false},
+            {"player": "Nakamura", "team": "JPN", "minute": 57, "penalty": false},
+            {"player": "Kamada", "team": "JPN", "minute": 88, "penalty": false}
+          ]
         },
         {
-          "equipo": "Japón",
-          "probabilidad_avanzar": 91.5,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
+          "match_number": "M32",
+          "date": "2026-06-14",
+          "time": "20:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "Estadio BBVA",
+          "city": "Guadalupe",
+          "attendance": 50987,
+          "home": {
+            "team": "Sweden",
+            "code": "SWE",
+            "goals": 5
+          },
+          "away": {
+            "team": "Tunisia",
+            "code": "TUN",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Isak", "team": "SWE", "minute": 30, "penalty": false},
+            {"player": "Gyökeres", "team": "SWE", "minute": 59, "penalty": false},
+            {"player": "Svanberg", "team": "SWE", "minute": 84, "penalty": false},
+            {"player": "Ayari", "team": "SWE", "minute": 7, "penalty": false},
+            {"player": "Ayari", "team": "SWE", "minute": "90+6", "penalty": false},
+            {"player": "Rekik", "team": "TUN", "minute": 43, "penalty": false}
+          ],
+          "notes": "Sweden's 5 goals = 2nd most in single WC (behind 8-0 vs Cuba 1938); Tunisia manager Lamouchi fired post-match"
+        },
+        {
+          "match_number": "M33",
+          "date": "2026-06-20",
+          "time": "12:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "NRG Stadium",
+          "city": "Houston",
+          "attendance": 68777,
+          "home": {
+            "team": "Netherlands",
+            "code": "NED",
+            "goals": 5
+          },
+          "away": {
+            "team": "Sweden",
+            "code": "SWE",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Brobbey", "team": "NED", "minute": 5, "penalty": false},
+            {"player": "Brobbey", "team": "NED", "minute": 17, "penalty": false},
+            {"player": "Gakpo", "team": "NED", "minute": 47, "penalty": false},
+            {"player": "Gakpo", "team": "NED", "minute": 54, "penalty": false},
+            {"player": "Summerville", "team": "NED", "minute": 89, "penalty": false},
+            {"player": "Elanga", "team": "SWE", "minute": 59, "penalty": false}
+          ],
+          "notes": "Brobbey brace in 5' & 17' = 4th fastest brace in WC history; Sweden worst WC defeat since 7-1 Brazil 1950; Netherlands sets new WC unbeaten record (14 matches)"
+        },
+        {
+          "match_number": "M34",
+          "date": "2026-06-20",
+          "time": "22:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "Estadio BBVA",
+          "city": "Guadalupe",
+          "attendance": 51243,
+          "home": {
+            "team": "Tunisia",
+            "code": "TUN",
+            "goals": 0
+          },
+          "away": {
+            "team": "Japan",
+            "code": "JPN",
+            "goals": 4
+          },
+          "scorers": [
+            {"player": "Kamada", "team": "JPN", "minute": 4, "penalty": false},
+            {"player": "Ueda", "team": "JPN", "minute": 31, "penalty": false},
+            {"player": "Ueda", "team": "JPN", "minute": 83, "penalty": false},
+            {"player": "J. Itō", "team": "JPN", "minute": 69, "penalty": false}
+          ],
+          "notes": "1000th World Cup match overall (900th milestone at 2018 final)"
+        },
+        {
+          "match_number": "M35",
+          "date": "2026-06-25",
+          "time": "18:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "AT&T Stadium",
+          "city": "Arlington",
+          "attendance": 70137,
+          "home": {
+            "team": "Japan",
+            "code": "JPN",
+            "goals": 1
+          },
+          "away": {
+            "team": "Sweden",
+            "code": "SWE",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Maeda", "team": "JPN", "minute": 56, "penalty": false},
+            {"player": "Elanga", "team": "SWE", "minute": 62, "penalty": false}
+          ],
+          "notes": "Draw enough for Japan to finish 2nd"
+        },
+        {
+          "match_number": "M36",
+          "date": "2026-06-25",
+          "time": "18:00",
+          "timezone": "CDT (UTC-5)",
+          "venue": "Arrowhead Stadium",
+          "city": "Kansas City",
+          "attendance": 68391,
+          "home": {
+            "team": "Tunisia",
+            "code": "TUN",
+            "goals": 1
+          },
+          "away": {
+            "team": "Netherlands",
+            "code": "NED",
+            "goals": 3
+          },
+          "scorers": [
+            {"player": "Mastouri", "team": "TUN", "minute": 54, "penalty": false},
+            {"player": "Skhiri", "team": "NED", "minute": 3, "penalty": false, "own_goal": true},
+            {"player": "Brobbey", "team": "NED", "minute": 7, "penalty": false},
+            {"player": "Van Hecke", "team": "NED", "minute": 62, "penalty": false}
+          ],
+          "notes": "Tunisia sole African team eliminated at group stage"
         }
       ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Países Bajos",
-          "puntos_esperados": 7.27,
-          "probabilidad_avanzar": 97.94,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 79.31,
-            "2": 18.64,
-            "3": 2.01,
-            "4": 0.04
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Japón",
-          "puntos_esperados": 5.69,
-          "probabilidad_avanzar": 91.5,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 20.02,
-            "2": 71.48,
-            "3": 8.01,
-            "4": 0.49
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Suecia",
-          "puntos_esperados": 2.79,
-          "probabilidad_avanzar": 9.3,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 0.64,
-            "2": 8.66,
-            "3": 75.89,
-            "4": 14.8
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Túnez",
-          "puntos_esperados": 0.95,
-          "probabilidad_avanzar": 1.25,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.04,
-            "2": 1.22,
-            "3": 14.09,
-            "4": 84.66
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+      "group_statistics": {
+        "total_goals": 30,
+        "total_matches": 6,
+        "average_goals_per_match": 5.0,
+        "highest_scoring_match": {"teams": "Sweden vs Tunisia", "score": "5-1"},
+        "notable": "Brobbey fastest brace; Netherlands WC unbeaten record; 1000th WC match"
+      }
     },
-    "G": {
-      "equipos": [
-        "Bélgica",
-        "Egipto",
-        "Irán",
-        "Nueva Zelanda"
+    {
+      "id": "G",
+      "name": "Group G",
+      "period": "2026-06-15 to 2026-06-26",
+      "teams": [
+        {
+          "position": "G1",
+          "name": "Belgium",
+          "code": "BEL",
+          "confederation": "UEFA",
+          "finals_appearance": 15,
+          "last_appearance": 2022,
+          "best_performance": "Third place (2018)"
+        },
+        {
+          "position": "G2",
+          "name": "Egypt",
+          "code": "EGY",
+          "confederation": "CAF",
+          "finals_appearance": 4,
+          "last_appearance": 2018,
+          "best_performance": "Group stage (1990, 2018)"
+        },
+        {
+          "position": "G3",
+          "name": "Iran",
+          "code": "IRN",
+          "confederation": "AFC",
+          "finals_appearance": 7,
+          "last_appearance": 2022,
+          "best_performance": "Group stage (1978, 1998, 2006, 2014, 2018, 2022)"
+        },
+        {
+          "position": "G4",
+          "name": "New Zealand",
+          "code": "NZL",
+          "confederation": "OFC",
+          "finals_appearance": 3,
+          "last_appearance": 2010,
+          "best_performance": "Group stage (1982, 2010)"
+        }
       ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Bélgica",
-          "promedio_probabilidad": 75.62
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Belgium",
+          "code": "BEL",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 6,
+          "goals_against": 2,
+          "goal_difference": 4,
+          "points": 5,
+          "qualified": true,
+          "qualification_type": "Winner"
         },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Egipto",
-          "promedio_probabilidad": 23.84
+        {
+          "rank": 2,
+          "team": "Egypt",
+          "code": "EGY",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goals_for": 5,
+          "goals_against": 3,
+          "goal_difference": 2,
+          "points": 5,
+          "qualified": true,
+          "qualification_type": "Runner-up",
+          "note": "Goal difference tiebreaker vs Belgium"
         },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Nueva Zelanda",
-          "promedio_probabilidad": 80.51
+        {
+          "rank": 3,
+          "team": "Iran",
+          "code": "IRN",
+          "played": 3,
+          "wins": 0,
+          "draws": 3,
+          "losses": 0,
+          "goals_for": 3,
+          "goals_against": 3,
+          "goal_difference": 0,
+          "points": 3,
+          "qualified": false
+        },
+        {
+          "rank": 4,
+          "team": "New Zealand",
+          "code": "NZL",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goals_for": 4,
+          "goals_against": 10,
+          "goal_difference": -6,
+          "points": 1,
+          "qualified": false
+        }
+      ],
+      "knockout_pairings": {
+        "winner": {
+          "team": "Belgium",
+          "opponent_group": "I",
+          "opponent_position": 3,
+          "opponent_team": "Senegal"
+        },
+        "runner_up": {
+          "team": "Egypt",
+          "opponent_group": "D",
+          "opponent_position": 2,
+          "opponent_team": "Australia"
         }
       },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
+      "matches": [
         {
-          "equipo": "Bélgica",
-          "probabilidad_avanzar": 97.5,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
+          "match_number": "M37",
+          "date": "2026-06-15",
+          "time": "12:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "Lumen Field",
+          "city": "Seattle",
+          "attendance": 66775,
+          "home": {
+            "team": "Belgium",
+            "code": "BEL",
+            "goals": 1
+          },
+          "away": {
+            "team": "Egypt",
+            "code": "EGY",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Hany", "team": "BEL", "minute": 66, "penalty": false, "own_goal": true},
+            {"player": "Ashour", "team": "EGY", "minute": 19, "penalty": false}
+          ],
+          "notes": "Own goal by Hany after Egypt early lead"
         },
         {
-          "equipo": "Egipto",
-          "probabilidad_avanzar": 59.75,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
+          "match_number": "M38",
+          "date": "2026-06-15",
+          "time": "18:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood",
+          "attendance": 70108,
+          "home": {
+            "team": "Iran",
+            "code": "IRN",
+            "goals": 2
+          },
+          "away": {
+            "team": "New Zealand",
+            "code": "NZL",
+            "goals": 2
+          },
+          "scorers": [
+            {"player": "Rezaeian", "team": "IRN", "minute": 32, "penalty": false},
+            {"player": "Mohebi", "team": "IRN", "minute": 64, "penalty": false},
+            {"player": "Just", "team": "NZL", "minute": 7, "penalty": false},
+            {"player": "Just", "team": "NZL", "minute": 54, "penalty": false}
+          ],
+          "notes": "NZ 4th draw since 2010 appearance"
+        },
+        {
+          "match_number": "M39",
+          "date": "2026-06-21",
+          "time": "12:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood",
+          "attendance": 70317,
+          "home": {
+            "team": "Belgium",
+            "code": "BEL",
+            "goals": 0
+          },
+          "away": {
+            "team": "Iran",
+            "code": "IRN",
+            "goals": 0
+          },
+          "scorers": [],
+          "red_cards": [
+            {"player": "Ngoy", "team": "BEL", "minute": 66, "type": "straight"}
+          ],
+          "notes": "Clean sheet; Ngoy red card for reckless tackle"
+        },
+        {
+          "match_number": "M40",
+          "date": "2026-06-21",
+          "time": "18:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "BC Place",
+          "city": "Vancouver",
+          "attendance": 52497,
+          "home": {
+            "team": "New Zealand",
+            "code": "NZL",
+            "goals": 1
+          },
+          "away": {
+            "team": "Egypt",
+            "code": "EGY",
+            "goals": 3
+          },
+          "scorers": [
+            {"player": "Surman", "team": "NZL", "minute": 15, "penalty": false},
+            {"player": "Ziko", "team": "EGY", "minute": 58, "penalty": false},
+            {"player": "Salah", "team": "EGY", "minute": 67, "penalty": false},
+            {"player": "Trézéguet", "team": "EGY", "minute": 82, "penalty": false}
+          ],
+          "notes": "Egypt's first WC win since 1934 debut; NZ first WC defeat in 44 years"
+        },
+        {
+          "match_number": "M41",
+          "date": "2026-06-26",
+          "time": "20:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "Lumen Field",
+          "city": "Seattle",
+          "attendance": 66925,
+          "home": {
+            "team": "Egypt",
+            "code": "EGY",
+            "goals": 1
+          },
+          "away": {
+            "team": "Iran",
+            "code": "IRN",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Saber", "team": "EGY", "minute": 5, "penalty": false},
+            {"player": "Rezaeian", "team": "IRN", "minute": 14, "penalty": false}
+          ],
+          "notes": "Pride Match controversy; Iran requested pride flag ban (rejected)"
+        },
+        {
+          "match_number": "M42",
+          "date": "2026-06-26",
+          "time": "20:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "BC Place",
+          "city": "Vancouver",
+          "attendance": 52497,
+          "home": {
+            "team": "New Zealand",
+            "code": "NZL",
+            "goals": 1
+          },
+          "away": {
+            "team": "Belgium",
+            "code": "BEL",
+            "goals": 5
+          },
+          "scorers": [
+            {"player": "Just", "team": "NZL", "minute": 84, "penalty": false},
+            {"player": "Trossard", "team": "BEL", "minute": 28, "penalty": false},
+            {"player": "Trossard", "team": "BEL", "minute": 50, "penalty": false},
+            {"player": "De Bruyne", "team": "BEL", "minute": 66, "penalty": false},
+            {"player": "Lukaku", "team": "BEL", "minute": 86, "penalty": false},
+            {"player": "Saelemaekers", "team": "BEL", "minute": "90+4", "penalty": false}
+          ],
+          "notes": "NZ no wins in 3 WC appearances (4D-5L)"
         }
       ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Bélgica",
-          "puntos_esperados": 7.43,
-          "probabilidad_avanzar": 97.5,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 86.24,
-            "2": 11.26,
-            "3": 2.48,
-            "4": 0.03
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Egipto",
-          "puntos_esperados": 4.4,
-          "probabilidad_avanzar": 59.75,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 7.57,
-            "2": 52.18,
-            "3": 37.95,
-            "4": 2.31
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Irán",
-          "puntos_esperados": 4.23,
-          "probabilidad_avanzar": 42.42,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 6.19,
-            "2": 36.23,
-            "3": 54.84,
-            "4": 2.75
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Nueva Zelanda",
-          "puntos_esperados": 0.62,
-          "probabilidad_avanzar": 0.34,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.0,
-            "2": 0.34,
-            "3": 4.75,
-            "4": 94.92
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+      "group_statistics": {
+        "total_goals": 21,
+        "total_matches": 6,
+        "average_goals_per_match": 3.5,
+        "highest_scoring_match": {"teams": "New Zealand vs Belgium", "score": "1-5"},
+        "notable": "Egypt first WC win since 1934; Pride Match controversy; Belgium 1000th match milestone"
+      }
     },
-    "H": {
-      "equipos": [
-        "Arabia Saudí",
-        "Cabo Verde",
-        "España",
-        "Uruguay"
+    {
+      "id": "H",
+      "name": "Group H",
+      "period": "2026-06-15 to 2026-06-26",
+      "teams": [
+        {
+          "position": "H1",
+          "name": "Spain",
+          "code": "ESP",
+          "confederation": "UEFA",
+          "finals_appearance": 17,
+          "last_appearance": 2022,
+          "best_performance": "Winner (2010)"
+        },
+        {
+          "position": "H2",
+          "name": "Cape Verde",
+          "code": "CPV",
+          "confederation": "CAF",
+          "finals_appearance": 1,
+          "best_performance": "Runner-up (2026)",
+          "note": "World Cup debutant"
+        },
+        {
+          "position": "H3",
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "confederation": "AFC",
+          "finals_appearance": 7,
+          "last_appearance": 2022,
+          "best_performance": "Round of 16 (1994)"
+        },
+        {
+          "position": "H4",
+          "name": "Uruguay",
+          "code": "URU",
+          "confederation": "CONMEBOL",
+          "finals_appearance": 15,
+          "last_appearance": 2022,
+          "best_performance": "Winner (1930, 1950)"
+        }
       ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "España",
-          "promedio_probabilidad": 81.3
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Spain",
+          "code": "ESP",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 5,
+          "goals_against": 0,
+          "goal_difference": 5,
+          "points": 7,
+          "qualified": true,
+          "qualification_type": "Winner"
         },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Arabia Saudí",
-          "promedio_probabilidad": 20.49
+        {
+          "rank": 2,
+          "team": "Cape Verde",
+          "code": "CPV",
+          "played": 3,
+          "wins": 0,
+          "draws": 3,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 2,
+          "goal_difference": 0,
+          "points": 3,
+          "qualified": true,
+          "qualification_type": "Runner-up"
         },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Cabo Verde",
-          "promedio_probabilidad": 72.97
+        {
+          "rank": 3,
+          "team": "Uruguay",
+          "code": "URU",
+          "played": 3,
+          "wins": 0,
+          "draws": 2,
+          "losses": 1,
+          "goals_for": 3,
+          "goals_against": 4,
+          "goal_difference": -1,
+          "points": 2,
+          "qualified": false,
+          "note": "Goal difference tiebreaker vs Saudi Arabia"
+        },
+        {
+          "rank": 4,
+          "team": "Saudi Arabia",
+          "code": "KSA",
+          "played": 3,
+          "wins": 0,
+          "draws": 2,
+          "losses": 1,
+          "goals_for": 1,
+          "goals_against": 5,
+          "goal_difference": -4,
+          "points": 2,
+          "qualified": false,
+          "note": "2nd consecutive group stage bottom for KSA"
+        }
+      ],
+      "knockout_pairings": {
+        "winner": {
+          "team": "Spain",
+          "opponent_group": "J",
+          "opponent_position": 2,
+          "opponent_team": "Austria"
+        },
+        "runner_up": {
+          "team": "Cape Verde",
+          "opponent_group": "J",
+          "opponent_position": 1,
+          "opponent_team": "Argentina"
         }
       },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
+      "matches": [
         {
-          "equipo": "España",
-          "probabilidad_avanzar": 99.57,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
+          "match_number": "M43",
+          "date": "2026-06-15",
+          "time": "12:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "attendance": 67640,
+          "home": {
+            "team": "Spain",
+            "code": "ESP",
+            "goals": 0
+          },
+          "away": {
+            "team": "Cape Verde",
+            "code": "CPV",
+            "goals": 0
+          },
+          "scorers": [],
+          "notes": "One of tournament's biggest shocks; Cape Verde WC debut; Vozinha 7 saves; Torres hit bar"
         },
         {
-          "equipo": "Uruguay",
-          "probabilidad_avanzar": 95.85,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
+          "match_number": "M44",
+          "date": "2026-06-15",
+          "time": "18:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens",
+          "attendance": 62764,
+          "home": {
+            "team": "Saudi Arabia",
+            "code": "KSA",
+            "goals": 1
+          },
+          "away": {
+            "team": "Uruguay",
+            "code": "URU",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Al-Amri", "team": "KSA", "minute": 41, "penalty": false},
+            {"player": "M. Araújo", "team": "URU", "minute": 80, "penalty": false}
+          ]
+        },
+        {
+          "match_number": "M45",
+          "date": "2026-06-21",
+          "time": "12:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "attendance": 68239,
+          "home": {
+            "team": "Spain",
+            "code": "ESP",
+            "goals": 4
+          },
+          "away": {
+            "team": "Saudi Arabia",
+            "code": "KSA",
+            "goals": 0
+          },
+          "scorers": [
+            {"player": "Yamal", "team": "ESP", "minute": 10, "penalty": false},
+            {"player": "Oyarzabal", "team": "ESP", "minute": 21, "penalty": false},
+            {"player": "Oyarzabal", "team": "ESP", "minute": 24, "penalty": false},
+            {"player": "Al-Tambakti", "team": "KSA", "minute": 49, "penalty": false, "own_goal": true}
+          ],
+          "notes": "KSA worst WC defeat since 5-0 vs Russia 2018; 3rd largest Arab team defeat"
+        },
+        {
+          "match_number": "M46",
+          "date": "2026-06-21",
+          "time": "18:00",
+          "timezone": "EDT (UTC-4)",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens",
+          "attendance": 64003,
+          "home": {
+            "team": "Uruguay",
+            "code": "URU",
+            "goals": 2
+          },
+          "away": {
+            "team": "Cape Verde",
+            "code": "CPV",
+            "goals": 2
+          },
+          "scorers": [
+            {"player": "M. Araújo", "team": "URU", "minute": 44, "penalty": false},
+            {"player": "Canobbio", "team": "URU", "minute": "45+6", "penalty": false},
+            {"player": "K. Pina", "team": "CPV", "minute": 21, "penalty": false},
+            {"player": "Varela", "team": "CPV", "minute": 61, "penalty": false}
+          ],
+          "notes": "Cape Verde's first WC goal (K. Pina free kick 30 yards)"
+        },
+        {
+          "match_number": "M47",
+          "date": "2026-06-26",
+          "time": "19:00",
+          "timezone": "PDT (UTC-7)",
+          "venue": "NRG Stadium",
+          "city": "Houston",
+          "attendance": 68278,
+          "home": {
+            "team": "Cape Verde",
+            "code": "CPV",
+            "goals": 0
+          },
+          "away": {
+            "team": "Saudi Arabia",
+            "code": "KSA",
+            "goals": 0
+          },
+          "scorers": [],
+          "notes": "Cape Verde first debutant since Chile 1998 to advance by 3 draws"
+        },
+        {
+          "match_number": "M48",
+          "date": "2026-06-26",
+          "time": "18:00",
+          "timezone": "CDT (UTC-6)",
+          "venue": "Estadio Akron",
+          "city": "Zapopan",
+          "attendance": 45065,
+          "home": {
+            "team": "Uruguay",
+            "code": "URU",
+            "goals": 0
+          },
+          "away": {
+            "team": "Spain",
+            "code": "ESP",
+            "goals": 1
+          },
+          "scorers": [
+            {"player": "Baena", "team": "ESP", "minute": 42, "penalty": false}
+          ],
+          "red_cards": [
+            {"player": "Canobbio", "team": "URU", "minute": "90+4", "type": "straight"}
+          ],
+          "notes": "Only H group match outside USA; Uruguay 2nd consecutive group stage exit; sole South American team failing to advance"
         }
       ],
-      "tabla_proyectada": [
-        {
-          "equipo": "España",
-          "puntos_esperados": 7.86,
-          "probabilidad_avanzar": 99.57,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 92.17,
-            "2": 7.41,
-            "3": 0.42,
-            "4": 0.01
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Uruguay",
-          "puntos_esperados": 5.53,
-          "probabilidad_avanzar": 95.85,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 7.82,
-            "2": 88.03,
-            "3": 4.07,
-            "4": 0.08
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Arabia Saudí",
-          "puntos_esperados": 2.21,
-          "probabilidad_avanzar": 3.38,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 0.01,
-            "2": 3.37,
-            "3": 69.94,
-            "4": 26.68
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Cabo Verde",
-          "puntos_esperados": 1.23,
-          "probabilidad_avanzar": 1.2,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.01,
-            "2": 1.19,
-            "3": 25.57,
-            "4": 73.23
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+      "group_statistics": {
+        "total_goals": 13,
+        "total_matches": 6,
+        "average_goals_per_match": 2.17,
+        "highest_scoring_match": {"teams": "Spain vs Saudi Arabia", "score": "4-0"},
+        "notable": "Cape Verde WC debut advancing with 3 draws; Spain 0-0 shock vs Cape Verde; Uruguay eliminated"
+      }
+    }
+  ],
+  "tournament_records": {
+    "attendance": {
+      "total": 3605357,
+      "record_breaking": {
+        "date": "2026-06-25",
+        "milestone": "Surpassed 1994 record of 3,587,538 with 44 matches remaining"
+      }
     },
-    "I": {
-      "equipos": [
-        "Francia",
-        "Irak",
-        "Noruega",
-        "Senegal"
-      ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Francia",
-          "promedio_probabilidad": 78.02
-        },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Noruega",
-          "promedio_probabilidad": 23.18
-        },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Irak",
-          "promedio_probabilidad": 80.15
-        }
-      },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
-        {
-          "equipo": "Francia",
-          "probabilidad_avanzar": 98.62,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
-        },
-        {
-          "equipo": "Senegal",
-          "probabilidad_avanzar": 70.37,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
-        }
-      ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Francia",
-          "puntos_esperados": 7.63,
-          "probabilidad_avanzar": 98.62,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 89.92,
-            "2": 8.7,
-            "3": 1.36,
-            "4": 0.01
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Senegal",
-          "puntos_esperados": 4.68,
-          "probabilidad_avanzar": 70.37,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 7.13,
-            "2": 63.23,
-            "3": 27.95,
-            "4": 1.68
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Noruega",
-          "puntos_esperados": 3.77,
-          "probabilidad_avanzar": 30.51,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 2.94,
-            "2": 27.57,
-            "3": 65.44,
-            "4": 4.05
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Irak",
-          "puntos_esperados": 0.64,
-          "probabilidad_avanzar": 0.5,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.01,
-            "2": 0.49,
-            "3": 5.25,
-            "4": 94.25
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+    "notable_achievements": [
+      "Mexico only co-host to remain undefeated in group stage",
+      "South Africa first knockout stage qualification",
+      "Canada first World Cup win (6-0 vs Qatar)",
+      "Jonathan David first North American hat-trick since 1930",
+      "Bosnia and Herzegovina first knockout qualification",
+      "Ecuador upset victory over Germany",
+      "Ivory Coast first knockout stage progression",
+      "Cape Verde World Cup debutant advancing (first since Slovakia 2010)",
+      "Cape Verde first debutant advancing with 3 draws (since Chile 1998)",
+      "Egypt first World Cup win since 1934 debut",
+      "New Zealand first WC defeat in 44 years",
+      "Netherlands sets new WC unbeaten record (14 matches)",
+      "Brobbey fastest brace (5' & 17')",
+      "Sweden 5 goals = 2nd most in single WC match (behind 8-0)",
+      "Germany 7 goals most since 2014 (7-1 Brazil)",
+      "Tunisia manager Lamouchi fired mid-tournament (first since 1998)",
+      "Tunisia sole African team eliminated at group stage",
+      "Uruguay 2nd consecutive group stage exit",
+      "Uruguay sole South American team failing to advance"
+    ],
+    "fastest_goal": {
+      "player": "Galarza",
+      "team": "Paraguay",
+      "opponent": "Turkey",
+      "seconds": 64,
+      "date": "2026-06-19"
     },
-    "J": {
-      "equipos": [
-        "Argelia",
-        "Argentina",
-        "Austria",
-        "Jordania"
-      ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Argentina",
-          "promedio_probabilidad": 81.08
-        },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Argelia",
-          "promedio_probabilidad": 22.49
-        },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Jordania",
-          "promedio_probabilidad": 74.77
-        }
-      },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
-        {
-          "equipo": "Argentina",
-          "probabilidad_avanzar": 99.44,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
-        },
-        {
-          "equipo": "Austria",
-          "probabilidad_avanzar": 84.12,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
-        }
-      ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Argentina",
-          "puntos_esperados": 7.85,
-          "probabilidad_avanzar": 99.44,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 93.39,
-            "2": 6.05,
-            "3": 0.55,
-            "4": 0.01
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Austria",
-          "puntos_esperados": 4.99,
-          "probabilidad_avanzar": 84.12,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 5.82,
-            "2": 78.31,
-            "3": 14.38,
-            "4": 1.5
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Argelia",
-          "puntos_esperados": 2.88,
-          "probabilidad_avanzar": 14.39,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 0.76,
-            "2": 13.64,
-            "3": 70.33,
-            "4": 15.28
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Jordania",
-          "puntos_esperados": 1.02,
-          "probabilidad_avanzar": 2.04,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.04,
-            "2": 2.0,
-            "3": 14.74,
-            "4": 83.22
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
-    },
-    "K": {
-      "equipos": [
-        "Colombia",
-        "Portugal",
-        "RD Congo",
-        "Uzbekistán"
-      ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Portugal",
-          "promedio_probabilidad": 72.51
-        },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Uzbekistán",
-          "promedio_probabilidad": 21.99
-        },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "RD Congo",
-          "promedio_probabilidad": 66.89
-        }
-      },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
-        {
-          "equipo": "Portugal",
-          "probabilidad_avanzar": 98.28,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
-        },
-        {
-          "equipo": "Colombia",
-          "probabilidad_avanzar": 95.41,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
-        }
-      ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Portugal",
-          "puntos_esperados": 7.15,
-          "probabilidad_avanzar": 98.28,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 74.33,
-            "2": 23.95,
-            "3": 1.68,
-            "4": 0.05
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Colombia",
-          "puntos_esperados": 6.01,
-          "probabilidad_avanzar": 95.41,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 25.52,
-            "2": 69.89,
-            "3": 4.37,
-            "4": 0.23
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Uzbekistán",
-          "puntos_esperados": 1.87,
-          "probabilidad_avanzar": 3.4,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 0.08,
-            "2": 3.31,
-            "3": 56.73,
-            "4": 39.88
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "RD Congo",
-          "puntos_esperados": 1.67,
-          "probabilidad_avanzar": 2.92,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.07,
-            "2": 2.85,
-            "3": 37.23,
-            "4": 59.84
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
-    },
-    "L": {
-      "equipos": [
-        "Croacia",
-        "Ghana",
-        "Inglaterra",
-        "Panamá"
-      ],
-      "resumen_probabilidades": {
-        "equipo_mas_probable_a_ganar": {
-          "equipo": "Inglaterra",
-          "promedio_probabilidad": 76.69
-        },
-        "equipo_mas_probable_a_empatar": {
-          "equipo": "Croacia",
-          "promedio_probabilidad": 21.47
-        },
-        "equipo_mas_probable_a_perder": {
-          "equipo": "Ghana",
-          "promedio_probabilidad": 77.74
-        }
-      },
-      "equipos_con_mayor_probabilidad_de_avanzar": [
-        {
-          "equipo": "Inglaterra",
-          "probabilidad_avanzar": 98.83,
-          "posicion_proyectada_tabla": 1,
-          "posicion_mas_probable": 1
-        },
-        {
-          "equipo": "Croacia",
-          "probabilidad_avanzar": 93.61,
-          "posicion_proyectada_tabla": 2,
-          "posicion_mas_probable": 2
-        }
-      ],
-      "tabla_proyectada": [
-        {
-          "equipo": "Inglaterra",
-          "puntos_esperados": 7.49,
-          "probabilidad_avanzar": 98.83,
-          "posicion_mas_probable": 1,
-          "probabilidades_posicion": {
-            "1": 83.77,
-            "2": 15.06,
-            "3": 1.15,
-            "4": 0.02
-          },
-          "posicion_proyectada_tabla": 1
-        },
-        {
-          "equipo": "Croacia",
-          "puntos_esperados": 5.7,
-          "probabilidad_avanzar": 93.61,
-          "posicion_mas_probable": 2,
-          "probabilidades_posicion": {
-            "1": 15.96,
-            "2": 77.65,
-            "3": 6.25,
-            "4": 0.14
-          },
-          "posicion_proyectada_tabla": 2
-        },
-        {
-          "equipo": "Panamá",
-          "puntos_esperados": 2.73,
-          "probabilidad_avanzar": 6.92,
-          "posicion_mas_probable": 3,
-          "probabilidades_posicion": {
-            "1": 0.26,
-            "2": 6.67,
-            "3": 79.92,
-            "4": 13.15
-          },
-          "posicion_proyectada_tabla": 3
-        },
-        {
-          "equipo": "Ghana",
-          "puntos_esperados": 0.84,
-          "probabilidad_avanzar": 0.64,
-          "posicion_mas_probable": 4,
-          "probabilidades_posicion": {
-            "1": 0.01,
-            "2": 0.62,
-            "3": 12.68,
-            "4": 86.69
-          },
-          "posicion_proyectada_tabla": 4
-        }
-      ]
+    "highest_scoring_matches": [
+      {"teams": "Canada vs Qatar", "score": "6-0"},
+      {"teams": "Sweden vs Tunisia", "score": "5-1"},
+      {"teams": "Netherlands vs Sweden", "score": "5-1"},
+      {"teams": "New Zealand vs Belgium", "score": "1-5"}
+    ],
+    "discipline_highlights": [
+      "Mexico-South Africa: 3 red cards in single match",
+      "Nathan Ngoy (Belgium): Straight red vs Iran for reckless tackle",
+      "Uruguay Canobbio: Straight red vs Spain"
+    ],
+    "pride_match_controversy": {
+      "date": "2026-06-26",
+      "location": "Lumen Field, Seattle",
+      "match": "Egypt vs Iran",
+      "details": "Seattle Pride Match; Iran requested pride flag ban (rejected); Egypt formally objected to LGBTQ connections"
     }
   }
 }

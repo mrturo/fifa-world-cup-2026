@@ -1,0 +1,1029 @@
+{
+  "round_of_32": {
+    "name": "Round of 32",
+    "period": "2026-06-28 to 2026-07-03",
+    "description": "First round of the knockout stage of the 2026 FIFA World Cup. First time a FIFA World Cup has featured a single-elimination round with more than sixteen teams remaining.",
+    "total_matches": 16,
+    "host_cities": 14,
+    "matches": [
+      {
+        "match_number": "R32-01",
+        "date": "2026-06-28",
+        "time": "12:00",
+        "timezone": "PDT (UTC-7)",
+        "venue": "SoFi Stadium",
+        "city": "Inglewood",
+        "attendance": 69237,
+        "home": {
+          "team": "South Africa",
+          "code": "RSA",
+          "goals": 0
+        },
+        "away": {
+          "team": "Canada",
+          "code": "CAN",
+          "goals": 1
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Eustáquio",
+            "team": "CAN",
+            "minute": "90+2",
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Stephen Eustáquio",
+          "team": "CAN"
+        },
+        "referee": "João Pinheiro (Portugal)",
+        "winner": "Canada",
+        "next_round_opponent": "Morocco",
+        "notes": "Canada's first-ever Round of 16 appearance; South Africa eliminated marking their best WC finish since 2010; first host nation to play a WC match outside its own borders"
+      },
+      {
+        "match_number": "R32-02",
+        "date": "2026-06-29",
+        "time": "12:00",
+        "timezone": "CDT (UTC-5)",
+        "venue": "NRG Stadium",
+        "city": "Houston",
+        "attendance": 68777,
+        "home": {
+          "team": "Brazil",
+          "code": "BRA",
+          "goals": 2
+        },
+        "away": {
+          "team": "Japan",
+          "code": "JPN",
+          "goals": 1
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Sano",
+            "team": "JPN",
+            "minute": 29,
+            "penalty": false
+          },
+          {
+            "player": "Casemiro",
+            "team": "BRA",
+            "minute": 56,
+            "penalty": false
+          },
+          {
+            "player": "Martinelli",
+            "team": "BRA",
+            "minute": "90+5",
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Casemiro",
+          "team": "BRA"
+        },
+        "referee": "Maurizio Mariani (Italy)",
+        "winner": "Brazil",
+        "next_round_opponent": "Norway",
+        "notes": "Japan eliminated for third consecutive World Cup after leading in a knockout round (previously vs Croatia 2022, Belgium 2018)"
+      },
+      {
+        "match_number": "R32-03",
+        "date": "2026-06-29",
+        "time": "16:30",
+        "timezone": "EDT (UTC-4)",
+        "venue": "Gillette Stadium",
+        "city": "Foxborough",
+        "attendance": 63945,
+        "home": {
+          "team": "Germany",
+          "code": "GER",
+          "goals": 1
+        },
+        "away": {
+          "team": "Paraguay",
+          "code": "PAR",
+          "goals": 1
+        },
+        "result_type": "penalties",
+        "extra_time": true,
+        "scorers": [
+          {
+            "player": "Enciso",
+            "team": "PAR",
+            "minute": 42,
+            "penalty": false
+          },
+          {
+            "player": "Havertz",
+            "team": "GER",
+            "minute": 54,
+            "penalty": false
+          }
+        ],
+        "disallowed_goals": [
+          {
+            "player": "Tah",
+            "team": "GER",
+            "minute": "extra time (12')",
+            "reason": "VAR: goalkeeper Orlando Gill fouled in the box"
+          }
+        ],
+        "penalty_shootout": {
+          "home": {
+            "team": "GER",
+            "goals": 3,
+            "takers": [
+              {
+                "player": "Havertz",
+                "scored": false
+              },
+              {
+                "player": "Kimmich",
+                "scored": true
+              },
+              {
+                "player": "Musiala",
+                "scored": true
+              },
+              {
+                "player": "Woltemade",
+                "scored": false
+              },
+              {
+                "player": "Amiri",
+                "scored": true
+              },
+              {
+                "player": "Tah",
+                "scored": false
+              }
+            ]
+          },
+          "away": {
+            "team": "PAR",
+            "goals": 4,
+            "takers": [
+              {
+                "player": "Maurício",
+                "scored": true
+              },
+              {
+                "player": "G. Gómez",
+                "scored": true
+              },
+              {
+                "player": "Galarza",
+                "scored": true
+              },
+              {
+                "player": "Sanabria",
+                "scored": false
+              },
+              {
+                "player": "Balbuena",
+                "scored": false
+              },
+              {
+                "player": "Canale",
+                "scored": true
+              }
+            ]
+          },
+          "final_score": "3-4",
+          "sudden_death": true
+        },
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Orlando Gill",
+          "team": "PAR"
+        },
+        "referee": "Jalal Jayed (Morocco)",
+        "winner": "Paraguay",
+        "next_round_opponent": "France",
+        "notes": "Paraguay advance to Round of 16 for first time since 2010; first time Germany ever eliminated via penalty shootout at a World Cup; first penalty shootout loss for Germany in a senior tournament since 1976 (Panenka); Paraguay's president declared a national holiday"
+      },
+      {
+        "match_number": "R32-04",
+        "date": "2026-06-29",
+        "time": "19:00",
+        "timezone": "CDT (UTC-6)",
+        "venue": "Estadio BBVA",
+        "city": "Guadalupe",
+        "attendance": 51243,
+        "home": {
+          "team": "Netherlands",
+          "code": "NED",
+          "goals": 1
+        },
+        "away": {
+          "team": "Morocco",
+          "code": "MAR",
+          "goals": 1
+        },
+        "result_type": "penalties",
+        "extra_time": true,
+        "scorers": [
+          {
+            "player": "Gakpo",
+            "team": "NED",
+            "minute": 72,
+            "penalty": false
+          },
+          {
+            "player": "Diop",
+            "team": "MAR",
+            "minute": "90+1",
+            "penalty": false
+          }
+        ],
+        "penalty_shootout": {
+          "home": {
+            "team": "NED",
+            "goals": 2,
+            "takers": [
+              {
+                "player": "Koopmeiners",
+                "scored": true
+              },
+              {
+                "player": "Kluivert",
+                "scored": false
+              },
+              {
+                "player": "Weghorst",
+                "scored": true
+              },
+              {
+                "player": "Timber",
+                "scored": false
+              },
+              {
+                "player": "Summerville",
+                "scored": false
+              }
+            ]
+          },
+          "away": {
+            "team": "MAR",
+            "goals": 3,
+            "takers": [
+              {
+                "player": "El Aynaoui",
+                "scored": false
+              },
+              {
+                "player": "Rahimi",
+                "scored": true
+              },
+              {
+                "player": "Talbi",
+                "scored": true
+              },
+              {
+                "player": "Hakimi",
+                "scored": false
+              },
+              {
+                "player": "Saibari",
+                "scored": true
+              }
+            ]
+          },
+          "final_score": "2-3"
+        },
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Issa Diop",
+          "team": "MAR"
+        },
+        "referee": "Wilton Sampaio (Brazil)",
+        "winner": "Morocco",
+        "next_round_opponent": "Canada",
+        "notes": "Netherlands' third consecutive World Cup elimination via penalty shootout (following Argentina 2014 and 2022); Gakpo overwhelmed with emotion during the match after his partner's miscarriage"
+      },
+      {
+        "match_number": "R32-05",
+        "date": "2026-06-30",
+        "time": "12:00",
+        "timezone": "CDT (UTC-5)",
+        "venue": "AT&T Stadium",
+        "city": "Arlington",
+        "attendance": 69665,
+        "home": {
+          "team": "Ivory Coast",
+          "code": "CIV",
+          "goals": 1
+        },
+        "away": {
+          "team": "Norway",
+          "code": "NOR",
+          "goals": 2
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Nusa",
+            "team": "NOR",
+            "minute": 39,
+            "penalty": false
+          },
+          {
+            "player": "Diallo",
+            "team": "CIV",
+            "minute": 74,
+            "penalty": false
+          },
+          {
+            "player": "Haaland",
+            "team": "NOR",
+            "minute": 86,
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Antonio Nusa",
+          "team": "NOR"
+        },
+        "referee": "Jesús Valenzuela (Venezuela)",
+        "winner": "Norway",
+        "next_round_opponent": "Brazil",
+        "notes": "Norway's first-ever WC knockout-stage victory; Ivory Coast eliminated but reached the knockout stage for the first time in their history; Haaland's fifth goal in three games, one behind Messi in the Golden Boot race"
+      },
+      {
+        "match_number": "R32-06",
+        "date": "2026-06-30",
+        "time": "17:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "MetLife Stadium",
+        "city": "East Rutherford",
+        "attendance": 80663,
+        "home": {
+          "team": "France",
+          "code": "FRA",
+          "goals": 3
+        },
+        "away": {
+          "team": "Sweden",
+          "code": "SWE",
+          "goals": 0
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Mbappé",
+            "team": "FRA",
+            "minute": 45,
+            "penalty": false
+          },
+          {
+            "player": "Barcola",
+            "team": "FRA",
+            "minute": 53,
+            "penalty": false
+          },
+          {
+            "player": "Mbappé",
+            "team": "FRA",
+            "minute": 74,
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Kylian Mbappé",
+          "team": "FRA"
+        },
+        "referee": "Danny Makkelie (Netherlands)",
+        "winner": "France",
+        "next_round_opponent": "Paraguay",
+        "notes": "Mbappé becomes all-time leading goalscorer in World Cup knockout matches with 10 goals; France first team to score 3+ goals in five straight World Cup matches"
+      },
+      {
+        "match_number": "R32-07",
+        "date": "2026-06-30",
+        "time": "20:00",
+        "timezone": "CDT (UTC-6)",
+        "venue": "Estadio Azteca",
+        "city": "Mexico City",
+        "attendance": 80824,
+        "home": {
+          "team": "Mexico",
+          "code": "MEX",
+          "goals": 2
+        },
+        "away": {
+          "team": "Ecuador",
+          "code": "ECU",
+          "goals": 0
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Quiñones",
+            "team": "MEX",
+            "minute": 22,
+            "penalty": false
+          },
+          {
+            "player": "Jiménez",
+            "team": "MEX",
+            "minute": 31,
+            "penalty": false
+          }
+        ],
+        "red_cards": [
+          {
+            "player": "Hincapié",
+            "team": "ECU",
+            "minute": "90+",
+            "reason": "covering mouth while speaking to opponent; second player in tournament dismissed for the offense after Paraguay's Almirón"
+          }
+        ],
+        "man_of_the_match": {
+          "player": "Julián Quiñones",
+          "team": "MEX"
+        },
+        "referee": "Slavko Vinčić (Slovenia)",
+        "winner": "Mexico",
+        "next_round_opponent": "England",
+        "notes": "Match delayed by an hour due to thunderstorms; Mexico's first knockout-game win since beating Bulgaria in 1986; Mexico, Canada and USA all became the first host nations to progress to the next round since Russia in 2018"
+      },
+      {
+        "match_number": "R32-08",
+        "date": "2026-07-01",
+        "time": "12:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "attendance": 68239,
+        "home": {
+          "team": "England",
+          "code": "ENG",
+          "goals": 2
+        },
+        "away": {
+          "team": "DR Congo",
+          "code": "COD",
+          "goals": 1
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Cipenga",
+            "team": "COD",
+            "minute": 7,
+            "penalty": false
+          },
+          {
+            "player": "Kane",
+            "team": "ENG",
+            "minute": 75,
+            "penalty": false
+          },
+          {
+            "player": "Kane",
+            "team": "ENG",
+            "minute": 86,
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Harry Kane",
+          "team": "ENG"
+        },
+        "referee": "Adham Makhadmeh (Jordan)",
+        "winner": "England",
+        "next_round_opponent": "Mexico",
+        "notes": "DR Congo eliminated but achieved their best-ever World Cup finish upon their return after 52 years"
+      },
+      {
+        "match_number": "R32-09",
+        "date": "2026-07-01",
+        "time": "13:00",
+        "timezone": "PDT (UTC-7)",
+        "venue": "Lumen Field",
+        "city": "Seattle",
+        "attendance": 66925,
+        "home": {
+          "team": "Belgium",
+          "code": "BEL",
+          "goals": 3
+        },
+        "away": {
+          "team": "Senegal",
+          "code": "SEN",
+          "goals": 2
+        },
+        "result_type": "extra_time",
+        "extra_time": true,
+        "scorers": [
+          {
+            "player": "Diarra",
+            "team": "SEN",
+            "minute": 25,
+            "penalty": false
+          },
+          {
+            "player": "I. Sarr",
+            "team": "SEN",
+            "minute": 51,
+            "penalty": false
+          },
+          {
+            "player": "Lukaku",
+            "team": "BEL",
+            "minute": 86,
+            "penalty": false
+          },
+          {
+            "player": "Tielemans",
+            "team": "BEL",
+            "minute": 89,
+            "penalty": false
+          },
+          {
+            "player": "Tielemans",
+            "team": "BEL",
+            "minute": "120+5",
+            "penalty": true
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Youri Tielemans",
+          "team": "BEL"
+        },
+        "referee": "Saíd Martínez (Honduras)",
+        "winner": "Belgium",
+        "next_round_opponent": "TBD",
+        "notes": "Belgium overturned a two-goal deficit, only the second team in the last 11 World Cups to do so and advance from a knockout match (following their own 3-2 comeback vs Japan in 2018); Tielemans' 125th-minute penalty was reported as the latest goal scored in FIFA World Cup history"
+      },
+      {
+        "match_number": "R32-10",
+        "date": "2026-07-01",
+        "time": "17:00",
+        "timezone": "PDT (UTC-7)",
+        "venue": "Levi's Stadium",
+        "city": "Santa Clara",
+        "attendance": 68827,
+        "home": {
+          "team": "United States",
+          "code": "USA",
+          "goals": 2
+        },
+        "away": {
+          "team": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "goals": 0
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Balogun",
+            "team": "USA",
+            "minute": 45,
+            "penalty": false
+          },
+          {
+            "player": "Tillman",
+            "team": "USA",
+            "minute": 82,
+            "penalty": false
+          }
+        ],
+        "red_cards": [
+          {
+            "player": "Balogun",
+            "team": "USA",
+            "minute": 64,
+            "reason": "controversial VAR-review red card, widely criticized as excessive and compared to a non-carded Messi incident vs Algeria"
+          }
+        ],
+        "man_of_the_match": {
+          "player": "Malik Tillman",
+          "team": "USA"
+        },
+        "referee": "Raphael Claus (Brazil)",
+        "winner": "United States",
+        "next_round_opponent": "TBD",
+        "notes": "USA's first World Cup knockout-stage win since 2002 (2-0 vs Mexico); USA, Canada and Mexico became the first host nations to progress to the next round since Russia in 2018"
+      },
+      {
+        "match_number": "R32-11",
+        "date": "2026-07-02",
+        "time": "12:00",
+        "timezone": "PDT (UTC-7)",
+        "venue": "SoFi Stadium",
+        "city": "Inglewood",
+        "attendance": 70492,
+        "home": {
+          "team": "Spain",
+          "code": "ESP",
+          "goals": 3
+        },
+        "away": {
+          "team": "Austria",
+          "code": "AUT",
+          "goals": 0
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Oyarzabal",
+            "team": "ESP",
+            "minute": 36,
+            "penalty": false
+          },
+          {
+            "player": "Porro",
+            "team": "ESP",
+            "minute": 66,
+            "penalty": false
+          },
+          {
+            "player": "Oyarzabal",
+            "team": "ESP",
+            "minute": 89,
+            "penalty": false
+          }
+        ],
+        "disallowed_goals": [
+          {
+            "player": "Cucurella",
+            "team": "ESP",
+            "minute": "first half",
+            "reason": "Cubarsí judged to have fouled Austrian keeper Schlager"
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Lamine Yamal",
+          "team": "ESP"
+        },
+        "referee": "Glenn Nyberg (Sweden)",
+        "winner": "Spain",
+        "next_round_opponent": "TBD",
+        "notes": "Spain's first World Cup knockout win since the 2010 World Cup final"
+      },
+      {
+        "match_number": "R32-12",
+        "date": "2026-07-02",
+        "time": "19:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "BMO Field",
+        "city": "Toronto",
+        "attendance": 43036,
+        "home": {
+          "team": "Portugal",
+          "code": "POR",
+          "goals": 2
+        },
+        "away": {
+          "team": "Croatia",
+          "code": "CRO",
+          "goals": 1
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Perišić",
+            "team": "CRO",
+            "minute": 53,
+            "penalty": false
+          },
+          {
+            "player": "Ronaldo",
+            "team": "POR",
+            "minute": 68,
+            "penalty": true
+          },
+          {
+            "player": "Ramos",
+            "team": "POR",
+            "minute": "90+4",
+            "penalty": false
+          }
+        ],
+        "disallowed_goals": [
+          {
+            "player": "Gvardiol",
+            "team": "CRO",
+            "minute": "90+13",
+            "reason": "offside; Snickometer detected a touch off Matanović's head before Pašalić, who was offside, played it in"
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Cristiano Ronaldo",
+          "team": "POR"
+        },
+        "referee": "Espen Eskås (Norway)",
+        "winner": "Portugal",
+        "next_round_opponent": "TBD",
+        "notes": "Snickometer VAR technology, using a microchip inside the ball, was used to rule out Croatia's stoppage-time equalizer"
+      },
+      {
+        "match_number": "R32-13",
+        "date": "2026-07-02",
+        "time": "20:00",
+        "timezone": "PDT (UTC-7)",
+        "venue": "BC Place",
+        "city": "Vancouver",
+        "attendance": 52497,
+        "home": {
+          "team": "Switzerland",
+          "code": "SUI",
+          "goals": 2
+        },
+        "away": {
+          "team": "Algeria",
+          "code": "ALG",
+          "goals": 0
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Embolo",
+            "team": "SUI",
+            "minute": 10,
+            "penalty": false
+          },
+          {
+            "player": "Ndoye",
+            "team": "SUI",
+            "minute": 46,
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Breel Embolo",
+          "team": "SUI"
+        },
+        "referee": "Yael Falcón (Argentina)",
+        "winner": "Switzerland",
+        "next_round_opponent": "TBD",
+        "notes": "Switzerland's first World Cup knockout-match win since 1938"
+      },
+      {
+        "match_number": "R32-14",
+        "fifa_match_number": 88,
+        "date": "2026-07-03",
+        "time": "13:00",
+        "timezone": "CDT (UTC-5)",
+        "venue": "AT&T Stadium",
+        "city": "Arlington",
+        "attendance": 70244,
+        "home": {
+          "team": "Australia",
+          "code": "AUS",
+          "goals": 1
+        },
+        "away": {
+          "team": "Egypt",
+          "code": "EGY",
+          "goals": 1
+        },
+        "result_type": "penalties",
+        "extra_time": true,
+        "scorers": [
+          {
+            "player": "Ashour",
+            "team": "EGY",
+            "minute": 13,
+            "penalty": false
+          },
+          {
+            "player": "Hany",
+            "team": "AUS",
+            "minute": 55,
+            "penalty": false,
+            "own_goal": true
+          }
+        ],
+        "penalty_shootout": {
+          "home": {
+            "team": "AUS",
+            "goals": 2,
+            "takers": [
+              {
+                "player": "Souttar",
+                "scored": false
+              },
+              {
+                "player": "Irvine",
+                "scored": true
+              },
+              {
+                "player": "Mabil",
+                "scored": true
+              },
+              {
+                "player": "Herrington",
+                "scored": false
+              }
+            ]
+          },
+          "away": {
+            "team": "EGY",
+            "goals": 4,
+            "takers": [
+              {
+                "player": "Saber",
+                "scored": true
+              },
+              {
+                "player": "Rabia",
+                "scored": true
+              },
+              {
+                "player": "Salah",
+                "scored": true
+              },
+              {
+                "player": "Abdelmaguid",
+                "scored": true
+              }
+            ]
+          },
+          "final_score": "2-4"
+        },
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Mohamed Salah",
+          "team": "EGY"
+        },
+        "referee": "Gustavo Tejera (Uruguay)",
+        "winner": "Egypt",
+        "next_round_opponent": "Argentina",
+        "notes": "Australia's third failed attempt at winning a World Cup knockout fixture (previously lost to Argentina 2022, Italy 2006); Egypt's first-ever knockout-stage win at a World Cup, advancing to face Argentina in the Round of 16; Australia's surprise goalkeeper substitution (Beach for Ryan) in the closing minute of extra time backfired in the shootout"
+      },
+      {
+        "match_number": "R32-15",
+        "fifa_match_number": 86,
+        "date": "2026-07-03",
+        "time": "18:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "attendance": 64478,
+        "home": {
+          "team": "Argentina",
+          "code": "ARG",
+          "goals": 3
+        },
+        "away": {
+          "team": "Cape Verde",
+          "code": "CPV",
+          "goals": 2
+        },
+        "result_type": "extra_time",
+        "extra_time": true,
+        "scorers": [
+          {
+            "player": "Messi",
+            "team": "ARG",
+            "minute": 29,
+            "penalty": false
+          },
+          {
+            "player": "D. Duarte",
+            "team": "CPV",
+            "minute": 59,
+            "penalty": false
+          },
+          {
+            "player": "Li. Martínez",
+            "team": "ARG",
+            "minute": 92,
+            "penalty": false
+          },
+          {
+            "player": "Lopes Cabral",
+            "team": "CPV",
+            "minute": 103,
+            "penalty": false
+          },
+          {
+            "player": "Diney",
+            "team": "ARG",
+            "minute": 111,
+            "penalty": false,
+            "own_goal": true
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Lionel Messi",
+          "team": "ARG"
+        },
+        "referee": "Drew Fischer (Canada)",
+        "winner": "Argentina",
+        "next_round_opponent": "Egypt",
+        "notes": "Messi's goal was his seventh of the tournament; Cape Verde eliminated after an unbeaten group stage run, the only tournament debutant of the four debutants to reach the knockout stage; winning goal for Argentina came via a corner deflecting off Cristian Romero's head and Diney Borges' arm into the net"
+      },
+      {
+        "match_number": "R32-16",
+        "fifa_match_number": 87,
+        "date": "2026-07-03",
+        "time": "20:30",
+        "timezone": "CDT (UTC-5)",
+        "venue": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "attendance": 69045,
+        "home": {
+          "team": "Colombia",
+          "code": "COL",
+          "goals": 1
+        },
+        "away": {
+          "team": "Ghana",
+          "code": "GHA",
+          "goals": 0
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "J. Arias",
+            "team": "COL",
+            "minute": 14,
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Luis Díaz",
+          "team": "COL"
+        },
+        "referee": "Clément Turpin (France)",
+        "winner": "Colombia",
+        "next_round_opponent": "TBD",
+        "notes": "Ghana failed to register a single shot on target during the match"
+      }
+    ],
+    "round_of_16_pairings_confirmed": [
+      {
+        "match": "Canada vs Morocco"
+      },
+      {
+        "match": "Brazil vs Norway"
+      },
+      {
+        "match": "Paraguay vs France"
+      },
+      {
+        "match": "Mexico vs England"
+      },
+      {
+        "match": "Argentina vs Egypt"
+      }
+    ],
+    "round_statistics": {
+      "matches_played": 16,
+      "matches_pending": 0,
+      "decided_in_regulation": 11,
+      "decided_after_extra_time_no_shootout": 2,
+      "decided_on_penalties": 3,
+      "total_goals_played_matches": 35,
+      "average_goals_per_played_match": 2.19,
+      "penalty_shootouts": [
+        {
+          "match": "Germany vs Paraguay",
+          "score": "3-4"
+        },
+        {
+          "match": "Netherlands vs Morocco",
+          "score": "2-3"
+        },
+        {
+          "match": "Australia vs Egypt",
+          "score": "2-4"
+        }
+      ],
+      "host_nations_advanced": [
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "co_host_eliminated": [],
+      "notable": [
+        "First Round of 32 in World Cup history (32 teams to 16)",
+        "Two of the four Round of 32 matches decided that day went to penalties (Germany-Paraguay, Netherlands-Morocco)",
+        "All three tournament co-hosts (Canada, Mexico, USA) advanced to the Round of 16 for the first time by any hosts since Russia 2018",
+        "Snickometer VAR technology used for the first time to rule out a goal (Portugal vs Croatia)",
+        "Belgium's 3-2 extra-time comeback over Senegal produced the latest goal ever scored in a World Cup (125th minute)",
+        "Egypt secured their first-ever World Cup knockout-stage win, beating Australia on penalties after a controversial late goalkeeper substitution by the Socceroos",
+        "Cape Verde, the only tournament debutant to reach the knockout stage, were eliminated by Argentina in extra time after twice equalizing",
+        "Colombia's win over Ghana was the joint-lowest-scoring match of the round of 32 (1-0)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "knockout_stage": {
+    "round_of_16": {
+      "description": "Second round of the knockout stage with 8 matches",
+      "period": "2026-07-04 to 2026-07-07",
+      "total_matches": 8,
+      "host_cities": 8,
+      "format": "Single-elimination",
+      "matches": [
+        {
+          "match_number": "M89",
+          "round_of_16_id": 1,
+          "date": "2026-07-04",
+          "time": "12:00 p.m.",
+          "timezone": "UTC-5",
+          "venue": "NRG Stadium",
+          "city": "Houston",
+          "home": {
+            "team": "Canada",
+            "code": "CAN",
+            "from_match": "R32-01"
+          },
+          "away": {
+            "team": "Morocco",
+            "code": "MAR",
+            "from_match": "R32-04"
+          },
+          "referee": {
+            "name": "Michael Oliver",
+            "country": "England"
+          }
+        },
+        {
+          "match_number": "M90",
+          "round_of_16_id": 2,
+          "date": "2026-07-04",
+          "time": "5:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "home": {
+            "team": "Paraguay",
+            "code": "PAR",
+            "from_match": "R32-03"
+          },
+          "away": {
+            "team": "France",
+            "code": "FRA",
+            "from_match": "R32-06"
+          },
+          "referee": {
+            "name": "Ilgiz Tantashev",
+            "country": "Uzbekistan"
+          }
+        },
+        {
+          "match_number": "M91",
+          "round_of_16_id": 3,
+          "date": "2026-07-05",
+          "time": "4:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford",
+          "home": {
+            "team": "Brazil",
+            "code": "BRA",
+            "from_match": "R32-02"
+          },
+          "away": {
+            "team": "Norway",
+            "code": "NOR",
+            "from_match": "R32-05"
+          },
+          "referee": {
+            "name": "Ismail Elfath",
+            "country": "United States"
+          }
+        },
+        {
+          "match_number": "M92",
+          "round_of_16_id": 4,
+          "date": "2026-07-05",
+          "time": "6:00 p.m.",
+          "timezone": "UTC-6",
+          "venue": "Estadio Azteca",
+          "city": "Mexico City",
+          "home": {
+            "team": "Mexico",
+            "code": "MEX",
+            "from_match": "R32-07"
+          },
+          "away": {
+            "team": "England",
+            "code": "ENG",
+            "from_match": "R32-08"
+          },
+          "referee": {
+            "name": "Alireza Faghani",
+            "country": "Australia"
+          }
+        },
+        {
+          "match_number": "M93",
+          "round_of_16_id": 5,
+          "date": "2026-07-06",
+          "time": "2:00 p.m.",
+          "timezone": "UTC-5",
+          "venue": "AT&T Stadium",
+          "city": "Arlington",
+          "home": {
+            "team": "Portugal",
+            "code": "POR",
+            "from_match": "R32-12"
+          },
+          "away": {
+            "team": "Spain",
+            "code": "ESP",
+            "from_match": "R32-11"
+          },
+          "referee": {
+            "name": "Anthony Taylor",
+            "country": "England"
+          }
+        },
+        {
+          "match_number": "M94",
+          "round_of_16_id": 6,
+          "date": "2026-07-06",
+          "time": "5:00 p.m.",
+          "timezone": "UTC-7",
+          "venue": "Lumen Field",
+          "city": "Seattle",
+          "home": {
+            "team": "United States",
+            "code": "USA",
+            "from_match": "R32-10"
+          },
+          "away": {
+            "team": "Belgium",
+            "code": "BEL",
+            "from_match": "R32-09"
+          },
+          "referee": {
+            "name": "Adham Makhadmeh",
+            "country": "Jordan"
+          }
+        },
+        {
+          "match_number": "M95",
+          "round_of_16_id": 7,
+          "date": "2026-07-07",
+          "time": "12:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "home": {
+            "team": "Argentina",
+            "code": "ARG",
+            "from_match": "R32-15"
+          },
+          "away": {
+            "team": "Egypt",
+            "code": "EGY",
+            "from_match": "R32-14"
+          },
+          "referee": {
+            "name": "François Letexier",
+            "country": "France"
+          }
+        },
+        {
+          "match_number": "M96",
+          "round_of_16_id": 8,
+          "date": "2026-07-07",
+          "time": "1:00 p.m.",
+          "timezone": "UTC-7",
+          "venue": "BC Place",
+          "city": "Vancouver",
+          "home": {
+            "team": "Switzerland",
+            "code": "SUI",
+            "from_match": "R32-13"
+          },
+          "away": {
+            "team": "Colombia",
+            "code": "COL",
+            "from_match": "R32-16"
+          },
+          "referee": {
+            "name": "Iván Barton",
+            "country": "El Salvador"
+          }
+        }
+      ]
+    }
+  }
+}
