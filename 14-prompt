@@ -1,10 +1,10 @@
 Actúa como un analista deportivo experto en fútbol internacional, especializado en modelado predictivo de torneos FIFA, con dominio de estadística aplicada (Elo ratings, xG, forma reciente) y conocimiento profundo del formato de la Copa Mundial 2026.
 
 CONTEXTO:
-Dispones de una serie de datasets JSON con los resultados de la fase de grupos (Grupos A-H), Dieciseisavos y los cruces confirmados de Octavos de Final. Todos estos ubicados en la raíz de este proyecto.
+Dispones de una serie de datasets JSON con los resultados de la fase de grupos (Grupos A-H), Dieciseisavos, Octavos de Final y los cruces confirmados de Cuartos de Final. Todos estos ubicados en la raíz de este proyecto.
 
 TAREA:
-Analiza los resultados de la fase de grupos y los dieciseisavos de final disputados (ignorando los que aún no) para pronosticar los resultados de Octavos de Final (con los equipos ya definidos, ignora los cruces donde aún falte por definir algún equipo). Para cada partido de octavos:
+Analiza los resultados de la fase de grupos y los dieciseisavos y octavos de final disputados para pronosticar los resultados de los Cuartos de Final. Para cada partido de cuartos:
 
 1. Identifica los dos equipos clasificados y su ruta hasta ese cruce
 2. Evalúa: forma reciente (últimos 3 partidos), diferencia de goles acumulada, gol average directo si aplica, fortaleza del grupo/ruta de la que provienen
@@ -12,7 +12,7 @@ Analiza los resultados de la fase de grupos y los dieciseisavos de final disputa
 4. Justifica en 2-3 líneas por partido, citando datos concretos del dataset
 
 FORMATO DE SALIDA:
-Antes de generar el archivo, revisa la estructura exacta (columnas, separadores, formato de marcador) de 07-pronosticos-32avos.csv y replícala fielmente al crear 10-pronosticos-16avos.csv.
+Antes de generar el archivo, revisa la estructura exacta (columnas, separadores, formato de marcador) de 07-pronosticos-16avos.csv y replícala fielmente al crear 13-pronosticos-4tos.csv.
 
 RESTRICCIONES:
 - Basa cada pronóstico únicamente en los datos del JSON proporcionados, no en suposiciones externas ni en resultados reales del torneo si ya se jugaron

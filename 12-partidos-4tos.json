@@ -1,0 +1,136 @@
+{
+  "knockout_stage": {
+    "quarterfinals": {
+      "description": "Third round of the knockout stage with 4 matches",
+      "period": "2026-07-09 to 2026-07-11",
+      "total_matches": 4,
+      "host_cities": 4,
+      "format": "Single-elimination",
+      "matches": [
+        {
+          "match_number": "M97",
+          "quarterfinal_id": 1,
+          "date": "2026-07-09",
+          "time": "4:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Gillette Stadium",
+          "city": "Foxborough",
+          "home": {
+            "team": "France",
+            "code": "FRA",
+            "from_match": "M90"
+          },
+          "away": {
+            "team": "Morocco",
+            "code": "MAR",
+            "from_match": "M89"
+          },
+          "referee": {
+            "name": "Facundo Tello",
+            "country": "Argentina"
+          },
+          "officiating_crew": {
+            "assistant_referees": [
+              {
+                "name": "Juan Pablo Belatti",
+                "country": "Argentina"
+              },
+              {
+                "name": "Gabriel Chade",
+                "country": "Argentina"
+              }
+            ],
+            "fourth_official": {
+              "name": "Darío Herrera",
+              "country": "Argentina"
+            },
+            "reserve_assistant_referee": {
+              "name": "Cristian Navarro",
+              "country": "Argentina"
+            },
+            "assistant_video_assistant_referee": {
+              "name": "Armando Villarreal",
+              "country": "United States"
+            },
+            "support_video_assistant_referee": {
+              "name": "Ivan Bebek",
+              "country": "Croatia"
+            }
+          }
+        },
+        {
+          "match_number": "M98",
+          "quarterfinal_id": 2,
+          "date": "2026-07-10",
+          "time": "12:00 p.m.",
+          "timezone": "UTC-7",
+          "venue": "SoFi Stadium",
+          "city": "Inglewood",
+          "home": {
+            "team": "Spain",
+            "code": "ESP",
+            "from_match": "M93"
+          },
+          "away": {
+            "team": "Belgium",
+            "code": "BEL",
+            "from_match": "M94"
+          },
+          "referee": {
+            "name": null,
+            "country": null
+          },
+          "notes": "Referee assignment not yet published as of the source snapshot (July 7, 2026)"
+        },
+        {
+          "match_number": "M99",
+          "quarterfinal_id": 3,
+          "date": "2026-07-11",
+          "time": "5:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens",
+          "home": {
+            "team": "Norway",
+            "code": "NOR",
+            "from_match": "M91"
+          },
+          "away": {
+            "team": "England",
+            "code": "ENG",
+            "from_match": "M92"
+          },
+          "referee": {
+            "name": null,
+            "country": null
+          },
+          "notes": "Referee assignment not yet published as of the source snapshot (July 7, 2026)"
+        },
+        {
+          "match_number": "M100",
+          "quarterfinal_id": 4,
+          "date": "2026-07-11",
+          "time": "8:00 p.m.",
+          "timezone": "UTC-5",
+          "venue": "Arrowhead Stadium",
+          "city": "Kansas City",
+          "home": {
+            "team": "Argentina",
+            "code": "ARG",
+            "from_match": "M95"
+          },
+          "away": {
+            "team": "Switzerland",
+            "code": "SUI",
+            "from_match": "M96"
+          },
+          "referee": {
+            "name": null,
+            "country": null
+          },
+          "notes": "Referee assignment not yet published as of the source snapshot (July 7, 2026)"
+        }
+      ]
+    }
+  }
+}

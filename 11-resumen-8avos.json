@@ -1,0 +1,531 @@
+{
+  "round_of_16": {
+    "name": "Round of 16",
+    "period": "2026-07-04 to 2026-07-07",
+    "description": "Second round of the knockout stage of the 2026 FIFA World Cup, played between the 16 winners of the Round of 32.",
+    "total_matches": 8,
+    "host_cities": 8,
+    "matches": [
+      {
+        "match_number": "R16-01",
+        "fifa_match_number": 90,
+        "date": "2026-07-04",
+        "time": "12:00",
+        "timezone": "CDT (UTC-5)",
+        "venue": "NRG Stadium",
+        "city": "Houston",
+        "attendance": 68777,
+        "home": {
+          "team": "Canada",
+          "code": "CAN",
+          "goals": 0
+        },
+        "away": {
+          "team": "Morocco",
+          "code": "MAR",
+          "goals": 3
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Ounahi",
+            "team": "MAR",
+            "minute": 50,
+            "penalty": false
+          },
+          {
+            "player": "Ounahi",
+            "team": "MAR",
+            "minute": 82,
+            "penalty": false
+          },
+          {
+            "player": "Rahimi",
+            "team": "MAR",
+            "minute": "90+8",
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Azzedine Ounahi",
+          "team": "MAR"
+        },
+        "referee": "Michael Oliver (England)",
+        "winner": "Morocco",
+        "next_round_opponent": "France",
+        "notes": "Canada eliminated, marking its best finish since group-stage exits in 1986 and 2022; with Egypt's loss to Argentina, Morocco became the only African team to reach the quarter-finals"
+      },
+      {
+        "match_number": "R16-02",
+        "fifa_match_number": 89,
+        "date": "2026-07-04",
+        "time": "17:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "attendance": 68324,
+        "home": {
+          "team": "Paraguay",
+          "code": "PAR",
+          "goals": 0
+        },
+        "away": {
+          "team": "France",
+          "code": "FRA",
+          "goals": 1
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Mbappé",
+            "team": "FRA",
+            "minute": 70,
+            "penalty": true
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Orlando Gill",
+          "team": "PAR"
+        },
+        "referee": "Ilgiz Tantashev (Uzbekistan)",
+        "winner": "France",
+        "next_round_opponent": "Morocco",
+        "notes": "Played in extreme heat, up to 38C at kick-off; penalty awarded after VAR review for a foul on substitute Désiré Doué; Paraguay committed 13 fouls without a single yellow card, while France received three; Paraguay had never defeated France in five previous encounters"
+      },
+      {
+        "match_number": "R16-03",
+        "fifa_match_number": 91,
+        "date": "2026-07-05",
+        "time": "16:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "MetLife Stadium",
+        "city": "East Rutherford",
+        "attendance": 80663,
+        "home": {
+          "team": "Brazil",
+          "code": "BRA",
+          "goals": 1
+        },
+        "away": {
+          "team": "Norway",
+          "code": "NOR",
+          "goals": 2
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Haaland",
+            "team": "NOR",
+            "minute": 79,
+            "penalty": false
+          },
+          {
+            "player": "Haaland",
+            "team": "NOR",
+            "minute": 90,
+            "penalty": false
+          },
+          {
+            "player": "Neymar",
+            "team": "BRA",
+            "minute": "90+10",
+            "penalty": true
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Erling Haaland",
+          "team": "NOR"
+        },
+        "referee": "Ismail Elfath (United States)",
+        "winner": "Norway",
+        "next_round_opponent": "England",
+        "notes": "Brazil eliminated in the Round of 16 for the first time since 1990; Norway remains the only team in the world Brazil has played but never defeated; this was Neymar's last match for Brazil, and he announced his international retirement afterwards"
+      },
+      {
+        "match_number": "R16-04",
+        "fifa_match_number": 92,
+        "date": "2026-07-05",
+        "time": "19:00",
+        "timezone": "CDT (UTC-6)",
+        "venue": "Estadio Azteca",
+        "city": "Mexico City",
+        "attendance": 80824,
+        "home": {
+          "team": "Mexico",
+          "code": "MEX",
+          "goals": 2
+        },
+        "away": {
+          "team": "England",
+          "code": "ENG",
+          "goals": 3
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Bellingham",
+            "team": "ENG",
+            "minute": 36,
+            "penalty": false
+          },
+          {
+            "player": "Bellingham",
+            "team": "ENG",
+            "minute": 38,
+            "penalty": false
+          },
+          {
+            "player": "Quiñones",
+            "team": "MEX",
+            "minute": 42,
+            "penalty": false
+          },
+          {
+            "player": "Kane",
+            "team": "ENG",
+            "minute": 60,
+            "penalty": true
+          },
+          {
+            "player": "Jiménez",
+            "team": "MEX",
+            "minute": 69,
+            "penalty": true
+          }
+        ],
+        "red_cards": [
+          {
+            "player": "Quansah",
+            "team": "ENG",
+            "minute": 54,
+            "reason": "high challenge on Jesús Gallardo"
+          }
+        ],
+        "man_of_the_match": {
+          "player": "Jude Bellingham",
+          "team": "ENG"
+        },
+        "referee": "Alireza Faghani (Australia)",
+        "winner": "England",
+        "next_round_opponent": "Norway",
+        "notes": "Match delayed by an hour due to inclement weather; Mexico's first-ever World Cup loss at the Azteca; Mexico became the second co-host eliminated after Canada; this was the final World Cup game played in Mexico"
+      },
+      {
+        "match_number": "R16-05",
+        "fifa_match_number": 93,
+        "date": "2026-07-06",
+        "time": "14:00",
+        "timezone": "CDT (UTC-5)",
+        "venue": "AT&T Stadium",
+        "city": "Arlington",
+        "attendance": 70649,
+        "home": {
+          "team": "Portugal",
+          "code": "POR",
+          "goals": 0
+        },
+        "away": {
+          "team": "Spain",
+          "code": "ESP",
+          "goals": 1
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Merino",
+            "team": "ESP",
+            "minute": "90+1",
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Rodri",
+          "team": "ESP"
+        },
+        "referee": "Anthony Taylor (England)",
+        "winner": "Spain",
+        "next_round_opponent": "Belgium",
+        "notes": "Portugal's defeat ended Cristiano Ronaldo's World Cup career after he had confirmed this tournament would be his last; Portugal coach Roberto Martínez announced his resignation with immediate effect following the result"
+      },
+      {
+        "match_number": "R16-06",
+        "fifa_match_number": 94,
+        "date": "2026-07-06",
+        "time": "17:00",
+        "timezone": "PDT (UTC-7)",
+        "venue": "Lumen Field",
+        "city": "Seattle",
+        "attendance": 66925,
+        "home": {
+          "team": "United States",
+          "code": "USA",
+          "goals": 1
+        },
+        "away": {
+          "team": "Belgium",
+          "code": "BEL",
+          "goals": 4
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "De Ketelaere",
+            "team": "BEL",
+            "minute": 9,
+            "penalty": false
+          },
+          {
+            "player": "De Ketelaere",
+            "team": "BEL",
+            "minute": 33,
+            "penalty": false
+          },
+          {
+            "player": "Tillman",
+            "team": "USA",
+            "minute": 31,
+            "penalty": false
+          },
+          {
+            "player": "Vanaken",
+            "team": "BEL",
+            "minute": 57,
+            "penalty": false
+          },
+          {
+            "player": "Lukaku",
+            "team": "BEL",
+            "minute": "90+3",
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Charles De Ketelaere",
+          "team": "BEL"
+        },
+        "referee": "Adham Makhadmeh (Jordan)",
+        "winner": "Belgium",
+        "next_round_opponent": "Spain",
+        "notes": "The United States was the final co-host eliminated, after Canada (by Morocco) and Mexico (by England), all in the Round of 16; overshadowed by the reversal of Folarin Balogun's suspension ahead of the match, condemned by UEFA and the Royal Belgian Football Association; USA suffered their largest margin of defeat in a World Cup match since 2006 and their worst goals-against performance since 1990"
+      },
+      {
+        "match_number": "R16-07",
+        "fifa_match_number": 95,
+        "date": "2026-07-07",
+        "time": "12:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "attendance": 68239,
+        "home": {
+          "team": "Argentina",
+          "code": "ARG",
+          "goals": 3
+        },
+        "away": {
+          "team": "Egypt",
+          "code": "EGY",
+          "goals": 2
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Ibrahim",
+            "team": "EGY",
+            "minute": 15,
+            "penalty": false
+          },
+          {
+            "player": "Ziko",
+            "team": "EGY",
+            "minute": 67,
+            "penalty": false
+          },
+          {
+            "player": "Romero",
+            "team": "ARG",
+            "minute": 79,
+            "penalty": false
+          },
+          {
+            "player": "Messi",
+            "team": "ARG",
+            "minute": 83,
+            "penalty": false
+          },
+          {
+            "player": "Fernández",
+            "team": "ARG",
+            "minute": "90+2",
+            "penalty": false
+          }
+        ],
+        "disallowed_goals": [
+          {
+            "player": "Ziko",
+            "team": "EGY",
+            "minute": 60,
+            "reason": "VAR check disallowed the goal"
+          }
+        ],
+        "red_cards": [
+          {
+            "player": "Saafan El-Sagheer",
+            "team": "EGY",
+            "minute": "90+4",
+            "reason": "goal coach sent off amid a flurry of yellow cards against Egypt; had already been booked in the 21st minute"
+          }
+        ],
+        "man_of_the_match": {
+          "player": "Lionel Messi",
+          "team": "ARG"
+        },
+        "referee": "François Letexier (France)",
+        "winner": "Argentina",
+        "next_round_opponent": "Switzerland",
+        "notes": "Argentina came from behind twice to win; Messi's goal was his 21st at World Cups, keeping him atop the Golden Boot race"
+      },
+      {
+        "match_number": "R16-08",
+        "fifa_match_number": 96,
+        "date": "2026-07-07",
+        "time": "13:00",
+        "timezone": "PDT (UTC-7)",
+        "venue": "BC Place",
+        "city": "Vancouver",
+        "attendance": 52497,
+        "home": {
+          "team": "Switzerland",
+          "code": "SUI",
+          "goals": 0
+        },
+        "away": {
+          "team": "Colombia",
+          "code": "COL",
+          "goals": 0
+        },
+        "result_type": "penalties",
+        "extra_time": true,
+        "scorers": [],
+        "penalty_shootout": {
+          "home": {
+            "team": "SUI",
+            "goals": 4,
+            "takers": [
+              {
+                "player": "Xhaka",
+                "scored": true
+              },
+              {
+                "player": "Amdouni",
+                "scored": true
+              },
+              {
+                "player": "Akanji",
+                "scored": false
+              },
+              {
+                "player": "Itten",
+                "scored": true
+              },
+              {
+                "player": "Vargas",
+                "scored": true
+              }
+            ]
+          },
+          "away": {
+            "team": "COL",
+            "goals": 3,
+            "takers": [
+              {
+                "player": "Quintero",
+                "scored": true
+              },
+              {
+                "player": "Sánchez",
+                "scored": false
+              },
+              {
+                "player": "Campaz",
+                "scored": true
+              },
+              {
+                "player": "Hernández",
+                "scored": false
+              },
+              {
+                "player": "Díaz",
+                "scored": true
+              }
+            ]
+          },
+          "final_score": "4-3"
+        },
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Gregor Kobel",
+          "team": "SUI"
+        },
+        "referee": "Iván Barton (El Salvador)",
+        "winner": "Switzerland",
+        "next_round_opponent": "Argentina",
+        "notes": "This was the final game in Canada for the tournament; Colombia became the only team in the 2026 World Cup to play matches in all three host countries (Canada, Mexico, and the United States)"
+      }
+    ],
+    "quarterfinal_pairings_confirmed": [
+      {
+        "match": "France vs Morocco",
+        "fifa_match_number": 97
+      },
+      {
+        "match": "Spain vs Belgium",
+        "fifa_match_number": 98
+      },
+      {
+        "match": "Norway vs England",
+        "fifa_match_number": 99
+      },
+      {
+        "match": "Argentina vs Switzerland",
+        "fifa_match_number": 100
+      }
+    ],
+    "round_statistics": {
+      "matches_played": 8,
+      "matches_pending": 0,
+      "decided_in_regulation": 7,
+      "decided_after_extra_time_no_shootout": 0,
+      "decided_on_penalties": 1,
+      "total_goals_played_matches": 23,
+      "average_goals_per_played_match": 2.875,
+      "penalty_shootouts": [
+        {
+          "match": "Switzerland vs Colombia",
+          "score": "4-3"
+        }
+      ],
+      "host_nations_advanced": [],
+      "co_host_eliminated": [
+        "Canada",
+        "Mexico",
+        "United States"
+      ],
+      "notable": [
+        "All three tournament co-hosts (Canada, Mexico, USA) were eliminated in the Round of 16",
+        "Morocco became the only African team to reach the quarter-finals after Egypt's elimination",
+        "Neymar announced his international retirement from Brazil following their elimination by Norway",
+        "Cristiano Ronaldo's World Cup career ended with Portugal's loss to Spain; Portugal coach Roberto Martínez resigned immediately after",
+        "The reversal of Folarin Balogun's suspension overshadowed the United States' 4-1 elimination by Belgium",
+        "Messi scored his 21st World Cup goal against Egypt, extending his lead in the Golden Boot race",
+        "Switzerland vs Colombia was the only match of the round decided by a penalty shootout",
+        "Colombia became the only team in the tournament to play matches in all three host countries"
+      ]
+    }
+  }
+}
