@@ -70,6 +70,20 @@
               "name": "Ivan Bebek",
               "country": "Croatia"
             }
+          },
+          "expert_preview": {
+            "tactical_narrative": "Analysts describe this matchup as an 'early final', pitting France's vertical pace and counter-attacking punch against Spain's possession-based, tempo-controlling style.",
+            "team_analysis": {
+              "FRA": {
+                "regulation_time_win_probability_opta": 0.421,
+                "strengths": "Analysts highlight the effectiveness of the attacking trio of Mbappé, Dembélé and Olise, backed by a run of three consecutive clean sheets in the knockout stage.",
+                "concerns": "The main doubt is the fitness of Aurélien Tchouaméni (thigh issue), whose absence could compromise midfield balance against Spain's midfield unit."
+              },
+              "ESP": {
+                "strengths": "Analysts praise Spain's defensive solidity, having gone six straight matches without conceding before the quarter-finals.",
+                "concerns": "Al Jazeera analysts note that the attack has looked congested and short on creativity at times, relying on late goals from Mikel Merino to advance. Lamine Yamal is expected to return to his best form after carrying an injury early in the tournament."
+              }
+            }
           }
         },
         {
@@ -94,7 +108,34 @@
             "name": null,
             "country": null
           },
-          "notes": "Referee assignment not yet published as of the source snapshot (July 12, 2026)"
+          "notes": "Referee assignment not yet published as of the source snapshot (July 12, 2026)",
+          "expert_preview": {
+            "tactical_narrative": "A clash defined by both sides' defensive volatility in previous rounds and their ability to manage high-pressure situations.",
+            "team_analysis": {
+              "ENG": {
+                "bookmaker_odds": "-122 / -130 (slight favorite to advance)",
+                "strengths": "Sports Illustrated analysts and other pundits highlight that England's attack, led by Kane and Bellingham, has been lethal in open matches such as against Croatia and Mexico.",
+                "concerns": "Critics point to defensive vulnerability at the back, having conceded goals in each of their last three matches."
+              },
+              "ARG": {
+                "strengths": "Experts base their case for the defending champions on two factors: competitive pedigree in critical moments and Lionel Messi's current form, with 8 goals in the competition so far.",
+                "concerns": "Total Football Analysis analysts warn that Lionel Scaloni's side has shown inconsistencies, including a draw with Cape Verde in the group stage and difficult matches against Egypt and Switzerland.",
+                "penalty_shootout_scenario": "If the match goes to a penalty shootout, consensus among analysts gives the psychological and statistical edge to Argentina."
+              }
+            }
+          }
+        }
+      ],
+      "blind_spots_and_hidden_risks": [
+        {
+          "topic": "Refereeing and disciplinary risk",
+          "related_match": "M102",
+          "description": "In the England-Argentina tie, independent analysts warn that historical precedent and the nature of Argentina's approach could lead to a match marked by psychological warfare and physical play, where card management and VAR decisions will be decisive in the first 30 minutes."
+        },
+        {
+          "topic": "Physical wear and fatigue factors",
+          "related_match": "M101",
+          "description": "Spain has come through its last two knockout rounds with extremely tight margins and high-intensity minutes late in matches, while France arrives with medical uncertainty over its starting double pivot. Whichever team fails to manage substitutions effectively before the 70th minute is expected to suffer significantly against fast transitions."
         }
       ]
     }
