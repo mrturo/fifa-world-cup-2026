@@ -1,0 +1,244 @@
+{
+  "quarterfinals": {
+    "name": "Quarterfinals",
+    "period": "2026-07-09 to 2026-07-11",
+    "description": "Third round of the knockout stage of the 2026 FIFA World Cup, played between the 8 winners of the Round of 16.",
+    "total_matches": 4,
+    "host_cities": 4,
+    "matches": [
+      {
+        "match_number": "QF-01",
+        "fifa_match_number": 97,
+        "date": "2026-07-09",
+        "time": "16:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "Gillette Stadium",
+        "city": "Foxborough",
+        "attendance": 63811,
+        "home": {
+          "team": "France",
+          "code": "FRA",
+          "goals": 2
+        },
+        "away": {
+          "team": "Morocco",
+          "code": "MAR",
+          "goals": 0
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Mbappé",
+            "team": "FRA",
+            "minute": 60,
+            "penalty": false
+          },
+          {
+            "player": "Dembélé",
+            "team": "FRA",
+            "minute": 66,
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Kylian Mbappé",
+          "team": "FRA"
+        },
+        "referee": "Facundo Tello (Argentina)",
+        "winner": "France",
+        "next_round_opponent": "Spain",
+        "notes": "Mbappé missed a penalty in the 28th minute, saved by Yassine Bounou, before scoring the opener in the 60th minute for his eighth goal of the tournament; Morocco were missing injured forward Ismael Saibari and failed to register a shot on target until the 84th minute"
+      },
+      {
+        "match_number": "QF-02",
+        "fifa_match_number": 98,
+        "date": "2026-07-10",
+        "time": "12:00",
+        "timezone": "PDT (UTC-7)",
+        "venue": "SoFi Stadium",
+        "city": "Inglewood",
+        "attendance": 70492,
+        "home": {
+          "team": "Spain",
+          "code": "ESP",
+          "goals": 2
+        },
+        "away": {
+          "team": "Belgium",
+          "code": "BEL",
+          "goals": 1
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Fabián",
+            "team": "ESP",
+            "minute": 30,
+            "penalty": false
+          },
+          {
+            "player": "De Ketelaere",
+            "team": "BEL",
+            "minute": 41,
+            "penalty": false
+          },
+          {
+            "player": "Merino",
+            "team": "ESP",
+            "minute": 88,
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Lamine Yamal",
+          "team": "ESP"
+        },
+        "referee": "Michael Oliver (England)",
+        "winner": "Spain",
+        "next_round_opponent": "France",
+        "notes": "The teams had met 23 times previously, including a 1-1 quarter-final draw at the 1986 World Cup (Belgium won 5-4 on penalties); Merino's late winner came after coming on as a substitute"
+      },
+      {
+        "match_number": "QF-03",
+        "fifa_match_number": 99,
+        "date": "2026-07-11",
+        "time": "17:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "attendance": 64478,
+        "home": {
+          "team": "Norway",
+          "code": "NOR",
+          "goals": 1
+        },
+        "away": {
+          "team": "England",
+          "code": "ENG",
+          "goals": 2
+        },
+        "result_type": "extra_time",
+        "extra_time": true,
+        "scorers": [
+          {
+            "player": "Schjelderup",
+            "team": "NOR",
+            "minute": 36,
+            "penalty": false
+          },
+          {
+            "player": "Bellingham",
+            "team": "ENG",
+            "minute": "45+2",
+            "penalty": false
+          },
+          {
+            "player": "Bellingham",
+            "team": "ENG",
+            "minute": 93,
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Jude Bellingham",
+          "team": "ENG"
+        },
+        "referee": "Clément Turpin (France)",
+        "winner": "England",
+        "next_round_opponent": "Argentina",
+        "notes": "Bellingham's two goals, including the winner in extra time, meant England became the first side in FIFA World Cup history to have two players score six or more goals in a single tournament, with Harry Kane having already reached six against Mexico"
+      },
+      {
+        "match_number": "QF-04",
+        "fifa_match_number": 100,
+        "date": "2026-07-11",
+        "time": "20:00",
+        "timezone": "CDT (UTC-5)",
+        "venue": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "attendance": 69045,
+        "home": {
+          "team": "Argentina",
+          "code": "ARG",
+          "goals": 3
+        },
+        "away": {
+          "team": "Switzerland",
+          "code": "SUI",
+          "goals": 1
+        },
+        "result_type": "extra_time",
+        "extra_time": true,
+        "scorers": [
+          {
+            "player": "Mac Allister",
+            "team": "ARG",
+            "minute": 10,
+            "penalty": false
+          },
+          {
+            "player": "Ndoye",
+            "team": "SUI",
+            "minute": 67,
+            "penalty": false
+          },
+          {
+            "player": "Alvarez",
+            "team": "ARG",
+            "minute": 112,
+            "penalty": false
+          },
+          {
+            "player": "Lautaro Martínez",
+            "team": "ARG",
+            "minute": "120+1",
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Julián Alvarez",
+          "team": "ARG"
+        },
+        "referee": "João Pinheiro (Portugal)",
+        "winner": "Argentina",
+        "next_round_opponent": "England",
+        "notes": "Argentina had never lost to Switzerland in seven previous encounters; the match ended Lionel Messi's record run of scoring in nine consecutive FIFA World Cup matches, dating back to the 2022 Round of 16 against Australia; Argentina won in extra time after Switzerland had equalised through Ndoye"
+      }
+    ],
+    "semifinal_pairings_confirmed": [
+      {
+        "match": "France vs Spain",
+        "fifa_match_number": 101
+      },
+      {
+        "match": "England vs Argentina",
+        "fifa_match_number": 102
+      }
+    ],
+    "round_statistics": {
+      "matches_played": 4,
+      "matches_pending": 0,
+      "decided_in_regulation": 2,
+      "decided_after_extra_time_no_shootout": 2,
+      "decided_on_penalties": 0,
+      "total_goals_played_matches": 12,
+      "average_goals_per_played_match": 3.0,
+      "penalty_shootouts": [],
+      "host_nations_advanced": [],
+      "co_host_eliminated": [],
+      "notable": [
+        "This was the first time in tournament history that the top four teams in the FIFA Men's World Ranking (June 2026) all qualified for the World Cup semifinals",
+        "Morocco, the only African team to reach the quarter-finals, were eliminated by France despite Mbappé missing an early penalty",
+        "Half of the quarter-finals (Norway vs England and Argentina vs Switzerland) were decided in extra time, with none requiring a penalty shootout",
+        "Jude Bellingham's brace against Norway made England the first side in World Cup history with two players scoring six or more goals in one tournament",
+        "Lionel Messi's run of scoring in nine consecutive World Cup matches, dating back to 2022, ended against Switzerland",
+        "All four quarter-final winners (France, Spain, England, Argentina) advanced to face each other in the semi-finals as previously confirmed after the Round of 16",
+        "This was the final round of matches to feature teams from outside Europe and South America, with Morocco's elimination leaving only Argentina representing the Americas among the last eight, and no African or Asian teams remaining"
+      ]
+    }
+  }
+}

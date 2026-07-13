@@ -1,0 +1,102 @@
+{
+  "knockout_stage": {
+    "semifinals": {
+      "description": "Fourth round of the knockout stage with 2 matches",
+      "period": "2026-07-14 to 2026-07-15",
+      "total_matches": 2,
+      "host_cities": 2,
+      "format": "Single-elimination",
+      "matches": [
+        {
+          "match_number": "M101",
+          "semifinal_id": 1,
+          "date": "2026-07-14",
+          "time": "2:00 p.m.",
+          "timezone": "UTC-5",
+          "venue": "AT&T Stadium",
+          "city": "Arlington",
+          "home": {
+            "team": "France",
+            "code": "FRA",
+            "from_match": "M97"
+          },
+          "away": {
+            "team": "Spain",
+            "code": "ESP",
+            "from_match": "M98"
+          },
+          "referee": {
+            "name": "Iván Barton",
+            "country": "El Salvador"
+          },
+          "officiating_crew": {
+            "assistant_referees": [
+              {
+                "name": "David Morán",
+                "country": "El Salvador"
+              },
+              {
+                "name": "Henry Pupiro",
+                "country": "Nicaragua"
+              }
+            ],
+            "fourth_official": {
+              "name": "Glenn Nyberg",
+              "country": "Sweden"
+            },
+            "reserve_assistant_referee": {
+              "name": "Mahbod Beigi",
+              "country": "Sweden"
+            },
+            "video_assistant_referee": {
+              "name": "Tomasz Kwiatkowski",
+              "country": "Poland"
+            },
+            "assistant_video_assistant_referees": [
+              {
+                "name": "Dennis Johan Higler",
+                "country": "Netherlands"
+              },
+              {
+                "name": "Guillermo Pacheco",
+                "country": "Mexico"
+              }
+            ],
+            "standby_video_assistant_referee": {
+              "name": "Leodán González",
+              "country": "Uruguay"
+            },
+            "standby_assistant_video_assistant_referee": {
+              "name": "Ivan Bebek",
+              "country": "Croatia"
+            }
+          }
+        },
+        {
+          "match_number": "M102",
+          "semifinal_id": 2,
+          "date": "2026-07-15",
+          "time": "3:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "home": {
+            "team": "England",
+            "code": "ENG",
+            "from_match": "M99"
+          },
+          "away": {
+            "team": "Argentina",
+            "code": "ARG",
+            "from_match": "M100"
+          },
+          "referee": {
+            "name": null,
+            "country": null
+          },
+          "notes": "Referee assignment not yet published as of the source snapshot (July 12, 2026)"
+        }
+      ]
+    }
+  }
+}
