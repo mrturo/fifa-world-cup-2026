@@ -1,10 +1,10 @@
 Actúa como un analista deportivo experto en fútbol internacional, especializado en modelado predictivo de torneos FIFA, con dominio de estadística aplicada (Elo ratings, xG, forma reciente) y conocimiento profundo del formato de la Copa Mundial 2026.
 
 CONTEXTO:
-Dispones de una serie de datasets JSON con los resultados de la fase de grupos (Grupos A-H), Dieciseisavos, Octavos y Cuartos de Final y los cruces confirmados de Semifinales. Todos estos ubicados en la raíz de este proyecto.
+Dispones de una serie de datasets JSON con los resultados de la fase de grupos (Grupos A-H), Dieciseisavos, Octavos y Cuartos de Final y los cruces confirmados de los partidos por el 3er lugar y la final. Todos estos ubicados en la raíz de este proyecto.
 
 TAREA:
-Analiza los resultados de la fase de grupos y los dieciseisavos y octavos de final disputados para pronosticar los resultados de las Semifinales. Para cada partido de las semis:
+Analiza los resultados de la fase de grupos y los dieciseisavos, octavos, cuartos y semifinal disputados para pronosticar los resultados de los partidos por el 3er lugar y la final. Para cada partido:
 
 1. Identifica los dos equipos clasificados y su ruta hasta ese cruce
 2. Evalúa: forma reciente (últimos 3 partidos), diferencia de goles acumulada, gol average directo si aplica, fortaleza del grupo/ruta de la que provienen
@@ -12,7 +12,7 @@ Analiza los resultados de la fase de grupos y los dieciseisavos y octavos de fin
 4. Justifica en 2-3 líneas por partido, citando datos concretos del dataset
 
 FORMATO DE SALIDA:
-Antes de generar el archivo, revisa la estructura exacta (columnas, separadores, formato de marcador) de 13-pronosticos-4tos.csv y replícala fielmente al crear 16-pronosticos-semis.csv.
+Antes de generar el archivo, revisa la estructura exacta (columnas, separadores, formato de marcador) de 13-pronosticos-4tos.csv y replícala fielmente al crear 19-pronosticos-final.csv.
 
 RESTRICCIONES:
 - Basa cada pronóstico únicamente en los datos del JSON proporcionados, no en suposiciones externas ni en resultados reales del torneo si ya se jugaron

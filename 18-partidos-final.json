@@ -1,0 +1,201 @@
+{
+  "knockout_stage": {
+    "finals": {
+      "description": "Final round of the 2026 FIFA World Cup including the third-place play-off and the final match.",
+      "period": "2026-07-18 to 2026-07-19",
+      "total_matches": 2,
+      "host_cities": 2,
+      "format": "Single-elimination",
+      "matches": [
+        {
+          "match_number": "M103",
+          "round_match_id": 1,
+          "date": "2026-07-18",
+          "time": "5:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "Hard Rock Stadium",
+          "city": "Miami Gardens",
+          "home": {
+            "team": "France",
+            "code": "FRA",
+            "from_match": "M101"
+          },
+          "away": {
+            "team": "England",
+            "code": "ENG",
+            "from_match": "M102"
+          },
+          "referee": {
+            "name": "Jesús Valenzuela",
+            "country": "Venezuela"
+          },
+          "officiating_crew": {
+            "assistant_referees": [
+              {
+                "name": "Jorge Urrego",
+                "country": "Venezuela"
+              },
+              {
+                "name": "Tulio Moreno",
+                "country": "Venezuela"
+              }
+            ],
+            "fourth_official": {
+              "name": "Jalal Jayed",
+              "country": "Morocco"
+            },
+            "reserve_assistant_referee": {
+              "name": "Zakaria Brinsi",
+              "country": "Morocco"
+            },
+            "video_assistant_referee": {
+              "name": "Leodán González",
+              "country": "Uruguay"
+            },
+            "assistant_video_assistant_referees": [
+              {
+                "name": "Armando Villarreal",
+                "country": "United States"
+              }
+            ],
+            "support_video_assistant_referee": {
+              "name": "Carlos del Cerro Grande",
+              "country": "Spain"
+            }
+          },
+          "expert_preview": {
+            "tactical_narrative": "A prestigious regional consolation match featuring two European giants seeking a podium finish after falling short in the semifinals. FRA relies on transition efficiency against ENG's robust back-five blueprint.",
+            "team_analysis": {
+              "FRA": {
+                "defensive_structure": "Bloque medio-bajo, 4-2-3-1/4-3-3, prioridad en cerrar carriles centrales.",
+                "offensive_phase": "Transición vertical, prioridad a rupturas de extremos tras recuperación.",
+                "key_metrics": {
+                  "ppda": "11.5 (Zona 2) / 14.2 (Zona 3)",
+                  "circulation_speed_ppm": "15.1 (posicional) / 18.4 (transicion)",
+                  "specific_xg": {
+                    "contragolpe": 0.28,
+                    "aclarado": 0.19
+                  }
+                }
+              },
+              "ENG": {
+                "defensive_structure": "Bloque 5-2-3, repliegue de carrileros, presión orientada en bandas.",
+                "offensive_phase": "Ataque posicional elaborado desde línea de 3, fijación de centrales rivales.",
+                "key_metrics": {
+                  "ppda": "10.4 (Zona 2) / 12.8 (Zona 3)",
+                  "circulation_speed_ppm": "14.8",
+                  "specific_xg": {
+                    "contragolpe": 0.09,
+                    "aclarado": 0.06
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "match_number": "M104",
+          "round_match_id": 2,
+          "date": "2026-07-19",
+          "time": "3:00 p.m.",
+          "timezone": "UTC-4",
+          "venue": "MetLife Stadium",
+          "city": "East Rutherford",
+          "home": {
+            "team": "Spain",
+            "code": "ESP",
+            "from_match": "M101"
+          },
+          "away": {
+            "team": "Argentina",
+            "code": "ARG",
+            "from_match": "M102"
+          },
+          "referee": {
+            "name": "Slavko Vinčić",
+            "country": "Slovenia"
+          },
+          "officiating_crew": {
+            "assistant_referees": [
+              {
+                "name": "Tomaž Klančnik",
+                "country": "Slovenia"
+              },
+              {
+                "name": "Andraž Kovačič",
+                "country": "Slovenia"
+              }
+            ],
+            "fourth_official": {
+              "name": "Adham Makhadmeh",
+              "country": "Jordan"
+            },
+            "reserve_assistant_referee": {
+              "name": "Mohammad Al-Kalaf",
+              "country": "Jordan"
+            },
+            "video_assistant_referee": {
+              "name": "Bastian Dankert",
+              "country": "Germany"
+            },
+            "assistant_video_assistant_referees": [
+              {
+                "name": "Nicolás Gallo",
+                "country": "Colombia"
+              }
+            ],
+            "support_video_assistant_referee": {
+              "name": "Khamis Al-Marri",
+              "country": "Qatar"
+            }
+          },
+          "expert_preview": {
+            "tactical_narrative": "The grand finale pits Spain's high defensive line and asphixiating counter-pressing against Argentina's compact shape and Messi's spatial management inside the half-spaces.",
+            "team_analysis": {
+              "ESP": {
+                "defensive_structure": "4-3-3, presión tras pérdida asfixiante, línea defensiva alta.",
+                "offensive_phase": "Posesión larga, desequilibrio 1v1 en bandas (Yamal/Williams).",
+                "key_metrics": {
+                  "progressive_passes": {
+                    "promedio_90min": 48.5,
+                    "efectividad": "78%"
+                  },
+                  "duels_1v1": {
+                    "promedio_90min": 11.2,
+                    "eficiencia": "54%"
+                  },
+                  "ocupacion_half_spaces": "28 recepciones/90min (distribución)"
+                }
+              },
+              "ARG": {
+                "defensive_structure": "4-4-2/4-3-1-2 híbrido, bloque compacto, libertad posicional para Messi.",
+                "offensive_phase": "Gestión espacial de Messi en pasillos centrales, rupturas rápidas.",
+                "key_metrics": {
+                  "progressive_passes": {
+                    "promedio_90min": 42.1,
+                    "efectividad": "74%"
+                  },
+                  "duels_1v1": {
+                    "promedio_90min": 9.8,
+                    "eficiencia": "58%"
+                  },
+                  "ocupacion_half_spaces": "34 recepciones/90min (núcleo creativo)"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "blind_spots_and_hidden_risks": [
+        {
+          "topic": "Physical wear and fatigue factors",
+          "description": "Desgaste físico acumulado post-prórrogas e impacto directo del estrés térmico (WBGT) sobre los jugadores en la toma de decisiones cruciales."
+        },
+        {
+          "topic": "Technical pitch conditions and disciplinary risk",
+          "description": "Degradación paulatina del césped afectando la precisión técnica de los pases, sumado a la influencia latente de tarjetas previas en la agresividad defensiva."
+        }
+      ]
+    }
+  }
+}

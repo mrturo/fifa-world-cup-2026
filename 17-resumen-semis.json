@@ -1,0 +1,132 @@
+{
+  "semifinals": {
+    "name": "Semifinals",
+    "period": "2026-07-14 to 2026-07-15",
+    "description": "Fourth round of the knockout stage of the 2026 FIFA World Cup, played between the 4 winners of the Quarterfinals.",
+    "total_matches": 2,
+    "host_cities": 2,
+    "matches": [
+      {
+        "match_number": "SF-01",
+        "fifa_match_number": 101,
+        "date": "2026-07-14",
+        "time": "14:00",
+        "timezone": "CDT (UTC-5)",
+        "venue": "AT&T Stadium",
+        "city": "Arlington",
+        "attendance": 70176,
+        "home": {
+          "team": "France",
+          "code": "FRA",
+          "goals": 0
+        },
+        "away": {
+          "team": "Spain",
+          "code": "ESP",
+          "goals": 2
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Oyarzabal",
+            "team": "ESP",
+            "minute": 22,
+            "penalty": true
+          },
+          {
+            "player": "Porro",
+            "team": "ESP",
+            "minute": 58,
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Pedro Porro",
+          "team": "ESP"
+        },
+        "referee": "Iván Barton (El Salvador)",
+        "winner": "Spain",
+        "next_round_opponent": "Argentina",
+        "notes": "Spain was awarded a penalty in the 22nd minute when Lucas Digne kicked Lamine Yamal inside the box, which Mikel Oyarzabal converted. Pedro Porro extended the lead to 2-0 in the 58th minute after executing a clean one-two combination with Dani Olmo, ensuring Spain's progression to its second World Cup final."
+      },
+      {
+        "match_number": "SF-02",
+        "fifa_match_number": 102,
+        "date": "2026-07-15",
+        "time": "15:00",
+        "timezone": "EDT (UTC-4)",
+        "venue": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "attendance": 68239,
+        "home": {
+          "team": "England",
+          "code": "ENG",
+          "goals": 1
+        },
+        "away": {
+          "team": "Argentina",
+          "code": "ARG",
+          "goals": 2
+        },
+        "result_type": "regulation",
+        "scorers": [
+          {
+            "player": "Gordon",
+            "team": "ENG",
+            "minute": 55,
+            "penalty": false
+          },
+          {
+            "player": "Fernández",
+            "team": "ARG",
+            "minute": 85,
+            "penalty": false
+          },
+          {
+            "player": "La. Martínez",
+            "team": "ARG",
+            "minute": "90+2",
+            "penalty": false
+          }
+        ],
+        "red_cards": [],
+        "man_of_the_match": {
+          "player": "Lionel Messi",
+          "team": "ARG"
+        },
+        "referee": "Ismail Elfath (United States)",
+        "winner": "Argentina",
+        "next_round_opponent": "Spain",
+        "notes": "Anthony Gordon put England ahead in the 55th minute from a Morgan Rogers cross. Argentina mounted a late comeback starting with an 85th-minute strike from Enzo Fernández, followed by a dramatic 92nd-minute winning header by Lautaro Martínez. England's manager Thomas Tuchel faced heavy criticism for adopting passive, defensive tactics after gaining the lead, resulting in England holding only 12% possession during that crucial window. Post-match, a political controversy emerged as Argentine players displayed a banner reading 'Las Malvinas son Argentinas' on the pitch."
+      }
+    ],
+    "final_pairings_confirmed": [
+      {
+        "match": "Spain vs Argentina",
+        "fifa_match_number": 104
+      }
+    ],
+    "round_statistics": {
+      "matches_played": 2,
+      "matches_pending": 0,
+      "decided_in_regulation": 2,
+      "decided_after_extra_time_no_shootout": 0,
+      "decided_on_penalties": 0,
+      "total_goals_played_matches": 5,
+      "average_goals_per_played_match": 2.5,
+      "penalty_shootouts": [],
+      "host_nations_advanced": [],
+      "co_host_eliminated": [],
+      "notable": [
+        "This marked the first time in tournament history that the top four teams in the FIFA Men's World Ranking as of June 2026 all successfully qualified for the World Cup semifinals.",
+        "It was only the third time in World Cup history (following the 1970 and 1990 editions) that all four semifinalist slots were occupied exclusively by previous tournament champions.",
+        "Both semi-final matches were fully decided within the standard 90 minutes of regulation time without requiring extra time or penalty shootouts.",
+        "Spain reached its second World Cup final by shutting out France 2-0, backed by a penalty from Mikel Oyarzabal and a brilliant performance by Man of the Match Pedro Porro.",
+        "Argentina secured its place in the final through a late 2-1 turnaround against England, capitalizing on tactical errors from England's defensive setup.",
+        "Enzo Fernández scored the 3,000th goal in the history of the tournament earlier in the knockout phase, continuing his fine form by scoring the crucial equalizer against England.",
+        "The British government urged a formal FIFA investigation after Argentine players left a controversial political banner regarding the Falkland Islands on the pitch following their victory."
+      ]
+    }
+  }
+}
